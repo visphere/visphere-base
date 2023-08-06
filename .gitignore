@@ -3,3 +3,8 @@
 **/.idea/misc.xml
 **/.idea/workspace.xml
 **/.idea/vcs.xml
+
+# app
+.env
+rsa-keys/*
+!rsa-keys/.gitkeep
