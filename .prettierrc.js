@@ -2,11 +2,11 @@
  * Copyright (c) 2023 by MILOSZ GILGA
  * Silesian University of Technology
  *
- *   File name: .eslintrc.js
- *   Created at: 2023-08-10, 01:26:29
- *   Last updated at: 2023-08-10, 01:26:40
+ *   File name: .prettierrc.js
+ *   Created at: 2023-08-09, 11:15:23
+ *   Last updated at: 2023-08-09, 11:17:28
  *
- *   Project name: moonsphere
+ *   Project name: moonsphere-base
  *   Module name: moonsphere-base
  *
  * This project is a part of "MoonSphere" instant messenger system. This is a project
@@ -26,25 +26,13 @@
 'use scrict';
 
 module.exports = {
-  env: {
-    browser: true,
-    commonjs: true,
-    es2021: true,
-  },
-  extends: 'standard',
-  overrides: [
-    {
-      env: {
-        node: true,
-      },
-      files: ['.eslintrc.{js,cjs}'],
-      parserOptions: {
-        sourceType: 'script',
-      },
-    },
-  ],
-  parserOptions: {
-    ecmaVersion: 'latest',
-  },
-  rules: {},
+  tabWidth: 2,
+  printWidth: 80,
+  useTabs: false,
+  singleQuote: true,
+  semi: true,
+  bracketSpacing: true,
+  arrowParens: 'avoid',
+  trailingComma: 'es5',
+  bracketSameLine: true,
 };
