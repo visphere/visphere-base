@@ -1,10 +1,5 @@
-# idea
-**/.idea/discord.xml
-**/.idea/misc.xml
-**/.idea/workspace.xml
-**/.idea/vcs.xml
-
-# app
+.husky
+node_modules
 .env
 rsa-keys/*
 !rsa-keys/.gitkeep

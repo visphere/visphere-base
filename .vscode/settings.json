@@ -5,8 +5,8 @@
     "titleBar.inactiveBackground": "#483049"
   },
   "psi-header.variables": [
-    [ "msph_projectName", "moonsphere" ],
-    [ "msph_moduleName", "moonsphere-base" ]
+    ["msph_projectName", "moonsphere"],
+    ["msph_moduleName", "moonsphere-base"]
   ],
   "psi-header.config": {
     "forceToTop": true,
@@ -15,28 +15,21 @@
   "psi-header.changes-tracking": {
     "isActive": true,
     "autoHeader": "autoSave",
-    "include": [
-      "javascript"
-    ],
+    "include": ["javascript"],
     "enforceHeader": true,
-    "replace": [
-      "File name",
-      "Last modified"
-    ]
+    "replace": ["File name", "Last modified"]
   },
   "psi-header.lang-config": [
     {
       "language": "javascript",
       "begin": "/*",
       "lineLength": 64,
-      "afterHeader": [
-        "'use scrict';"
-      ]
+      "afterHeader": ["'use scrict';"]
     },
     {
       "language": "*",
       "begin": "/*",
-      "lineLength": 64,
+      "lineLength": 64
     }
   ],
   "psi-header.templates": [
