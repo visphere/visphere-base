@@ -1,6 +1,6 @@
-All used 3rd party libraries count: **90**<br>
+All used 3rd party libraries count: **98**<br>
 Runtime 3rd party libraries count: **20**<br>
-Development 3rd party libraries count: **70**
+Development 3rd party libraries count: **78**
 
 | Library                                                                                                  | License                 | Environment |
 | -------------------------------------------------------------------------------------------------------- | ----------------------- | ----------- |
@@ -29,11 +29,13 @@ Development 3rd party libraries count: **70**
 | [@ngx-translate/core](https://github.com/ngx-translate/core)                                             | MIT                     | runtime     |
 | [@ngx-translate/http-loader](https://github.com/ngx-translate/core)                                      | MIT                     | runtime     |
 | [@tailwindcss/forms](https://github.com/tailwindlabs/tailwindcss-forms)                                  | MIT                     | development |
+| [@trivago/prettier-plugin-sort-imports](https://github.com/trivago/prettier-plugin-sort-imports)         | Apache-2.0              | development |
 | [@types/dompurify](https://github.com/DefinitelyTyped/DefinitelyTyped)                                   | MIT                     | development |
 | [@types/jasmine](https://github.com/DefinitelyTyped/DefinitelyTyped)                                     | MIT                     | development |
 | [@types/node](https://github.com/DefinitelyTyped/DefinitelyTyped)                                        | MIT                     | development |
 | [@typescript-eslint/eslint-plugin](https://github.com/typescript-eslint/typescript-eslint)               | MIT                     | development |
 | [@typescript-eslint/parser](https://github.com/typescript-eslint/typescript-eslint)                      | BSD-2-Clause            | development |
+| [@vicgutt/tailwindcss-font-face](https://github.com/VicGUTT/tailwindcss-font-face)                       | MIT                     | development |
 | [@zxcvbn-ts/core](https://github.com/zxcvbn-ts/zxcvbn)                                                   | MIT                     | runtime     |
 | [autoprefixer](https://github.com/postcss/autoprefixer)                                                  | MIT                     | development |
 | [axios](https://github.com/axios/axios)                                                                  | MIT                     | development |
@@ -52,7 +54,12 @@ Development 3rd party libraries count: **70**
 | [electron](https://github.com/electron/electron)                                                         | MIT                     | development |
 | [electron-store](https://github.com/sindresorhus/electron-store)                                         | MIT                     | development |
 | [eslint](https://github.com/eslint/eslint)                                                               | MIT                     | development |
+| [eslint-config-standard](https://github.com/standard/eslint-config-standard)                             | MIT                     | development |
+| [eslint-plugin-import](https://github.com/import-js/eslint-plugin-import)                                | MIT                     | development |
+| [eslint-plugin-n](https://github.com/eslint-community/eslint-plugin-n)                                   | MIT                     | development |
+| [eslint-plugin-promise](https://github.com/eslint-community/eslint-plugin-promise)                       | ISC                     | development |
 | [html-webpack-plugin](https://github.com/jantimon/html-webpack-plugin)                                   | MIT                     | development |
+| [husky](https://github.com/typicode/husky)                                                               | MIT                     | development |
 | [karma](https://github.com/karma-runner/karma)                                                           | MIT                     | development |
 | [karma-chrome-launcher](https://github.com/karma-runner/karma-chrome-launcher)                           | MIT                     | development |
 | [karma-coverage](https://github.com/karma-runner/karma-coverage)                                         | MIT                     | development |
@@ -63,6 +70,7 @@ Development 3rd party libraries count: **70**
 | [karma-source-map-support](https://github.com/tschaub/karma-source-map-support)                          | MIT                     | development |
 | [karma-sourcemap-loader](https://github.com/demerzel3/karma-sourcemap-loader)                            | MIT                     | development |
 | [karma-webpack](https://github.com/webpack-contrib/karma-webpack)                                        | MIT                     | development |
+| [lint-staged](https://github.com/okonet/lint-staged)                                                     | MIT                     | development |
 | [lodash](https://github.com/lodash/lodash)                                                               | MIT                     | development |
 | [markdown-table](https://github.com/wooorm/markdown-table)                                               | MIT                     | development |
 | [mini-css-extract-plugin](https://github.com/webpack-contrib/mini-css-extract-plugin)                    | MIT                     | development |
