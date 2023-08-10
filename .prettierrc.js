@@ -1,12 +1,12 @@
 /*
- * Copyright (c) 2023 by MILOSZ GILGA
+ * Copyright (c) 2023 by MILOSZ GILGA <https://miloszgilga.pl>
  * Silesian University of Technology
  *
  *   File name: .prettierrc.js
- *   Created at: 2023-08-09, 11:15:23
- *   Last updated at: 2023-08-09, 11:17:28
+ *   Created at: 2023-08-10, 01:46:36
+ *   Last updated at: 2023-08-10, 02:16:16
  *
- *   Project name: moonsphere-base
+ *   Project name: moonsphere
  *   Module name: moonsphere-base
  *
  * This project is a part of "MoonSphere" instant messenger system. This is a project

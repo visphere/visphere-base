@@ -1,10 +1,10 @@
 /*
- * Copyright (c) 2023 by MILOSZ GILGA
+ * Copyright (c) 2023 by MILOSZ GILGA <https://miloszgilga.pl>
  * Silesian University of Technology
  *
  *   File name: common.cjs
  *   Created at: 2023-08-09, 11:45:47
- *   Last updated at: 2023-08-10, 00:35:37
+ *   Last updated at: 2023-08-10, 02:15:24
  *
  *   Project name: moonsphere
  *   Module name: moonsphere-base

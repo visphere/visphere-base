@@ -1,10 +1,10 @@
 /*
- * Copyright (c) 2023 by MILOSZ GILGA
+ * Copyright (c) 2023 by MILOSZ GILGA <https://miloszgilga.pl>
  * Silesian University of Technology
  *
- *   File name: .eslintrc.cjs
- *   Created at: 2023-08-10, 01:26:29
- *   Last updated at: 2023-08-10, 01:26:40
+ *   File name: .eslintrc.js
+ *   Created at: 2023-08-10, 01:47:28
+ *   Last updated at: 2023-08-10, 02:16:11
  *
  *   Project name: moonsphere
  *   Module name: moonsphere-base

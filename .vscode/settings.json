@@ -36,7 +36,7 @@
     {
       "language": "*",
       "template": [
-        "Copyright (c) <<year>> by MILOSZ GILGA",
+        "Copyright (c) <<year>> by MILOSZ GILGA <https://miloszgilga.pl>",
         "Silesian University of Technology",
         "",
         "  File name: <<filename>>",

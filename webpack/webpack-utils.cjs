@@ -1,12 +1,12 @@
 /*
- * Copyright (c) 2023 by MILOSZ GILGA
+ * Copyright (c) 2023 by MILOSZ GILGA <https://miloszgilga.pl>
  * Silesian University of Technology
  *
  *   File name: webpack-utils.cjs
  *   Created at: 2023-08-06, 18:31:05
- *   Last updated at: 2023-08-09, 11:24:09
+ *   Last updated at: 2023-08-10, 02:15:58
  *
- *   Project name: moonsphere-base
+ *   Project name: moonsphere
  *   Module name: moonsphere-base
  *
  * This project is a part of "MoonSphere" instant messenger system. This is a project

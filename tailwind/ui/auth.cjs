@@ -1,10 +1,10 @@
 /*
- * Copyright (c) 2023 by MILOSZ GILGA
+ * Copyright (c) 2023 by MILOSZ GILGA <https://miloszgilga.pl>
  * Silesian University of Technology
  *
  *   File name: auth.cjs
  *   Created at: 2023-08-09, 23:44:58
- *   Last updated at: 2023-08-10, 00:35:30
+ *   Last updated at: 2023-08-10, 02:15:15
  *
  *   Project name: moonsphere
  *   Module name: moonsphere-base
@@ -24,7 +24,6 @@
  */
 
 'use scrict';
-
 const { parseTwdApply } = require('../utils.cjs');
 
 module.exports = {
