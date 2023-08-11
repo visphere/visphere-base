@@ -34,6 +34,7 @@ module.exports = {
     es6: true,
   },
   ignorePatterns: ['projects/**/*'],
+  extends: ['plugin:json/recommended'],
   overrides: [
     {
       files: ['*.ts'],
