@@ -2,9 +2,9 @@
  * Copyright (c) 2023 by MILOSZ GILGA <https://miloszgilga.pl>
  * Silesian University of Technology
  *
- *   File name: .eslintrc.js
- *   Created at: 2023-08-10, 01:47:28
- *   Last updated at: 2023-08-10, 02:16:11
+ *   File name: _prettier-base.config.cjs
+ *   Created at: 2023-08-11, 18:30:09
+ *   Last updated at: 2023-08-11, 18:30:09
  *
  *   Project name: moonsphere
  *   Module name: moonsphere-base
@@ -25,4 +25,14 @@
 
 'use scrict';
 
-module.exports = require('./config/eslint/_eslint-node.config.cjs');
+module.exports = {
+  tabWidth: 2,
+  printWidth: 80,
+  useTabs: false,
+  singleQuote: true,
+  semi: true,
+  bracketSpacing: true,
+  arrowParens: 'avoid',
+  trailingComma: 'es5',
+  bracketSameLine: true,
+};

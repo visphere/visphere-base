@@ -2,9 +2,9 @@
  * Copyright (c) 2023 by MILOSZ GILGA <https://miloszgilga.pl>
  * Silesian University of Technology
  *
- *   File name: .eslintrc.js
- *   Created at: 2023-08-10, 01:47:28
- *   Last updated at: 2023-08-10, 02:16:11
+ *   File name: _eslint-node.config.cjs
+ *   Created at: 2023-08-11, 18:35:14
+ *   Last updated at: 2023-08-11, 18:35:14
  *
  *   Project name: moonsphere
  *   Module name: moonsphere-base
@@ -25,4 +25,14 @@
 
 'use scrict';
 
-module.exports = require('./config/eslint/_eslint-node.config.cjs');
+module.exports = {
+  env: {
+    commonjs: true,
+    es2021: true,
+    node: true,
+  },
+  extends: 'eslint:recommended',
+  parserOptions: {
+    ecmaVersion: 'latest',
+  },
+};

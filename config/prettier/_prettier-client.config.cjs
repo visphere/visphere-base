@@ -2,9 +2,9 @@
  * Copyright (c) 2023 by MILOSZ GILGA <https://miloszgilga.pl>
  * Silesian University of Technology
  *
- *   File name: .eslintrc.js
- *   Created at: 2023-08-10, 01:47:28
- *   Last updated at: 2023-08-10, 02:16:11
+ *   File name: desktop-client-prettier.conf.cjs
+ *   Created at: 2023-08-11, 18:32:49
+ *   Last updated at: 2023-08-11, 18:33:09
  *
  *   Project name: moonsphere
  *   Module name: moonsphere-base
@@ -25,4 +25,21 @@
 
 'use scrict';
 
-module.exports = require('./config/eslint/_eslint-node.config.cjs');
+const prettierBaseConfig = require('./_prettier-base.config.cjs');
+
+module.exports = {
+  ...prettierBaseConfig,
+  importOrderParserPlugins: ['typescript', 'decorators-legacy'],
+  plugins: ['@trivago/prettier-plugin-sort-imports'],
+  importOrder: [
+    '^(zone.*)$',
+    '^(@.*)$',
+    '^([a-zA-Z].*)$',
+    '^rxjs$',
+    '^~/(.*)$',
+    '^[./]',
+    '^[../]',
+  ],
+  importOrderSeparation: false,
+  importOrderSortSpecifiers: true,
+};
