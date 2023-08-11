@@ -5,7 +5,7 @@
     "configure:husky": "npx husky install && npx husky add .husky/pre-commit \"npx --no-install lint-staged\"",
     "lint:check": "npx eslint **/**/*.{js,cjs}",
     "lint:fix": "npx eslint **/**/*.{js,cjs} --fix",
-    "format:fix": "npx prettier . --write"
+    "format": "npx prettier . --write"
   },
   "private": true,
   "author": {
@@ -17,7 +17,7 @@
   "lint-staged": {
     "**/*.{js,cjs,json}": [
       "yarn run lint:fix",
-      "yarn run format:fix"
+      "yarn run format"
     ]
   },
   "husky": {
