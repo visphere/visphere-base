@@ -105,4 +105,8 @@ module.exports = {
   webpackMomentLocalesCommonConfig: {
     localesToKeep: ['es-us', 'pl'],
   },
+  webpackProxyInjector: function ({ cdnBaseUrl }, baseConfig) {
+    process.env.CDN_TAILWIND_PATH = cdnBaseUrl;
+    return baseConfig;
+  },
 };
