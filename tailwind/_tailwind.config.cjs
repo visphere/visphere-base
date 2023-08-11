@@ -23,7 +23,7 @@
  * governing permissions and limitations under the license.
  */
 
-'use scrict';
+'use strict';
 
 const plugin = require('tailwindcss/plugin');
 const fontsDeclarations = require('./font-declarations.cjs');

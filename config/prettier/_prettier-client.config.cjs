@@ -23,7 +23,7 @@
  * governing permissions and limitations under the license.
  */
 
-'use scrict';
+'use strict';
 
 const prettierBaseConfig = require('./_prettier-base.config.cjs');
 
