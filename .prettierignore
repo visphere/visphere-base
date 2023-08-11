@@ -5,6 +5,5 @@ LIBRARIES.md
 rsa_keys
 .env
 .env.sample
-package.json
 yarn.lock
 .gitignore
