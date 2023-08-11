@@ -2,7 +2,10 @@
   "name": "moonsphere-base",
   "version": "1.0.0",
   "scripts": {
-    "configure:husky": "npx husky install && npx husky add .husky/pre-commit \"npx --no-install lint-staged\""
+    "configure:husky": "npx husky install && npx husky add .husky/pre-commit \"npx --no-install lint-staged\"",
+    "lint:check": "npx eslint **/**/*.{js,cjs}",
+    "lint:fix": "npx eslint **/**/*.{js,cjs} --fix",
+    "format:fix": "npx prettier . --write"
   },
   "private": true,
   "author": {
@@ -13,8 +16,8 @@
   "license": "Apache-2.0",
   "lint-staged": {
     "**/*.{js,cjs,json}": [
-      "eslint . --fix",
-      "prettier --write ."
+      "yarn run lint:fix",
+      "yarn run format:fix"
     ]
   },
   "husky": {
