@@ -24,6 +24,7 @@
  */
 
 'use scrict';
+
 const { parseTwdApply } = require('../utils.cjs');
 
 module.exports = {
