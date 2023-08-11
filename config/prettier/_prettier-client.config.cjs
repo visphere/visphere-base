@@ -2,15 +2,15 @@
  * Copyright (c) 2023 by MILOSZ GILGA <https://miloszgilga.pl>
  * Silesian University of Technology
  *
- *   File name: desktop-client-prettier.conf.cjs
+ *   File name: _prettier-client.config.cjs
  *   Created at: 2023-08-11, 18:32:49
- *   Last updated at: 2023-08-11, 18:33:09
+ *   Last updated at: 2023-08-11, 20:37:53
  *
  *   Project name: moonsphere
  *   Module name: moonsphere-base
  *
- * This project is a part of "MoonSphere" instant messenger system. This is a project
- * completing a engineers degree in computer science at Silesian University of Technology.
+ * This project is a part of "MoonSphere" instant messenger system. This system is a part of
+ * completing an engineers degree in computer science at Silesian University of Technology.
  *
  * Licensed under the Apache License, Version 2.0 (the "License"); you may not use this
  * file except in compliance with the License. You may obtain a copy of the License at

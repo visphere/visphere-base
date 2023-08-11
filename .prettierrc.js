@@ -4,13 +4,13 @@
  *
  *   File name: .prettierrc.js
  *   Created at: 2023-08-10, 01:46:36
- *   Last updated at: 2023-08-10, 02:16:16
+ *   Last updated at: 2023-08-11, 20:38:56
  *
  *   Project name: moonsphere
  *   Module name: moonsphere-base
  *
- * This project is a part of "MoonSphere" instant messenger system. This is a project
- * completing a engineers degree in computer science at Silesian University of Technology.
+ * This project is a part of "MoonSphere" instant messenger system. This system
+ * completing an engineers degree in computer science at Silesian University of Technology.
  *
  * Licensed under the Apache License, Version 2.0 (the "License"); you may not use this
  * file except in compliance with the License. You may obtain a copy of the License at
