@@ -1,10 +1,11 @@
+'use strict';
 /*
  * Copyright (c) 2023 by MILOSZ GILGA <https://miloszgilga.pl>
  * Silesian University of Technology
  *
  *   File name: webpack-utils.cjs
  *   Created at: 2023-08-06, 18:31:05
- *   Last updated at: 2023-08-11, 20:38:42
+ *   Last updated at: 2023-08-14, 01:59:31
  *
  *   Project name: moonsphere
  *   Module name: moonsphere-base
@@ -22,9 +23,6 @@
  * OF ANY KIND, either express or implied. See the License for the specific language
  * governing permissions and limitations under the license.
  */
-
-'use strict';
-
 const path = require('path');
 
 module.exports = {

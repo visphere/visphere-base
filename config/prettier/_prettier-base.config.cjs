@@ -1,10 +1,11 @@
+'use strict';
 /*
  * Copyright (c) 2023 by MILOSZ GILGA <https://miloszgilga.pl>
  * Silesian University of Technology
  *
  *   File name: _prettier-base.config.cjs
  *   Created at: 2023-08-11, 18:30:09
- *   Last updated at: 2023-08-11, 20:37:48
+ *   Last updated at: 2023-08-14, 01:58:36
  *
  *   Project name: moonsphere
  *   Module name: moonsphere-base
@@ -22,8 +23,6 @@
  * OF ANY KIND, either express or implied. See the License for the specific language
  * governing permissions and limitations under the license.
  */
-
-'use strict';
 
 module.exports = {
   tabWidth: 2,

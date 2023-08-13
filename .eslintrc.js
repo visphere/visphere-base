@@ -1,15 +1,16 @@
+'use strict';
 /*
  * Copyright (c) 2023 by MILOSZ GILGA <https://miloszgilga.pl>
  * Silesian University of Technology
  *
  *   File name: .eslintrc.js
  *   Created at: 2023-08-10, 01:47:28
- *   Last updated at: 2023-08-11, 20:38:51
+ *   Last updated at: 2023-08-14, 01:59:38
  *
  *   Project name: moonsphere
  *   Module name: moonsphere-base
  *
- * This project is a part of "MoonSphere" instant messenger system. This system
+ * This project is a part of "MoonSphere" instant messenger system. This system is a part of
  * completing an engineers degree in computer science at Silesian University of Technology.
  *
  * Licensed under the Apache License, Version 2.0 (the "License"); you may not use this
@@ -22,7 +23,5 @@
  * OF ANY KIND, either express or implied. See the License for the specific language
  * governing permissions and limitations under the license.
  */
-
-'use strict';
 
 module.exports = require('./config/eslint/_eslint-node.config.cjs');
