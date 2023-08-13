@@ -29,7 +29,7 @@ const prettierBaseConfig = require('./_prettier-base.config.cjs');
 
 module.exports = {
   ...prettierBaseConfig,
-  importOrderParserPlugins: ['typescript', 'decorators-legacy'],
+  importOrderParserPlugins: ['typescript', 'jsx'],
   plugins: [
     '@trivago/prettier-plugin-sort-imports',
     require.resolve('prettier-plugin-astro'),
@@ -42,7 +42,14 @@ module.exports = {
       },
     },
   ],
-  importOrder: ['^(astro*)$', '^([a-zA-Z].*)$', '^~/(.*)$', '^[./]', '^[../]'],
+  importOrder: [
+    '^(astro*)$',
+    '^(react*)$',
+    '^([a-zA-Z].*)$',
+    '^~/(.*)$',
+    '^[./]',
+    '^[../]',
+  ],
   importOrderSeparation: false,
   importOrderSortSpecifiers: true,
   astroAllowShorthand: false,

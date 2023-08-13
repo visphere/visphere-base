@@ -28,17 +28,23 @@
 module.exports = {
   root: true,
   parserOptions: {
+    sourceType: 'module',
     ecmaVersion: 'latest',
+    ecmaFeatures: {
+      jsx: true,
+    },
   },
   env: {
     es6: true,
-    sourceType: 'module',
   },
   ignorePatterns: ['projects/**/*'],
-  extends: ['plugin:astro/recommended', 'plugin:json/recommended'],
+  settings: {
+    react: { version: '18.2.0' },
+  },
   overrides: [
     {
       files: ['*.astro'],
+      extends: ['plugin:astro/recommended'],
       plugins: ['astro'],
       env: {
         node: true,
@@ -57,13 +63,21 @@ module.exports = {
       },
     },
     {
-      files: ['*.ts'],
-      extends: ['eslint:recommended', 'plugin:@typescript-eslint/recommended'],
+      files: ['*.ts', '*.tsx'],
+      extends: [
+        'eslint:recommended',
+        'plugin:@typescript-eslint/recommended',
+        'plugin:react/recommended',
+      ],
       rules: {
         '@typescript-eslint/no-non-null-assertion': 'off',
         '@typescript-eslint/no-explicit-any': 'off',
         '@typescript-eslint/semi': ['error', 'always'],
       },
+    },
+    {
+      files: ['*.json'],
+      extends: ['plugin:json/recommended'],
     },
   ],
 };
