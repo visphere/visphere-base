@@ -1,0 +1,46 @@
+version: '3.8'
+
+services:
+  msph-content-distributor:
+    container_name: msph-content-distributor
+    ports:
+      - '${ENV_MSPH_CONTENT_DISTRIBUTOR_PORT}:80'
+      - '${ENV_MSPH_CONTENT_DISTRIBUTOR_SFTP_PORT}:22'
+    build:
+      context: ../../
+      dockerfile: moonsphere-content-distributor/Dockerfile
+      args:
+        - SFTP_USERNAME=${ENV_MSPH_SFTP_USERNAME}
+        - SFTP_PASSWORD=${ENV_MSPH_SFTP_PASSWORD}
+        - SFTP_PORT=${ENV_MSPH_CONTENT_DISTRIBUTOR_SFTP_PORT}
+    healthcheck:
+      test: 'exit 0'
+      interval: 10s
+      timeout: 5s
+      retries: 3
+
+  msph-web-client:
+    container_name: msph-web-client
+    ports:
+      - '${ENV_MSPH_WEB_CLIENT_PORT}:80'
+    build:
+      context: ../../
+      dockerfile: moonsphere-web-client/Dockerfile
+      args:
+        - BUILD_MODE=${ENV_BUILD_MODE}
+    depends_on:
+      msph-content-distributor:
+        condition: service_healthy
+
+  msph-landing-page:
+    container_name: msph-landing-page
+    ports:
+      - '${ENV_MSPH_LANDING_PAGE_PORT}:80'
+    build:
+      context: ../../
+      dockerfile: moonsphere-landing-page/Dockerfile
+      args:
+        - BUILD_MODE=${ENV_BUILD_MODE}
+    depends_on:
+      msph-content-distributor:
+        condition: service_healthy
