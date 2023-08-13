@@ -27,6 +27,13 @@
 
 module.exports = {
   root: true,
+  parserOptions: {
+    ecmaVersion: 'latest',
+  },
+  env: {
+    es6: true,
+    sourceType: 'module',
+  },
   ignorePatterns: ['projects/**/*'],
   extends: ['plugin:astro/recommended', 'plugin:json/recommended'],
   overrides: [
