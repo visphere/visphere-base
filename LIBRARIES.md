@@ -1,6 +1,6 @@
-All used 3rd party libraries count: **98**<br>
-Runtime 3rd party libraries count: **20**<br>
-Development 3rd party libraries count: **78**
+All used 3rd party libraries count: **113**<br>
+Runtime 3rd party libraries count: **26**<br>
+Development 3rd party libraries count: **87**
 
 | Library                                                                                                  | License                 | Environment |
 | -------------------------------------------------------------------------------------------------------- | ----------------------- | ----------- |
@@ -20,6 +20,10 @@ Development 3rd party libraries count: **78**
 | [@angular/platform-browser](https://github.com/angular/angular)                                          | MIT                     | runtime     |
 | [@angular/platform-browser-dynamic](https://github.com/angular/angular)                                  | MIT                     | runtime     |
 | [@angular/router](https://github.com/angular/angular)                                                    | MIT                     | runtime     |
+| [@astrojs/node](https://github.com/withastro/astro)                                                      | MIT                     | runtime     |
+| [@astrojs/sitemap](https://github.com/withastro/astro)                                                   | MIT                     | development |
+| [@astrojs/tailwind](https://github.com/withastro/astro)                                                  | MIT                     | development |
+| [@astrojs/ts-plugin](https://github.com/withastro/language-tools)                                        | MIT                     | development |
 | [@babel/core](https://github.com/babel/babel)                                                            | MIT                     | development |
 | [@babel/preset-env](https://github.com/babel/babel)                                                      | MIT                     | development |
 | [@messageformat/core](https://github.com/messageformat/messageformat)                                    | MIT                     | runtime     |
@@ -31,12 +35,16 @@ Development 3rd party libraries count: **78**
 | [@tailwindcss/forms](https://github.com/tailwindlabs/tailwindcss-forms)                                  | MIT                     | development |
 | [@trivago/prettier-plugin-sort-imports](https://github.com/trivago/prettier-plugin-sort-imports)         | Apache-2.0              | development |
 | [@types/dompurify](https://github.com/DefinitelyTyped/DefinitelyTyped)                                   | MIT                     | development |
+| [@types/flat](https://github.com/DefinitelyTyped/DefinitelyTyped)                                        | MIT                     | development |
 | [@types/jasmine](https://github.com/DefinitelyTyped/DefinitelyTyped)                                     | MIT                     | development |
 | [@types/node](https://github.com/DefinitelyTyped/DefinitelyTyped)                                        | MIT                     | development |
+| [@types/ramda](https://github.com/DefinitelyTyped/DefinitelyTyped)                                       | MIT                     | development |
 | [@typescript-eslint/eslint-plugin](https://github.com/typescript-eslint/typescript-eslint)               | MIT                     | development |
 | [@typescript-eslint/parser](https://github.com/typescript-eslint/typescript-eslint)                      | BSD-2-Clause            | development |
 | [@vicgutt/tailwindcss-font-face](https://github.com/VicGUTT/tailwindcss-font-face)                       | MIT                     | development |
 | [@zxcvbn-ts/core](https://github.com/zxcvbn-ts/zxcvbn)                                                   | MIT                     | runtime     |
+| [astro](https://github.com/withastro/astro)                                                              | MIT                     | runtime     |
+| [astro-i18n-aut](https://github.com/jlarmstrongiv/astro-i18n-aut)                                        | MIT                     | runtime     |
 | [autoprefixer](https://github.com/postcss/autoprefixer)                                                  | MIT                     | development |
 | [axios](https://github.com/axios/axios)                                                                  | MIT                     | development |
 | [babel-loader](https://github.com/babel/babel-loader)                                                    | MIT                     | development |
@@ -55,9 +63,12 @@ Development 3rd party libraries count: **78**
 | [electron-store](https://github.com/sindresorhus/electron-store)                                         | MIT                     | development |
 | [eslint](https://github.com/eslint/eslint)                                                               | MIT                     | development |
 | [eslint-config-standard](https://github.com/standard/eslint-config-standard)                             | MIT                     | development |
+| [eslint-plugin-astro](https://github.com/ota-meshi/eslint-plugin-astro)                                  | MIT                     | development |
 | [eslint-plugin-import](https://github.com/import-js/eslint-plugin-import)                                | MIT                     | development |
+| [eslint-plugin-json](https://github.com/azeemba/eslint-plugin-json)                                      | MIT                     | development |
 | [eslint-plugin-n](https://github.com/eslint-community/eslint-plugin-n)                                   | MIT                     | development |
 | [eslint-plugin-promise](https://github.com/eslint-community/eslint-plugin-promise)                       | ISC                     | development |
+| [flat](https://github.com/hughsk/flat)                                                                   | BSD-3-Clause            | runtime     |
 | [html-webpack-plugin](https://github.com/jantimon/html-webpack-plugin)                                   | MIT                     | development |
 | [husky](https://github.com/typicode/husky)                                                               | MIT                     | development |
 | [karma](https://github.com/karma-runner/karma)                                                           | MIT                     | development |
@@ -81,7 +92,10 @@ Development 3rd party libraries count: **78**
 | [postcss-loader](https://github.com/webpack-contrib/postcss-loader)                                      | MIT                     | development |
 | [postcss-preset-env](https://github.com/csstools/postcss-plugins)                                        | MIT-0                   | development |
 | [prettier](https://github.com/prettier/prettier)                                                         | MIT                     | development |
+| [prettier-plugin-astro](https://github.com/withastro/prettier-plugin-astro)                              | MIT                     | development |
 | [promisify-child-process](https://github.com/jcoreio/promisify-child-process)                            | MIT                     | development |
+| [ramda](https://github.com/ramda/ramda)                                                                  | MIT                     | runtime     |
+| [rollup-plugin-terser](https://github.com/TrySound/rollup-plugin-terser)                                 | MIT                     | development |
 | [rxjs](https://github.com/reactivex/rxjs)                                                                | Apache-2.0              | runtime     |
 | [sass](https://github.com/sass/dart-sass)                                                                | MIT                     | development |
 | [sass-loader](https://github.com/webpack-contrib/sass-loader)                                            | MIT                     | development |
@@ -94,6 +108,7 @@ Development 3rd party libraries count: **78**
 | [tslib](https://github.com/Microsoft/tslib)                                                              | 0BSD                    | runtime     |
 | [typescript](https://github.com/Microsoft/TypeScript)                                                    | Apache-2.0              | development |
 | [uglifyjs-webpack-plugin](https://github.com/webpack-contrib/uglifyjs-webpack-plugin)                    | MIT                     | development |
+| [undici](https://github.com/nodejs/undici)                                                               | MIT                     | runtime     |
 | [wait-on](https://github.com/jeffbski/wait-on)                                                           | MIT                     | development |
 | [webpack](https://github.com/webpack/webpack)                                                            | MIT                     | development |
 | [webpack-cli](https://github.com/webpack/webpack-cli)                                                    | MIT                     | development |
