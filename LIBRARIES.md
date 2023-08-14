@@ -1,6 +1,6 @@
-All used 3rd party libraries count: **113**<br>
-Runtime 3rd party libraries count: **26**<br>
-Development 3rd party libraries count: **87**
+All used 3rd party libraries count: **124**<br>
+Runtime 3rd party libraries count: **34**<br>
+Development 3rd party libraries count: **90**
 
 | Library                                                                                                  | License                 | Environment |
 | -------------------------------------------------------------------------------------------------------- | ----------------------- | ----------- |
@@ -21,11 +21,13 @@ Development 3rd party libraries count: **87**
 | [@angular/platform-browser-dynamic](https://github.com/angular/angular)                                  | MIT                     | runtime     |
 | [@angular/router](https://github.com/angular/angular)                                                    | MIT                     | runtime     |
 | [@astrojs/node](https://github.com/withastro/astro)                                                      | MIT                     | runtime     |
+| [@astrojs/react](https://github.com/withastro/astro)                                                     | MIT                     | runtime     |
 | [@astrojs/sitemap](https://github.com/withastro/astro)                                                   | MIT                     | development |
 | [@astrojs/tailwind](https://github.com/withastro/astro)                                                  | MIT                     | development |
 | [@astrojs/ts-plugin](https://github.com/withastro/language-tools)                                        | MIT                     | development |
 | [@babel/core](https://github.com/babel/babel)                                                            | MIT                     | development |
 | [@babel/preset-env](https://github.com/babel/babel)                                                      | MIT                     | development |
+| [@iconify/react](https://github.com/iconify/iconify)                                                     | MIT                     | runtime     |
 | [@messageformat/core](https://github.com/messageformat/messageformat)                                    | MIT                     | runtime     |
 | [@ng-icons/bootstrap-icons](https://github.com/ng-icons/ng-icons)                                        | MIT                     | runtime     |
 | [@ng-icons/core](https://github.com/ng-icons/ng-icons)                                                   | MIT                     | runtime     |
@@ -39,17 +41,22 @@ Development 3rd party libraries count: **87**
 | [@types/jasmine](https://github.com/DefinitelyTyped/DefinitelyTyped)                                     | MIT                     | development |
 | [@types/node](https://github.com/DefinitelyTyped/DefinitelyTyped)                                        | MIT                     | development |
 | [@types/ramda](https://github.com/DefinitelyTyped/DefinitelyTyped)                                       | MIT                     | development |
+| [@types/react](https://github.com/DefinitelyTyped/DefinitelyTyped)                                       | MIT                     | development |
+| [@types/react-dom](https://github.com/DefinitelyTyped/DefinitelyTyped)                                   | MIT                     | development |
 | [@typescript-eslint/eslint-plugin](https://github.com/typescript-eslint/typescript-eslint)               | MIT                     | development |
 | [@typescript-eslint/parser](https://github.com/typescript-eslint/typescript-eslint)                      | BSD-2-Clause            | development |
 | [@vicgutt/tailwindcss-font-face](https://github.com/VicGUTT/tailwindcss-font-face)                       | MIT                     | development |
 | [@zxcvbn-ts/core](https://github.com/zxcvbn-ts/zxcvbn)                                                   | MIT                     | runtime     |
 | [astro](https://github.com/withastro/astro)                                                              | MIT                     | runtime     |
 | [astro-i18n-aut](https://github.com/jlarmstrongiv/astro-i18n-aut)                                        | MIT                     | runtime     |
+| [astro-icon](https://github.com/natemoo-re/astro-icon)                                                   | MIT                     | runtime     |
 | [autoprefixer](https://github.com/postcss/autoprefixer)                                                  | MIT                     | development |
 | [axios](https://github.com/axios/axios)                                                                  | MIT                     | development |
 | [babel-loader](https://github.com/babel/babel-loader)                                                    | MIT                     | development |
+| [change-case](https://github.com/blakeembrey/change-case)                                                | MIT                     | runtime     |
 | [clean-webpack-plugin](https://github.com/johnagan/clean-webpack-plugin)                                 | MIT                     | development |
 | [cli-spinner](https://github.com/helloIAmPau/node-spinner)                                               | MIT                     | development |
+| [clsx](https://github.com/lukeed/clsx)                                                                   | MIT                     | runtime     |
 | [colors](https://github.com/Marak/colors.js)                                                             | MIT                     | development |
 | [command-line-args](https://github.com/75lb/command-line-args)                                           | MIT                     | development |
 | [compression-webpack-plugin](https://github.com/webpack-contrib/compression-webpack-plugin)              | MIT                     | development |
@@ -68,6 +75,7 @@ Development 3rd party libraries count: **87**
 | [eslint-plugin-json](https://github.com/azeemba/eslint-plugin-json)                                      | MIT                     | development |
 | [eslint-plugin-n](https://github.com/eslint-community/eslint-plugin-n)                                   | MIT                     | development |
 | [eslint-plugin-promise](https://github.com/eslint-community/eslint-plugin-promise)                       | ISC                     | development |
+| [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react)                                 | MIT                     | development |
 | [flat](https://github.com/hughsk/flat)                                                                   | BSD-3-Clause            | runtime     |
 | [html-webpack-plugin](https://github.com/jantimon/html-webpack-plugin)                                   | MIT                     | development |
 | [husky](https://github.com/typicode/husky)                                                               | MIT                     | development |
@@ -95,6 +103,9 @@ Development 3rd party libraries count: **87**
 | [prettier-plugin-astro](https://github.com/withastro/prettier-plugin-astro)                              | MIT                     | development |
 | [promisify-child-process](https://github.com/jcoreio/promisify-child-process)                            | MIT                     | development |
 | [ramda](https://github.com/ramda/ramda)                                                                  | MIT                     | runtime     |
+| [react](https://github.com/facebook/react)                                                               | MIT                     | runtime     |
+| [react-bootstrap-icons](https://github.com/ismamz/react-bootstrap-icons)                                 | MIT                     | runtime     |
+| [react-dom](https://github.com/facebook/react)                                                           | MIT                     | runtime     |
 | [rollup-plugin-terser](https://github.com/TrySound/rollup-plugin-terser)                                 | MIT                     | development |
 | [rxjs](https://github.com/reactivex/rxjs)                                                                | Apache-2.0              | runtime     |
 | [sass](https://github.com/sass/dart-sass)                                                                | MIT                     | development |
