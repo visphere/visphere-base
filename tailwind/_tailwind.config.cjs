@@ -40,6 +40,7 @@ module.exports = ({ cdnBaseUrl, loadableModules }) => ({
     extend: {
       fontFamily: {
         sans: ['Plus Jakarta Sans', 'Arial', 'sans-serif'],
+        logo: ['Maven Pro', 'Arial', 'sans-serif'],
       },
       colors: {
         'msph-primary-light': '#fffcfc',
