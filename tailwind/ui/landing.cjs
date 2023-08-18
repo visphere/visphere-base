@@ -59,8 +59,8 @@ module.exports = {
   ]),
   '.msph-slide-nav__container': parseTwdApply([
     'fixed',
-    '-top-2 -left-3',
-    'w-[calc(100%+24px)] h-screen min-h-fit',
+    '-top-2 left-0',
+    'w-full h-screen min-h-fit',
     'bg-white',
     'p-5',
     'flex flex-col lg:hidden',
