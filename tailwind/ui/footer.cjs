@@ -41,7 +41,6 @@ module.exports = {
   ]),
   '.msph_footer__select-list-container': parseTwdApply([
     'absolute',
-    'left-0 bottom-full',
     'w-max max-h-[200px]',
     'mb-1 p-1.5',
     'border border-gray-500',

@@ -47,4 +47,9 @@ module.exports = {
     'disabled:opacity-70',
     'disabled:cursor-not-allowed',
   ]),
+  '.msph_ratio-container': parseTwdApply([
+    'mx-auto',
+    'max-w-[1260px]',
+    'w-full',
+  ]),
 };
