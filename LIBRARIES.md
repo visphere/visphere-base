@@ -1,6 +1,6 @@
-All used 3rd party libraries count: **124**<br>
-Runtime 3rd party libraries count: **34**<br>
-Development 3rd party libraries count: **90**
+All used 3rd party libraries count: **128**<br>
+Runtime 3rd party libraries count: **36**<br>
+Development 3rd party libraries count: **92**
 
 | Library                                                                                                  | License                 | Environment |
 | -------------------------------------------------------------------------------------------------------- | ----------------------- | ----------- |
@@ -36,6 +36,7 @@ Development 3rd party libraries count: **90**
 | [@ngx-translate/http-loader](https://github.com/ngx-translate/core)                                      | MIT                     | runtime     |
 | [@tailwindcss/forms](https://github.com/tailwindlabs/tailwindcss-forms)                                  | MIT                     | development |
 | [@trivago/prettier-plugin-sort-imports](https://github.com/trivago/prettier-plugin-sort-imports)         | Apache-2.0              | development |
+| [@types/body-scroll-lock](https://github.com/DefinitelyTyped/DefinitelyTyped)                            | MIT                     | development |
 | [@types/dompurify](https://github.com/DefinitelyTyped/DefinitelyTyped)                                   | MIT                     | development |
 | [@types/flat](https://github.com/DefinitelyTyped/DefinitelyTyped)                                        | MIT                     | development |
 | [@types/jasmine](https://github.com/DefinitelyTyped/DefinitelyTyped)                                     | MIT                     | development |
@@ -53,6 +54,7 @@ Development 3rd party libraries count: **90**
 | [autoprefixer](https://github.com/postcss/autoprefixer)                                                  | MIT                     | development |
 | [axios](https://github.com/axios/axios)                                                                  | MIT                     | development |
 | [babel-loader](https://github.com/babel/babel-loader)                                                    | MIT                     | development |
+| [body-scroll-lock](https://github.com/willmcpo/body-scroll-lock)                                         | MIT                     | runtime     |
 | [change-case](https://github.com/blakeembrey/change-case)                                                | MIT                     | runtime     |
 | [clean-webpack-plugin](https://github.com/johnagan/clean-webpack-plugin)                                 | MIT                     | development |
 | [cli-spinner](https://github.com/helloIAmPau/node-spinner)                                               | MIT                     | development |
@@ -62,6 +64,7 @@ Development 3rd party libraries count: **90**
 | [compression-webpack-plugin](https://github.com/webpack-contrib/compression-webpack-plugin)              | MIT                     | development |
 | [concurrently](https://github.com/open-cli-tools/concurrently)                                           | MIT                     | development |
 | [copy-webpack-plugin](https://github.com/webpack-contrib/copy-webpack-plugin)                            | MIT                     | development |
+| [cross-env](https://github.com/kentcdodds/cross-env)                                                     | MIT                     | development |
 | [css-loader](https://github.com/webpack-contrib/css-loader)                                              | MIT                     | development |
 | [css-minimizer-webpack-plugin](https://github.com/webpack-contrib/css-minimizer-webpack-plugin)          | MIT                     | development |
 | [dompurify](https://github.com/cure53/DOMPurify)                                                         | (MPL-2.0 OR Apache-2.0) | runtime     |
@@ -77,6 +80,7 @@ Development 3rd party libraries count: **90**
 | [eslint-plugin-promise](https://github.com/eslint-community/eslint-plugin-promise)                       | ISC                     | development |
 | [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react)                                 | MIT                     | development |
 | [flat](https://github.com/hughsk/flat)                                                                   | BSD-3-Clause            | runtime     |
+| [framer-motion](https://github.com/framer/motion)                                                        | MIT                     | runtime     |
 | [html-webpack-plugin](https://github.com/jantimon/html-webpack-plugin)                                   | MIT                     | development |
 | [husky](https://github.com/typicode/husky)                                                               | MIT                     | development |
 | [karma](https://github.com/karma-runner/karma)                                                           | MIT                     | development |
