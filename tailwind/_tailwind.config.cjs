@@ -30,6 +30,7 @@ const availableComponents = {
   auth: require('./ui/auth.cjs'),
   common: require('./ui/common.cjs'),
   footer: require('./ui/footer.cjs'),
+  landing: require('./ui/landing.cjs'),
 };
 
 module.exports = ({ cdnBaseUrl, loadableModules }) => ({
