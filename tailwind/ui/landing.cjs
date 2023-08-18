@@ -43,7 +43,7 @@ module.exports = {
     'text-msph-primary-tint',
   ]),
   '.msph-slide-nav__button': parseTwdApply([
-    'px-2 pt-1 pb-1.5',
+    'px-3 pt-1 pb-1.5',
     'h-fit',
     'text-sm text-center',
     'rounded-md',
@@ -56,6 +56,11 @@ module.exports = {
     'msph-slide-nav__button',
     'bg-transparent',
     'text-msph-primary-tint',
+  ]),
+  '.msph-slide-nav__button--inverse': parseTwdApply([
+    'border-msph-primary-light',
+    'bg-msph-primary-light',
+    'text-msph-primary-dark',
   ]),
   '.msph-slide-nav__container': parseTwdApply([
     'fixed',

@@ -47,6 +47,7 @@ module.exports = ({ cdnBaseUrl, loadableModules }) => ({
         'msph-primary-light': '#fffcfc',
         'msph-primary-tint': '#ff5e4d',
         'msph-secondary-tint': '#ffe7e5',
+        'msph-primary-accent': '#ffedd5',
         'msph-primary-dark': '#002731',
         'msph-secondary-dark': '#003544',
         'msph-google-background': '#ffffff',
