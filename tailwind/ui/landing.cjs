@@ -72,4 +72,29 @@ module.exports = {
     'overflow-y-auto',
     'opacity-0 translate-x-[100%]',
   ]),
+  '.msph-root-header': parseTwdApply([
+    'text-3xl md:text-5xl',
+    'font-extrabold font-logo',
+    'mb-5',
+    'uppercase',
+    'leading-7',
+    'max-w-[800px]',
+  ]),
+  '.msph-primary-href': parseTwdApply([
+    'text-msph-primary-tint',
+    'hover:underline',
+  ]),
+  '.msph-download-app-button': parseTwdApply([
+    'rounded-lg',
+    'px-10 py-2',
+    'border border-msph-primary-tint',
+    'bg-msph-primary-tint',
+    'text-msph-primary-light text-center',
+  ]),
+  '.msph-open-app-in-browser-button': parseTwdApply([
+    'rounded-lg',
+    'px-10 py-2',
+    'border border-msph-primary-dark',
+    'text-msph-primary-dark text-center',
+  ]),
 };

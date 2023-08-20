@@ -51,6 +51,12 @@ const fontsConfig = [
       { id: 'black', weight: 900, hasItalic: false },
     ],
   },
+  {
+    name: 'Jetbrains Mono',
+    cdnDir: 'jbm',
+    formats: ['woff', 'woff2'],
+    styles: [{ id: 'bold', weight: 700, hasItalic: false }],
+  },
 ];
 
 function generateSourcePaths(cdnBaseUrl, cdnDir, formats, id) {
