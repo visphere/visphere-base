@@ -130,7 +130,7 @@ module.exports = {
     'md:bg-msph-secondary-dark md:dark:bg-msph-secondary-tint',
     'md:text-gray-300 md:dark:text-msph-primary-tint',
   ]),
-  '.msph_auth-password-strenght-meter-color': parseTwdApply([
+  '.msph_auth-password-strenght-meter-colors': parseTwdApply([
     'bg-msph-secondary-tint dark:bg-msph-secondary-dark',
     'md:bg-msph-secondary-dark md:dark:bg-msph-secondary-tint',
   ]),

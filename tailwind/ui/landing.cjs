@@ -29,7 +29,7 @@ module.exports = {
   '.msph-mobile-nav__button': parseTwdApply([
     'col-span-12',
     'px-4 py-2',
-    'rounded-md',
+    'rounded-lg',
     'text-center',
     'font-semibold',
     'border-2',
@@ -46,7 +46,7 @@ module.exports = {
     'px-3 pt-1 pb-1.5',
     'h-fit',
     'text-sm text-center',
-    'rounded-md',
+    'rounded-lg',
     'border',
     'border-msph-primary-tint',
     'bg-msph-primary-tint',
