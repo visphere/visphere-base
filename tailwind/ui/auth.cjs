@@ -28,7 +28,7 @@ const { parseTwdApply } = require('../utils.cjs');
 module.exports = {
   '.msph_auth-container': parseTwdApply([
     'w-full',
-    'md:rounded-lg',
+    'md:rounded-xl',
     'md:shadow-md',
     'md:mx-5',
   ]),
@@ -157,5 +157,13 @@ module.exports = {
     'px-2 py-1 pb-1.5',
     'leading-5',
     'w-full',
+    'text-start',
+  ]),
+  '.msph-auth__resend-message-button': parseTwdApply([
+    'msph_regular-button',
+    'shadow-sm',
+    'w-full',
+    'bg-gray-200 dark:bg-gray-500',
+    'md:bg-gray-500 md:dark:bg-gray-200',
   ]),
 };

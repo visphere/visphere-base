@@ -59,6 +59,12 @@ module.exports = ({ cdnBaseUrl, loadableModules }) => ({
         'msph-twitter-foreground': '#ffffff',
         'msph-danger-primary': '#bd3939',
         'msph-danger-secondary': '#ffa5a5',
+        'msph-warning-primary': '#dba42d',
+        'msph-success-primary': '#56b656',
+        'msph-success-secondary': '#abebab',
+      },
+      animation: {
+        'loading-spinner': 'spin 0.8s cubic-bezier(.02,.97,.86,.67) infinite',
       },
     },
   },

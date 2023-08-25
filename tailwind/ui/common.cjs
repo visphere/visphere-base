@@ -52,4 +52,12 @@ module.exports = {
     'max-w-[1260px]',
     'w-full',
   ]),
+  '.msph-button__spinner': parseTwdApply([
+    'h-5 w-5',
+    'ms-2',
+    'animate-loading-spinner',
+    'align-[-0.125em]',
+    'rounded-full',
+    'border-2 border-solid border-current border-r-transparent',
+  ]),
 };
