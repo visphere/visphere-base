@@ -1,4 +1,4 @@
-All used 3rd party libraries count: **1503**<br>
+All used 3rd party libraries count: **1511**<br>
 | Library                                                                                                                        | License                   |
 | ------------------------------------------------------------------------------------------------------------------------------ | ------------------------- |
 | [@aashutoshrathi/word-wrap](https://github.com/aashutoshrathi/word-wrap)                                                       | MIT                       |
@@ -194,6 +194,7 @@ All used 3rd party libraries count: **1503**<br>
 | [@eslint/js](https://github.com/eslint/eslint)                                                                                 | MIT                       |
 | [@hapi/hoek](https://github.com/hapijs/hoek)                                                                                   | BSD-3-Clause              |
 | [@hapi/topo](https://github.com/hapijs/topo)                                                                                   | BSD-3-Clause              |
+| [@hcaptcha/types](https://github.com)                                                                                          | MIT                       |
 | [@humanwhocodes/config-array](https://github.com/humanwhocodes/config-array)                                                   | Apache-2.0                |
 | [@humanwhocodes/module-importer](https://github.com/humanwhocodes/module-importer)                                             | Apache-2.0                |
 | [@humanwhocodes/object-schema](https://github.com/humanwhocodes/object-schema)                                                 | BSD-3-Clause              |
@@ -218,6 +219,9 @@ All used 3rd party libraries count: **1503**<br>
 | [@messageformat/runtime](https://github.com/messageformat/messageformat)                                                       | MIT                       |
 | [@ng-icons/bootstrap-icons](https://github.com/ng-icons/ng-icons)                                                              | MIT                       |
 | [@ng-icons/core](https://github.com/ng-icons/ng-icons)                                                                         | MIT                       |
+| [@ngrx/effects](https://github.com/ngrx/platform)                                                                              | MIT                       |
+| [@ngrx/store](https://github.com/ngrx/platform)                                                                                | MIT                       |
+| [@ngrx/store-devtools](https://github.com/ngrx/platform)                                                                       | MIT                       |
 | [@ngtools/webpack](https://github.com/angular/angular-cli)                                                                     | MIT                       |
 | [@ngx-translate/core](https://github.com/ngx-translate/core)                                                                   | MIT                       |
 | [@ngx-translate/http-loader](https://github.com/ngx-translate/core)                                                            | MIT                       |
@@ -316,6 +320,7 @@ All used 3rd party libraries count: **1503**<br>
 | [@types/sockjs](https://github.com/DefinitelyTyped/DefinitelyTyped)                                                            | MIT                       |
 | [@types/trusted-types](https://github.com/DefinitelyTyped/DefinitelyTyped)                                                     | MIT                       |
 | [@types/unist](https://github.com/DefinitelyTyped/DefinitelyTyped)                                                             | MIT                       |
+| [@types/uuid](https://github.com/DefinitelyTyped/DefinitelyTyped)                                                              | MIT                       |
 | [@types/ws](https://github.com/DefinitelyTyped/DefinitelyTyped)                                                                | MIT                       |
 | [@types/yargs](https://github.com/DefinitelyTyped/DefinitelyTyped)                                                             | MIT                       |
 | [@types/yargs-parser](https://github.com/DefinitelyTyped/DefinitelyTyped)                                                      | MIT                       |
@@ -375,6 +380,7 @@ All used 3rd party libraries count: **1503**<br>
 | [ajv-errors](https://github.com/epoberezkin/ajv-errors)                                                                        | MIT                       |
 | [ajv-keywords](https://github.com/epoberezkin/ajv-keywords)                                                                    | MIT                       |
 | [amdefine](https://github.com/jrburke/amdefine)                                                                                | BSD-3-Clause OR MIT       |
+| [angular-cd-timer](https://github.com/clemdesign/angular-cd-timer)                                                             | MIT                       |
 | [ansi-align](https://github.com/nexdrew/ansi-align)                                                                            | ISC                       |
 | [ansi-colors](https://github.com/doowb/ansi-colors)                                                                            | MIT                       |
 | [ansi-cyan](https://github.com/jonschlinkert/ansi-cyan)                                                                        | MIT                       |
@@ -1018,6 +1024,7 @@ All used 3rd party libraries count: **1503**<br>
 | [negotiator](https://github.com/jshttp/negotiator)                                                                             | MIT                       |
 | [neo-async](https://github.com/suguru03/neo-async)                                                                             | MIT                       |
 | [network-information-types](https://github.com/lacolaco/network-information-types)                                             | MIT                       |
+| [ngx-rerender](https://github.com/ngehlert/ngx-rerender)                                                                       | MIT                       |
 | [ngx-translate-messageformat-compiler](https://github.com/lephyrus/ngx-translate-messageformat-compiler)                       | MIT                       |
 | [nlcst-to-string](https://github.com/syntax-tree/nlcst-to-string)                                                              | MIT                       |
 | [no-case](https://github.com/blakeembrey/change-case)                                                                          | MIT                       |
@@ -1443,6 +1450,7 @@ All used 3rd party libraries count: **1503**<br>
 | [v8-compile-cache](https://github.com/zertosh/v8-compile-cache)                                                                | MIT                       |
 | [validate-npm-package-license](https://github.com/kemitchell/validate-npm-package-license.js)                                  | Apache-2.0                |
 | [validate-npm-package-name](https://github.com/npm/validate-npm-package-name)                                                  | ISC                       |
+| [vanilla-hcaptcha](https://github.com)                                                                                         | MIT                       |
 | [vary](https://github.com/jshttp/vary)                                                                                         | MIT                       |
 | [vfile](https://github.com/vfile/vfile)                                                                                        | MIT                       |
 | [vfile-location](https://github.com/vfile/vfile-location)                                                                      | MIT                       |
