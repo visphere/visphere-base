@@ -31,6 +31,8 @@ const availableComponents = {
   common: require('./ui/common.cjs'),
   footer: require('./ui/footer.cjs'),
   landing: require('./ui/landing.cjs'),
+  snackbar: require('./ui/snackbar.cjs'),
+  modal: require('./ui/modal.cjs'),
 };
 
 module.exports = ({ cdnBaseUrl, loadableModules }) => ({
