@@ -72,6 +72,7 @@ module.exports = {
     'border-b-2 border-b-msph-primary-tint',
     'bg-white dark:bg-msph-secondary-dark',
     'md:bg-msph-secondary-dark md:dark:bg-white',
+    'disabled:cursor-not-allowed',
   ]),
   '.msph_auth-checkbox': parseTwdApply([
     'form-checkbox',
@@ -84,6 +85,7 @@ module.exports = {
     'border-gray-500 dark:border-transparent',
     'md:border-transparent md:dark:border-gray-500',
     'focus:outline-black focus:checked:bg-msph-primary-tint',
+    'disabled:cursor-not-allowed',
     'checked:bg-msph-primary-tint checked:border-none dark:checked:bg-msph-primary-tint',
   ]),
   '.msph_auth-invalid-input': parseTwdApply([
