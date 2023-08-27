@@ -35,6 +35,7 @@ module.exports = {
     'p-3 py-2.5',
     'block',
     'cursor-pointer',
+    'flex justify-center items-center',
     'shadow-md',
     'disabled:opacity-70',
     'disabled:cursor-not-allowed',

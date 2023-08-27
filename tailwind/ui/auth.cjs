@@ -48,17 +48,20 @@ module.exports = {
   ]),
   '.msph_google-oauth-button': parseTwdApply([
     'msph_regular-button',
+    'justify-start',
     'font-bold',
     'bg-msph-google-background',
     'text-msph-google-foreground',
   ]),
   '.msph_facebook-oauth-button': parseTwdApply([
     'msph_regular-button',
+    'justify-start',
     'bg-msph-facebook-background',
     'text-msph-facebook-foreground',
   ]),
   '.msph_twitter-oauth-button': parseTwdApply([
     'msph_regular-button',
+    'justify-start',
     'bg-msph-twitter-background',
     'text-msph-twitter-foreground',
   ]),
