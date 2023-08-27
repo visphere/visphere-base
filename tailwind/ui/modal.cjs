@@ -87,4 +87,11 @@ module.exports = {
     'border border-msph-primary-tint dark:border-msph-primary-light',
     'text-msph-primary-tint dark:text-msph-primary-light',
   ]),
+  '.msph-captcha-modal__skeleton-loader': parseTwdApply([
+    'absolute',
+    'w-full h-full',
+    'bg-msph-secondary-tint dark:bg-msph-secondary-dark',
+    'animate-pulse',
+    'rounded-md',
+  ]),
 };
