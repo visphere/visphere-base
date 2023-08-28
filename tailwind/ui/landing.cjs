@@ -97,4 +97,50 @@ module.exports = {
     'border border-msph-primary-dark',
     'text-msph-primary-dark text-center',
   ]),
+  '.msph-interactive-libraries__gradient': parseTwdApply([
+    'absolute',
+    'left-0',
+    'w-[calc(100%-14px)] h-[100px]',
+    'z-10',
+  ]),
+  '.msph-interactive-libraries__top-gradient': parseTwdApply([
+    'msph-interactive-libraries__gradient',
+    'top-0',
+    'bg-gradient-to-b from-gray-950 from-60% to-100%',
+  ]),
+  '.msph-interactive-libraries__bottom-gradient': parseTwdApply([
+    'msph-interactive-libraries__gradient',
+    'bottom-0',
+    'bg-gradient-to-t from-gray-950 from-10% to-100%',
+  ]),
+  '.msph-interactive-libraries__header': parseTwdApply([
+    'absolute',
+    'top-0 left-0',
+    'w-[calc(100%-14px)]',
+    'flex justify-center',
+    'z-40',
+  ]),
+  '.msph-interactive-libraries__button': parseTwdApply([
+    'absolute',
+    'left-[50%] -translate-x-[50%]',
+    'bg-gray-600',
+    'z-0',
+  ]),
+  '.msph-interactive-libraries__scroll': parseTwdApply([
+    'relative',
+    'w-full h-full',
+    'overflow-y-scroll',
+    'ps-[14px]',
+  ]),
+  '.msph-interactive-libraries__list': parseTwdApply([
+    'grid grid-cols-1 sm:grid-cols-2',
+    'gap-x-5 gap-y-0.5',
+    'px-2',
+    'bg-gray-950',
+  ]),
+  '.msph-interactive-libraries__scroll-track': parseTwdApply([
+    'absolute',
+    'right-[0.35rem] top-[10px]',
+    'bg-gray-900',
+  ]),
 };
