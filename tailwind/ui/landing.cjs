@@ -141,6 +141,7 @@ module.exports = {
   '.msph-interactive-libraries__scroll-track': parseTwdApply([
     'absolute',
     'right-[0.35rem] top-[10px]',
+    'w-[0.1rem] h-[calc(100%-20px)]',
     'bg-gray-900',
   ]),
 };
