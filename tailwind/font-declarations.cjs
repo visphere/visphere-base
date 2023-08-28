@@ -52,10 +52,10 @@ const fontsConfig = [
     ],
   },
   {
-    name: 'Jetbrains Mono',
-    cdnDir: 'jbm',
+    name: 'Retro Gaming',
+    cdnDir: 'rg',
     formats: ['woff', 'woff2'],
-    styles: [{ id: 'bold', weight: 700, hasItalic: false }],
+    styles: [{ id: 'regular', weight: 400, hasItalic: false }],
   },
 ];
 
