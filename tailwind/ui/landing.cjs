@@ -31,7 +31,6 @@ module.exports = {
     'px-4 py-2',
     'rounded-lg',
     'text-center',
-    'font-semibold',
     'border-2',
     'border-msph-primary-tint',
     'bg-msph-primary-tint',
