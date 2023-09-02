@@ -25,6 +25,8 @@
  */
 const plugin = require('tailwindcss/plugin');
 const fontsDeclarations = require('./font-declarations.cjs');
+const pageLoaderUi = require('./ui/page-loader.cjs');
+const buttonSpinnerUi = require('./ui/button-spinner.cjs');
 
 const availableComponents = {
   auth: require('./ui/auth.cjs'),
@@ -33,6 +35,8 @@ const availableComponents = {
   landing: require('./ui/landing.cjs'),
   snackbar: require('./ui/snackbar.cjs'),
   modal: require('./ui/modal.cjs'),
+  pageLoader: pageLoaderUi.components,
+  buttonSpinner: buttonSpinnerUi.components,
 };
 
 module.exports = ({ cdnBaseUrl, loadableModules }) => ({
@@ -66,7 +70,12 @@ module.exports = ({ cdnBaseUrl, loadableModules }) => ({
         'msph-success-secondary': '#abebab',
       },
       animation: {
-        'loading-spinner': 'spin 0.8s cubic-bezier(.02,.97,.86,.67) infinite',
+        ...pageLoaderUi.animations,
+        ...buttonSpinnerUi.animations,
+      },
+      keyframes: {
+        ...pageLoaderUi.keyframes,
+        ...buttonSpinnerUi.keyframes,
       },
     },
   },
