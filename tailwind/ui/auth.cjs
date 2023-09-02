@@ -32,10 +32,10 @@ module.exports = {
     'md:shadow-md',
     'md:mx-5',
   ]),
-  '.msph_auth-header': parseTwdApply([
+  '.msph_auth__header': parseTwdApply([
     'mt-4 mb-2',
     'text-3xl',
-    'font-bold',
+    'font-semibold md:font-medium dark:font-medium dark:md:font-semibold font-logo',
     'text-center',
     'text-msph-secondary-dark dark:text-msph-primary-light',
     'md:text-msph-primary-light md:dark:text-msph-secondary-dark',
