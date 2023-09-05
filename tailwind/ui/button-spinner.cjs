@@ -28,12 +28,24 @@ const { parseTwdApply } = require('../utils.cjs');
 
 const components = {
   '.msph-button-spinner__container': parseTwdApply([
-    'w-[23px] h-[23px] ms-2 animate-button-spinner-rotate',
+    'ms-2',
+    'animate-button-spinner-rotate',
+  ]),
+  '.msph-button-spinner__container--large': parseTwdApply([
+    'w-[23px] h-[23px]',
+  ]),
+  '.msph-button-spinner__container--small': parseTwdApply([
+    'w-[18px] h-[18px]',
   ]),
   '.msph-button-spinner__path': parseTwdApply([
-    'stroke-msph-primary-light',
     'stroke-[5px]',
     'animate-button-spinner-dash',
+  ]),
+  '.msph-button-spinner__path--mono-color': parseTwdApply([
+    'stroke-msph-primary-light',
+  ]),
+  '.msph-button-spinner__path--device-color': parseTwdApply([
+    'stroke-msph-primary-tint dark:stroke-msph-primary-light',
   ]),
 };
 
