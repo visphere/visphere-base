@@ -39,11 +39,11 @@ module.exports = {
     'bg-msph-facebook-background',
     'text-msph-facebook-foreground',
   ]),
-  '.msph_twitter-oauth-button': parseTwdApply([
+  '.msph-auth__x-oauth-button': parseTwdApply([
     'msph_regular-button',
     'justify-start',
-    'bg-msph-twitter-background',
-    'text-msph-twitter-foreground',
+    'bg-msph-x-background',
+    'text-msph-x-foreground',
   ]),
   '.msph_auth-input': parseTwdApply([
     'rounded-lg',
