@@ -7,9 +7,10 @@ const { parseTwdApply } = require('../utils.cjs');
 
 module.exports = {
   '.msph-snackbar__list-container': parseTwdApply([
-    'fixed w-full sm:max-w-[370px] h-fit',
+    'fixed',
+    'w-full sm:max-w-[370px] h-fit',
     'bottom-0 sm:top-0 right-0',
-    'z-50',
+    'z-[100]',
     'p-3',
     'flex flex-col justify-end sm:justify-start',
     'overflow-hidden',
@@ -19,7 +20,7 @@ module.exports = {
     'text-msph-primary-light dark:text-msph-primary-dark',
     'relative',
     'rounded-lg',
-    'py-3 ps-6 pe-8',
+    'py-3 ps-6 pe-10',
     'mt-3 sm:mt-0 sm:mb-3',
     'shadow-lg',
   ]),
@@ -41,5 +42,9 @@ module.exports = {
     'leading-[17px]',
     'mb-2',
   ]),
-  '.msph-snackbar__content': parseTwdApply(['text-sm', 'leading-[17px]']),
+  '.msph-snackbar__content': parseTwdApply([
+    'text-sm',
+    'leading-[17px]',
+    'font-light dark:font-medium',
+  ]),
 };

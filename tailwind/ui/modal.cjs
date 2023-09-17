@@ -47,7 +47,7 @@ module.exports = {
   ]),
   '.msph-modal__window-header': parseTwdApply([
     'text-3xl text-center',
-    'font-bold',
+    'font-medium font-logo',
     'mb-4',
   ]),
   '.msph-modal__window-paragraph': parseTwdApply([
@@ -64,9 +64,10 @@ module.exports = {
     'msph_small-button',
     'bg-transparent',
     'shadow-none',
-    'border border-msph-primary-tint dark:border-msph-primary-light',
-    'text-msph-primary-tint dark:text-msph-primary-light',
+    'border border-msph-primary-dark dark:border-msph-primary-light',
+    'text-msph-primary-dark dark:text-msph-primary-light',
   ]),
+  '.msph-modal__devastate-button': parseTwdApply([]),
   '.msph-captcha-modal__skeleton-loader': parseTwdApply([
     'absolute',
     'w-full h-full',

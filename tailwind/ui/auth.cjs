@@ -6,34 +6,34 @@
 const { parseTwdApply } = require('../utils.cjs');
 
 module.exports = {
-  '.msph_auth-container': parseTwdApply([
+  '.msph-auth__container': parseTwdApply([
     'w-full',
     'md:rounded-xl',
     'md:shadow-md',
     'md:mx-5',
   ]),
-  '.msph_auth__header': parseTwdApply([
-    'mt-4 mb-2',
+  '.msph-auth__header': parseTwdApply([
+    'my-4',
     'text-3xl',
     'font-semibold md:font-medium dark:font-medium dark:md:font-semibold font-logo',
     'text-center',
     'text-msph-secondary-dark dark:text-msph-primary-light',
     'md:text-msph-primary-light md:dark:text-msph-secondary-dark',
   ]),
-  '.msph_container-inv-colors': parseTwdApply([
+  '.msph-auth__container-inv-colors': parseTwdApply([
     'bg-msph-primary-light dark:bg-msph-primary-dark',
     'text-msph-primary-dark dark:text-msph-primary-light',
     'md:bg-msph-primary-dark md:dark:bg-msph-primary-light',
     'md:text-msph-primary-light md:dark:text-msph-primary-dark',
   ]),
-  '.msph_google-oauth-button': parseTwdApply([
+  '.msph-auth__google-oauth-button': parseTwdApply([
     'msph_regular-button',
     'justify-start',
     'font-bold',
     'bg-msph-google-background',
     'text-msph-google-foreground',
   ]),
-  '.msph_facebook-oauth-button': parseTwdApply([
+  '.msph-auth__facebook-oauth-button': parseTwdApply([
     'msph_regular-button',
     'justify-start',
     'bg-msph-facebook-background',
@@ -45,7 +45,7 @@ module.exports = {
     'bg-msph-x-background',
     'text-msph-x-foreground',
   ]),
-  '.msph_auth-input': parseTwdApply([
+  '.msph-auth__input': parseTwdApply([
     'rounded-lg',
     'p-3 py-2.5',
     'shadow-md',
@@ -54,7 +54,7 @@ module.exports = {
     'md:bg-msph-secondary-dark md:dark:bg-white',
     'disabled:cursor-not-allowed',
   ]),
-  '.msph_auth-checkbox': parseTwdApply([
+  '.msph-auth__checkbox': parseTwdApply([
     'form-checkbox',
     'rounded',
     'w-[18px] h-[18px]',
@@ -68,28 +68,17 @@ module.exports = {
     'disabled:cursor-not-allowed',
     'checked:bg-msph-primary-tint checked:border-none dark:checked:bg-msph-primary-tint',
   ]),
-  '.msph_auth-invalid-input': parseTwdApply([
-    'border-2',
-    'text-msph-danger-primary md:text-msph-danger-secondary',
-    'dark:text-msph-danger-secondary dark:md:text-msph-danger-primary',
-    'border-msph-danger-primary md:border-msph-danger-secondary',
-    'dark:border-msph-danger-secondary dark:md:border-msph-danger-primary',
-  ]),
-  '.msph_auth-invalid-text': parseTwdApply([
-    'text-msph-danger-primary md:text-msph-danger-secondary',
-    'dark:text-msph-danger-secondary dark:md:text-msph-danger-primary',
-  ]),
-  '.msph_auth-link': parseTwdApply([
+  '.msph-auth__link': parseTwdApply([
     'cursor-pointer',
     'text-msph-primary-tint',
     'font-medium',
     'hover:underline',
   ]),
-  '.msph_auth-separator': parseTwdApply([
+  '.msph-auth__separator': parseTwdApply([
     'border-gray-300 dark:border-gray-500',
     'md:border-gray-500 md:dark:border-gray-300',
   ]),
-  '.msph_login-form-edit-button': parseTwdApply([
+  '.msph-auth__top-nav-button': parseTwdApply([
     'text-sm',
     'text-msph-primary-tint dark:text-gray-400',
     'md:text-gray-400 md:dark:text-msph-primary-tint',
@@ -98,17 +87,17 @@ module.exports = {
     'px-1.5 pt-0.5 pb-1',
     'rounded-md',
   ]),
-  '.msph_form-out-text': parseTwdApply([
+  '.msph-auth__form-out-text': parseTwdApply([
     'text-sm',
     'mt-1',
     'text-gray-500 dark:text-gray-400',
     'sm:text-gray-400 sm:dark:text-gray-500',
   ]),
-  '.msph_auth-info-card-container': parseTwdApply([
+  '.msph-auth__info-card-container': parseTwdApply([
     'rounded-md',
     'text-sm',
     'p-3',
-    'leading-4',
+    'leading-[18px]',
     'text-opacity-80',
     'bg-msph-secondary-tint dark:bg-msph-secondary-dark',
     'text-msph-primary-tint dark:text-gray-300',
@@ -119,11 +108,11 @@ module.exports = {
     'bg-msph-secondary-tint dark:bg-msph-secondary-dark',
     'md:bg-msph-secondary-dark md:dark:bg-msph-secondary-tint',
   ]),
-  '.msph_auth-password-strenght-meter-bg': parseTwdApply([
+  '.msph-auth__password-strenght-meter__bg': parseTwdApply([
     'bg-msph-primary-light dark:bg-msph-primary-dark',
     'md:bg-msph-primary-dark md:dark:bg-msph-primary-light',
   ]),
-  '.msph_auth-single-select-spinner-list-container': parseTwdApply([
+  '.msph-auth__single-select-spinner-list__container': parseTwdApply([
     'absolute',
     'left-0 bottom-full',
     'w-full max-h-[200px]',
@@ -133,11 +122,10 @@ module.exports = {
     'overflow-y-auto',
     'bg-white dark:bg-msph-secondary-dark',
     'md:bg-msph-secondary-dark md:dark:bg-white',
-    'scrollbar-rounded',
     'scrollbar-thumb:bg-msph-secondary-tint dark:scrollbar-thumb:bg-msph-primary-dark',
     'md:scrollbar-thumb:bg-msph-primary-dark md:dark:scrollbar-thumb:bg-msph-secondary-tint',
   ]),
-  '.msph_auth-single-select-spinner-list-element': parseTwdApply([
+  '.msph-auth__single-select-spinner-list__element': parseTwdApply([
     'rounded-md',
     'px-2 py-1 pb-1.5',
     'leading-5',
