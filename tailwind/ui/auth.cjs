@@ -50,9 +50,32 @@ module.exports = {
     'p-3 py-2.5',
     'shadow-md',
     'border-b-2 border-b-msph-primary-tint',
+    'disabled:cursor-not-allowed',
+  ]),
+  '.msph-auth__input--invalid': parseTwdApply(['border-2']),
+  '.msph-auth__input--static': parseTwdApply([
+    'bg-white dark:bg-msph-secondary-dark',
+  ]),
+  '.msph-auth__input--static--invalid': parseTwdApply([
+    'text-msph-danger-primary dark:text-msph-danger-secondary',
+    'border-msph-danger-primary dark:border-msph-danger-secondary',
+  ]),
+  '.msph-auth__input--viewport': parseTwdApply([
     'bg-white dark:bg-msph-secondary-dark',
     'md:bg-msph-secondary-dark md:dark:bg-white',
-    'disabled:cursor-not-allowed',
+  ]),
+  '.msph-auth__input--viewport--invalid': parseTwdApply([
+    'text-msph-danger-primary md:text-msph-danger-secondary',
+    'dark:text-msph-danger-secondary dark:md:text-msph-danger-primary',
+    'border-msph-danger-primary md:border-msph-danger-secondary',
+    'dark:border-msph-danger-secondary dark:md:border-msph-danger-primary',
+  ]),
+  '.msph-auth__text--static--invalid': parseTwdApply([
+    'text-msph-danger-primary dark:text-msph-danger-secondary',
+  ]),
+  '.msph-auth__text--viewport--invalid': parseTwdApply([
+    'text-msph-danger-primary md:text-msph-danger-secondary',
+    'dark:text-msph-danger-secondary dark:md:text-msph-danger-primary',
   ]),
   '.msph-auth__checkbox': parseTwdApply([
     'form-checkbox',
@@ -104,7 +127,17 @@ module.exports = {
     'md:bg-msph-secondary-dark md:dark:bg-msph-secondary-tint',
     'md:text-gray-300 md:dark:text-msph-primary-tint',
   ]),
-  '.msph_auth-password-strenght-meter-colors': parseTwdApply([
+  '.msph-auth__info-card-container--static': parseTwdApply([
+    'bg-msph-secondary-tint dark:bg-msph-secondary-dark',
+    'text-msph-primary-tint dark:text-gray-300',
+  ]),
+  '.msph-auth__info-card-container--viewport': parseTwdApply([
+    'bg-msph-secondary-tint dark:bg-msph-secondary-dark',
+    'text-msph-primary-tint dark:text-gray-300',
+    'md:bg-msph-secondary-dark md:dark:bg-msph-secondary-tint',
+    'md:text-gray-300 md:dark:text-msph-primary-tint',
+  ]),
+  '.msph-auth__password-strenght-meter__colors': parseTwdApply([
     'bg-msph-secondary-tint dark:bg-msph-secondary-dark',
     'md:bg-msph-secondary-dark md:dark:bg-msph-secondary-tint',
   ]),
@@ -120,6 +153,13 @@ module.exports = {
     'rounded-md',
     'border-b-2 border-t-2 border-msph-primary-tint',
     'overflow-y-auto',
+    'scrollbar-rounded',
+  ]),
+  '.msph-auth__single-select-spinner-list__container--static': parseTwdApply([
+    'bg-white dark:bg-msph-secondary-dark',
+    'scrollbar-thumb:bg-msph-secondary-tint dark:scrollbar-thumb:bg-msph-primary-dark',
+  ]),
+  '.msph-auth__single-select-spinner-list__container--viewport': parseTwdApply([
     'bg-white dark:bg-msph-secondary-dark',
     'md:bg-msph-secondary-dark md:dark:bg-white',
     'scrollbar-thumb:bg-msph-secondary-tint dark:scrollbar-thumb:bg-msph-primary-dark',
