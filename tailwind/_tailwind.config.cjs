@@ -7,6 +7,7 @@ const plugin = require('tailwindcss/plugin');
 const fontsDeclarations = require('./font-declarations.cjs');
 const pageLoaderUi = require('./ui/page-loader.cjs');
 const buttonSpinnerUi = require('./ui/button-spinner.cjs');
+const tooltipUi = require('./ui/tooltip.cjs');
 
 const availableComponents = {
   auth: require('./ui/auth.cjs'),
@@ -17,6 +18,7 @@ const availableComponents = {
   modal: require('./ui/modal.cjs'),
   pageLoader: pageLoaderUi.components,
   buttonSpinner: buttonSpinnerUi.components,
+  tooltip: tooltipUi,
 };
 
 module.exports = ({ cdnBaseUrl, loadableModules }) => ({
@@ -59,6 +61,7 @@ module.exports = ({ cdnBaseUrl, loadableModules }) => ({
       },
     },
   },
+  safelist: [...Object.keys(tooltipUi)],
   plugins: [
     plugin(function ({ addComponents }) {
       addComponents(
