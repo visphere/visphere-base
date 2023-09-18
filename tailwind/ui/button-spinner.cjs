@@ -26,6 +26,9 @@ const components = {
   '.msph-button-spinner__path--device-color': parseTwdApply([
     'stroke-msph-primary-tint dark:stroke-msph-primary-light',
   ]),
+  '.msph-button-spinner__path--modal-color': parseTwdApply([
+    'stroke-msph-primary-dark dark:stroke-msph-primary-light',
+  ]),
 };
 
 const animations = {

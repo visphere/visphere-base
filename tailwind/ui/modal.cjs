@@ -39,6 +39,9 @@ module.exports = {
     'h-[10px] w-[80px]',
     'bg-msph-primary-tint',
   ]),
+  '.msph-modal__window-notch--devastate': parseTwdApply([
+    'bg-msph-warning-primary',
+  ]),
   '.msph-modal__window-x-button': parseTwdApply([
     'absolute',
     'top-[14px] right-[14px]',
@@ -67,7 +70,13 @@ module.exports = {
     'border border-msph-primary-dark dark:border-msph-primary-light',
     'text-msph-primary-dark dark:text-msph-primary-light',
   ]),
-  '.msph-modal__devastate-button': parseTwdApply([]),
+  '.msph-modal__devastate-button': parseTwdApply([
+    'msph_small-button',
+    'bg-transparent',
+    'shadow-none',
+    'bg-msph-warning-primary',
+    'text-msph-primary-light',
+  ]),
   '.msph-captcha-modal__skeleton-loader': parseTwdApply([
     'absolute',
     'w-full h-full',

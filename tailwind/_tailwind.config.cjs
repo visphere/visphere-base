@@ -16,6 +16,7 @@ const availableComponents = {
   landing: require('./ui/landing.cjs'),
   snackbar: require('./ui/snackbar.cjs'),
   modal: require('./ui/modal.cjs'),
+  myAccounts: require('./ui/my-accounts.cjs'),
   pageLoader: pageLoaderUi.components,
   buttonSpinner: buttonSpinnerUi.components,
   tooltip: tooltipUi,
