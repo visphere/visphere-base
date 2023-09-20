@@ -72,9 +72,14 @@ module.exports = {
     'bg-msph-primary-tint',
     'text-msph-primary-light text-sm',
   ]),
-  '.msph-my-account__not-found-paragraph': parseTwdApply([
+  '.msph-my-account__alter-no-content-container': parseTwdApply([
+    'mt-8 mb-12',
+    'flex flex-col justify-center items-center',
+  ]),
+  '.msph-my-account__alter-no-content-paragraph': parseTwdApply([
     'w-full max-w-[400px]',
     'text-center text-sm text-gray-400',
+    'leading-[17px]',
     'font-normal',
   ]),
   '.msph-my-account__not-verified': parseTwdApply([
