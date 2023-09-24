@@ -8,9 +8,8 @@ const { parseTwdApply } = require('../utils.cjs');
 const components = {
   '.msph-page-loader__container': parseTwdApply([
     'flex justify-center items-center',
+    'w-[150px] h-[150px]',
   ]),
-  '.msph-page-loader__container--small': parseTwdApply(['w-[80px] h-[80px]']),
-  '.msph-page-loader__container--large': parseTwdApply(['w-[150px] h-[150px]']),
   '.msph-page-loader__planet': parseTwdApply([
     'relative',
     'w-[100%] h-[100%]',
@@ -20,29 +19,18 @@ const components = {
     'after:block',
     'after:w-[38%] after:h-[38%]',
     'after:rounded-full',
+    'after:bg-msph-tint-500',
     'after:top-[50%] after:left-[50%]',
     'after:-translate-x-[50%] -translate-y-[50%]',
     'after:origin-center',
     'after:animate-page-loader-planet',
   ]),
-  '.msph-page-loader__planet--color-device': parseTwdApply([
-    'after:bg-msph-primary-tint',
-  ]),
-  '.msph-page-loader__planet--color-tint': parseTwdApply([
-    'after:bg-msph-secondary-dark',
-  ]),
   '.msph-page-loader__satellite': parseTwdApply([
     'absolute',
     'rounded-full',
-    'bg-msph-primary-tint',
+    'bg-msph-tint-500',
     'top-[50%] left-[50%]',
     'w-[20%] h-[20%]',
-  ]),
-  '.msph-page-loader__satellite--color-device': parseTwdApply([
-    'bg-msph-primary-tint',
-  ]),
-  '.msph-page-loader__satellite--color-tint': parseTwdApply([
-    'bg-msph-secondary-dark',
   ]),
   '.msph-page-loader__satellite--first': parseTwdApply([
     'animate-page-loader-satellite-1',
@@ -59,19 +47,12 @@ const components = {
     'rounded-full',
     'border-[0.5px]',
     'opacity-20',
-    'bg-transparent',
+    'bg-msph-transparent',
+    'border-msph-dark-700 dark:border-msph-tint-300',
     'top-[50%] left-[50%]',
     '-translate-x-[50%] -translate-y-[50%]',
     'scale-[2]',
     'animate-page-loader-ring',
-  ]),
-  '.msph-page-loader__ring--color-device': parseTwdApply([
-    'border-gray-500 dark:border-gray-300',
-  ]),
-  '.msph-page-loader__ring--color-tint': parseTwdApply([
-    'border-msph-secondary-dark',
-    'opacity-100',
-    'animate-none',
   ]),
 };
 

@@ -5,17 +5,17 @@
  */
 const fontsConfig = [
   {
-    name: 'Plus Jakarta Sans',
-    cdnDir: 'pjs',
+    name: 'FigTree',
+    cdnDir: 'figtree',
     formats: ['woff', 'woff2'],
     styles: [
-      { id: 'extra-ligth', weight: 200, hasItalic: true },
       { id: 'light', weight: 300, hasItalic: true },
       { id: 'regular', weight: 400, hasItalic: true },
       { id: 'medium', weight: 500, hasItalic: true },
       { id: 'semi-bold', weight: 600, hasItalic: true },
       { id: 'bold', weight: 700, hasItalic: true },
       { id: 'extra-bold', weight: 800, hasItalic: true },
+      { id: 'black', weight: 900, hasItalic: true },
     ],
   },
   {
