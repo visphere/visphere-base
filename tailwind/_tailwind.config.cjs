@@ -64,8 +64,8 @@ module.exports = ({ cdnBaseUrl, loadableModules }) => ({
         500: 'rgb(255, 94, 77)',
       },
       'msph-accent': {
-        100: 'rgb(255, 237, 213)',
-        200: 'rgb(255, 231, 229)',
+        1: 'rgb(255, 237, 213)',
+        2: 'rgb(255, 231, 229)',
       },
       'msph-google': {
         bg: 'rgb(255, 255, 255)',
