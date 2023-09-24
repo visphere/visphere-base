@@ -6,55 +6,39 @@
 const { parseTwdApply } = require('../utils.cjs');
 
 const components = {
-  '.msph-button-spinner__container': parseTwdApply([
-    'ms-2',
-    'animate-button-spinner-rotate',
+  '.msph-button-spinner__carousel': parseTwdApply([
+    'relative -left-[9999px]',
+    'w-[8px] h-[8px]',
+    'rounded-[5px]',
+    'bg-msph-light-100',
+    'text-msph-light-100',
+    'shadow-[9984px_0_0_0,9999px_0_0_0,10014px_0_0_0]',
+    'animate-button-spinner-carousel',
   ]),
-  '.msph-button-spinner__container--large': parseTwdApply([
-    'w-[23px] h-[23px]',
+  '.msph-button-spinner__carousel--large': parseTwdApply([
+    'w-[10px] h-[10px]',
+    'text-msph-tint-300 dark:text-msph-tint-400',
   ]),
-  '.msph-button-spinner__container--small': parseTwdApply([
-    'w-[18px] h-[18px]',
-  ]),
-  '.msph-button-spinner__path': parseTwdApply([
-    'stroke-[5px]',
-    'animate-button-spinner-dash',
-  ]),
-  '.msph-button-spinner__path--mono-color': parseTwdApply([
-    'stroke-msph-primary-light',
-  ]),
-  '.msph-button-spinner__path--device-color': parseTwdApply([
-    'stroke-msph-primary-tint dark:stroke-msph-primary-light',
-  ]),
-  '.msph-button-spinner__path--modal-color': parseTwdApply([
-    'stroke-msph-primary-dark dark:stroke-msph-primary-light',
+  '.msph-button-spinner__carousel--modal': parseTwdApply([
+    'text-msph-tint-400 dark:text-msph-tint-200',
   ]),
 };
 
 const animations = {
-  'button-spinner-rotate': 'button-spinner-rotate-keyframes 2s linear infinite',
-  'button-spinner-dash':
-    'button-spinner-dash-keyframes 1.5s ease-in-out infinite',
+  'button-spinner-carousel':
+    'button-spinner-carousel-keyframes 1s infinite ease-in-out',
 };
 
 const keyframes = {
-  'button-spinner-rotate-keyframes': {
-    '100%': {
-      transform: 'rotate(360deg)',
-    },
-  },
-  'button-spinner-dash-keyframes': {
+  'button-spinner-carousel-keyframes': {
     '0%': {
-      'stroke-dasharray': '1, 150',
-      'stroke-dashoffset': '0',
+      'box-shadow': '9984px 0 0 -1px, 9999px 0 0 1px, 10014px 0 0 -1px',
     },
     '50%': {
-      'stroke-dasharray': '90, 150',
-      'stroke-dashoffset': '-35',
+      'box-shadow': '10014px 0 0 -1px, 9984px 0 0 -1px, 9999px 0 0 1px',
     },
     '100%': {
-      'stroke-dasharray': '90, 150',
-      'stroke-dashoffset': '-124',
+      'box-shadow': '9999px 0 0 1px, 10014px 0 0 -1px, 9984px 0 0 -1px',
     },
   },
 };

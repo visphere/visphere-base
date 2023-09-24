@@ -6,13 +6,18 @@
 const { parseTwdApply } = require('../utils.cjs');
 
 module.exports = {
-  '.msph_main-body-container': parseTwdApply([
-    'bg-msph-primary-light dark:bg-msph-primary-dark',
-    'text-msph-primary-dark dark:text-msph-primary-light',
+  '.msph-body-container': parseTwdApply([
+    'bg-msph-light-100 dark:bg-msph-dark-900',
+    'text-msph-dark-900 dark:text-msph-light-100',
   ]),
-  '.msph_regular-button': parseTwdApply([
+  '.msph-safe-container': parseTwdApply([
+    'mx-auto',
+    'max-w-[1260px]',
+    'w-full',
+  ]),
+  '.msph-button': parseTwdApply([
     'rounded-lg',
-    'p-3 py-2.5',
+    'p-2.5 py-2',
     'block',
     'cursor-pointer',
     'flex justify-center items-center',
@@ -20,17 +25,25 @@ module.exports = {
     'disabled:opacity-70',
     'disabled:cursor-not-allowed',
   ]),
-  '.msph_small-button': parseTwdApply([
-    'msph_regular-button',
-    'pt-1.5 pb-2',
+  '.msph-button--primary': parseTwdApply([
+    'w-full',
+    'text-center',
+    'min-h-[40px]',
+    'bg-msph-tint-500',
+    'text-msph-light-100',
+  ]),
+  '.msph-button--secondary': parseTwdApply([
+    'w-full',
+    'text-center',
+    'min-h-[40px]',
+    'bg-msph-tint-300 dark:bg-msph-dark-700',
+    'text-msph-light-100',
+  ]),
+  '.msph-button--small': parseTwdApply([
+    'py-1.5',
     'text-sm',
     'shadow-md',
     'disabled:opacity-70',
     'disabled:cursor-not-allowed',
-  ]),
-  '.msph_ratio-container': parseTwdApply([
-    'mx-auto',
-    'max-w-[1260px]',
-    'w-full',
   ]),
 };

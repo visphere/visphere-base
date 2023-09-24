@@ -16,8 +16,9 @@ module.exports = {
     'overflow-hidden',
   ]),
   '.msph-snackbar__list-element': parseTwdApply([
-    'bg-msph-secondary-dark dark:bg-msph-primary-light',
-    'text-msph-primary-light dark:text-msph-primary-dark',
+    'bg-msph-light-300 dark:bg-msph-dark-900',
+    'border border-msph-tint-200 dark:border-msph-dark-700',
+    'text-msph-tint-400 dark:text-msph-tint-300',
     'relative',
     'rounded-lg',
     'py-3 ps-6 pe-10',
@@ -45,6 +46,6 @@ module.exports = {
   '.msph-snackbar__content': parseTwdApply([
     'text-sm',
     'leading-[17px]',
-    'font-light dark:font-medium',
+    'font-medium',
   ]),
 };

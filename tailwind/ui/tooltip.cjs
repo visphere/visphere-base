@@ -20,8 +20,8 @@ const generateTooltipArrowStyles = theme =>
       ...acc,
       [`.tippy-box[data-theme~="${theme}"][data-placement^="${dir}"] > .tippy-arrow`]:
         parseTwdApply([
-          `before:border-${dirLetter}-msph-secondary-dark before:dark:border-${dirLetter}-gray-600`,
-          `before:md:border-${dirLetter}-gray-600 before:dark:md:border-${dirLetter}-msph-secondary-dark`,
+          `before:border-${dirLetter}-msph-dark-900`,
+          `before:dark:border-${dirLetter}-msph-light-100`,
         ]),
     };
   }, {});
@@ -40,19 +40,20 @@ module.exports = {
   '.tippy-box': parseTwdApply([
     'relative',
     'rounded-md',
-    'pt-1.5 pb-2 px-3',
+    'text-center',
+    'pt-1.5 pb-2 px-2',
+    'leading-[15px]',
     'shadow-lg',
     'text-sm',
   ]),
-  '.tippy-box[data-theme~="msph-viewport"]': parseTwdApply([
-    'bg-msph-secondary-dark dark:bg-gray-600',
-    'md:bg-gray-600 dark:md:bg-msph-secondary-dark',
-    'text-msph-primary-light',
+  '.tippy-box[data-theme~="msph-auth"]': parseTwdApply([
+    'bg-msph-dark-900 dark:bg-msph-light-100',
+    'text-msph-light-100 dark:text-msph-dark-900',
   ]),
   '.tippy-arrow': parseTwdApply([
     'w-[16px] h-[16px]',
     'before:absolute',
-    'before:border-transparent',
+    'before:border-msph-transparent',
   ]),
   '.tippy-box[data-placement^="top"] > .tippy-arrow': parseTwdApply([
     'bottom-0',
@@ -78,7 +79,7 @@ module.exports = {
     'before:border-r-8 before:border-t-8 before:border-b-8',
     'before:origin-[center_right]',
   ]),
-  ...generateTooltipArrowStyles('msph-viewport'),
+  ...generateTooltipArrowStyles('msph-auth'),
   ...generateTooltipAnimationStyles('scale-subtle'),
   '.tippy-box[data-animation="scale-subtle"][data-state="hidden"]':
     parseTwdApply(['scale-[0.8]', 'opacity-0']),

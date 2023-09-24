@@ -27,30 +27,64 @@ module.exports = ({ cdnBaseUrl, loadableModules }) => ({
   content: ['./**/*.{js,cjs}'],
   theme: {
     fontFace: fontsDeclarations(cdnBaseUrl),
+    colors: {
+      'msph-black': 'rgb(0, 0, 0)',
+      'msph-transparent': 'rgba(0, 0, 0, 0)',
+      'msph-gray': {
+        950: 'rgb(2, 6, 23)',
+        900: 'rgb(15, 23, 42)',
+        600: 'rgb(71, 85, 105)',
+        300: 'rgb(203, 213, 225)',
+      },
+      'msph-dark': {
+        900: 'rgb(0, 16, 20)',
+        800: 'rgb(15, 36, 41)',
+        700: 'rgb(65, 73, 75)',
+      },
+      'msph-light': {
+        100: 'rgb(253, 249, 247)',
+        200: 'rgb(255, 249, 244)',
+        300: 'rgb(255, 250, 247)',
+      },
+      'msph-red': {
+        100: 'rgb(192, 91, 91)',
+        200: 'rgb(189, 57, 57)',
+      },
+      'msph-orange': {
+        100: 'rgb(219, 164, 45)',
+      },
+      'msph-green': {
+        100: 'rgb(86, 182, 86)',
+      },
+      'msph-tint': {
+        100: 'rgb(224, 224, 224)',
+        200: 'rgb(209, 209, 209)',
+        300: 'rgb(153, 153, 153)',
+        400: 'rgb(131, 131, 131)',
+        500: 'rgb(255, 94, 77)',
+      },
+      'msph-accent': {
+        100: 'rgb(255, 237, 213)',
+        200: 'rgb(255, 231, 229)',
+      },
+      'msph-google': {
+        bg: 'rgb(255, 255, 255)',
+        fg: 'rgb(124, 124, 124)',
+      },
+      'msph-facebook': {
+        bg: 'rgb(59, 89, 152)',
+        fg: 'rgb(255, 255, 255)',
+      },
+      'msph-x': {
+        bg: 'rgb(0, 0, 0)',
+        fg: 'rgb(255, 255, 255)',
+      },
+    },
     extend: {
       fontFamily: {
-        sans: ['Plus Jakarta Sans', 'Arial', 'sans-serif'],
+        sans: ['FigTree', 'Arial', 'sans-serif'],
         logo: ['Maven Pro', 'Arial', 'sans-serif'],
         mono: ['Retro Gaming', 'monospaced'],
-      },
-      colors: {
-        'msph-primary-light': '#fffcfc',
-        'msph-primary-tint': '#ff5e4d',
-        'msph-secondary-tint': '#ffe7e5',
-        'msph-primary-accent': '#ffedd5',
-        'msph-primary-dark': '#002731',
-        'msph-secondary-dark': '#003544',
-        'msph-google-background': '#ffffff',
-        'msph-google-foreground': '#7c7c7c',
-        'msph-facebook-background': '#3b5998',
-        'msph-facebook-foreground': '#ffffff',
-        'msph-x-background': '#000000',
-        'msph-x-foreground': '#ffffff',
-        'msph-danger-primary': '#bd3939',
-        'msph-danger-secondary': '#ffa5a5',
-        'msph-warning-primary': '#dba42d',
-        'msph-success-primary': '#56b656',
-        'msph-success-secondary': '#abebab',
       },
       animation: {
         ...pageLoaderUi.animations,
