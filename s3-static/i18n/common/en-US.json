@@ -1,0 +1,17 @@
+{
+  "msph.common.theme": {
+    "lightTheme": "Light",
+    "darkTheme": "Dark",
+    "deviceTheme": "Device"
+  },
+  "msph.common.utils": {
+    "notFound": "Not found",
+    "continue": "Continue",
+    "edit": "Edit",
+    "backwardMove": "Return",
+    "unknowError": "Ooops. Something went wrong. Try again later.",
+    "emailMessageNotReceived": "Email message not received?",
+    "resendMessageButton": "Resend message",
+    "responseTime": "Response time"
+  }
+}

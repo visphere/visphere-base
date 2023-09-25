@@ -1,0 +1,178 @@
+{
+  "msph.webClient.pageTitle": {
+    "clientEntryPointPage": "Panel główny",
+    "authLoginPage": "Logowanie",
+    "authRegisterPage": "Rejestracja",
+    "authResetPasswordPage": "Reset hasła",
+    "authChangePasswordPage": "Zmiana hasła",
+    "authActivateAccountPage": "Aktywuj konto",
+    "authMyAccountsPage": "Moje konta",
+    "notFoundPage": "404"
+  },
+  "msph.webClient.registerPage": {
+    "formHeader": "Rejestracja",
+    "formDescription": "Stwórz nowe konto w aplikacji wypełniając niezbędne pola w poniższym formularzu.",
+    "haveAccount": "Masz już konto?",
+    "loginOnAccount": "Zaloguj",
+    "formFields": {
+      "username": {
+        "value": "Nazwa użytkownika",
+        "errors": {
+          "required": "Nazwa użytkownika jest wymagana.",
+          "minlength": "Nazwa użytkownika musi zawierać co najmniej 3 znaki.",
+          "pattern": "Nazwa użytkownika może zawierać jedynie małe litery, cyfry oraz znaki \"-\" oraz \"_\".",
+          "exist": "Nazwa użytkownika jest już zajęta."
+        }
+      },
+      "emailAddress": {
+        "value": "Adres email",
+        "errors": {
+          "required": "Adres email jest wymagany.",
+          "email": "Niepoprawna struktura adresu email.",
+          "exist": "Konto z podanym adresem email istnieje już w systemie."
+        }
+      },
+      "password": {
+        "value": "Hasło",
+        "info": "Hasło musi mieć co najmniej 8 znaków, zawierać jedną wielką i małą literę, jedną cyfrę oraz jeden znak specjalny.",
+        "errors": {
+          "required": "Hasło jest wymagane.",
+          "pattern": "Hasło musi mieć co najmniej 8 znaków, zawierać jedną wielką i małą literę, jedną cyfrę oraz jeden znak specjalny."
+        }
+      },
+      "confirmedPassword": {
+        "value": "Powtórz hasło",
+        "errors": {
+          "required": "Powtórzone hasło jest wymagane.",
+          "mismatch": "Powtórzone hasło musi być takie same jak wprowadzone hasło."
+        }
+      },
+      "birthDate": {
+        "value": "Data urodzenia",
+        "placeholders": {
+          "month": "Miesiąc",
+          "day": "Dzień",
+          "year": "Rok"
+        },
+        "errors": {
+          "required": "Data urodzenia jest wymagana.",
+          "notAll": "Data urodzenia musi zawierać miesiąc, dzień i rok.",
+          "invalid": "Data urodzenia jest nieprawidłowa.",
+          "inappropriateAge": "Wymagane jest ukończenie 13 lat aby założyć konto w aplikacji."
+        }
+      },
+      "firstName": {
+        "value": "Imię",
+        "errors": {
+          "required": "Imię jest wymagane.",
+          "minlength": "Imię musi zawierać co najmniej 2 znaki."
+        }
+      },
+      "lastName": {
+        "value": "Nazwisko",
+        "errors": {
+          "required": "Nazwisko jest wymagane.",
+          "minlength": "Nazwisko musi zawierać co najmniej 2 znaki."
+        }
+      },
+      "secondEmailAddress": {
+        "value": "Pomocniczy adres email",
+        "info": "Wprowdzony pomocniczy adres email służy jedynie do odzyskiwania konta.",
+        "errors": {
+          "email": "Niepoprawna struktura pomocniczego adresu email.",
+          "exact": "Pomocniczy adres email nie może być taki sam jak główny adres email."
+        }
+      },
+      "allowNotifs": {
+        "value": "Chcę otrzymywać powiadomienia email o nowych aktualizacjach, zmianach i ofertach specjalnych. Możesz zrezygnować w każdej chwili."
+      },
+      "agreeTerms": {
+        "value": "Akceptuję {termsUrl} oraz {privacyPolicyUrl}",
+        "terms": "warunki",
+        "privacyPolicy": "politykę prywatności",
+        "errors": {
+          "required": "Musisz zaakceptować warunki świadczenia usług aby kontynuować."
+        }
+      },
+      "enabledMfa": {
+        "value": "Chcę uruchomić uwierzytelnianie wieloetapowe. Możesz zrezygnować w każdej chwili."
+      }
+    },
+    "selectDiselectAll": "Zaznacz/odznacz wszystkie.",
+    "submitFormButton": "Stwórz nowe konto"
+  },
+  "msph.webClient.resetPasswordPage": {
+    "formHeader": "Reset hasła",
+    "formDescription": "W celu zresetowania hasła wprowadź w swoją nazwę użytkownika lub adres email. Na skrzynce skojarzonej z kontem oczekuj dalszych wskazówek.",
+    "formFields": {
+      "usernameOrEmailAddress": {
+        "value": "Nazwa użytkownika lub adres email",
+        "errors": {
+          "required": "Nazwa użytkownika lub adres email jest wymagana/ny.",
+          "pattern": "Nazwa użytkownika lub adres email zawiera niedozwolone znaki."
+        }
+      },
+      "token": {
+        "value": "Token weryfikujący",
+        "errors": {
+          "required": "Token weryfikujący jest wymagany.",
+          "exactLength": "Token weryfikujący musi składać się z 10 znaków.",
+          "pattern": "Token weryfikujący zawiera niedozwolone znaki."
+        }
+      }
+    },
+    "successfullSendEmailMessage": "Jeśli konto z podanym loginem istnieje, na Twoją skrzynkę pocztową została wysłana wiadomość weryfikacyjna."
+  },
+  "msph.webClient.changePasswordPage": {
+    "formHeader": "Ustaw nowe hasło",
+    "formDescription": "W celu ustawienia nowego hasła wprowadź nowe hasło oraz potwierdzenie nowego hasło.",
+    "formFields": {
+      "newPassword": {
+        "value": "Nowe hasło",
+        "errors": {
+          "required": "Nowe hasło jest wymagane.",
+          "pattern": "Nowe hasło musi mieć co najmniej 8 znaków, zawierać jedną wielką i małą literę, jedną cyfrę oraz jeden znak specjalny."
+        }
+      },
+      "confirmedNewPassword": {
+        "value": "Powtórz nowe hasło",
+        "errors": {
+          "required": "Powtórzone nowe hasło jest wymagane.",
+          "mismatch": "Powtórzone nowe hasło musi być takie same jak nowe hasło."
+        }
+      }
+    },
+    "successfullySetNewPassword": "Twoje stare hasło zostało pomyślnie zmienione na nowe. Od teraz możesz zalogować się z jego pomocą na konto.",
+    "returnToLoginForm": "Powrót do formularza logowania"
+  },
+  "msph.webClient.activateAccountPage": {
+    "formHeader": "Aktywacja konta",
+    "formDescription": "Aby aktywować konto, podaj w poniższym polu token otrzymany w wiadomości email. Nieaktywowane konto po czasie 48 godzin zostanie bezpowrotnie usunięte.",
+    "formFields": {
+      "token": {
+        "value": "Token weryfikujący",
+        "errors": {
+          "required": "Token weryfikujący jest wymagany.",
+          "exactLength": "Token weryfikujący musi składać się z 10 znaków.",
+          "pattern": "Token weryfikujący zawiera niedozwolone znaki."
+        }
+      }
+    },
+    "activateAccountButton": "Aktywuj konto",
+    "successfullyActivatedMessage": "Twoje konto zostało pomyślnie aktywowane. Możesz się teraz na nie zalogować poprzez poniższy link.",
+    "moveToLoginPage": "Przejdź do logowania"
+  },
+  "msph.webClient.snackbar": {
+    "declineCaptchaResetPassword": "Aby zresetować hasło, musisz wypełnić polę Captcha."
+  },
+  "msph.webClient.modal": {
+    "captchaHeader": "Weryfikacja Captcha",
+    "captchaResetPassword": "Przed wysłaniem wiadomości email w celu zresetowania hasła, wypełnij poniższe pole Captcha, aby udowodnić że nie jesteś robotem.",
+    "captchaSignup": "Przed stworzeniem nowego konta do aplikacji, wypełnij poniższe pole Captcha, aby udowodnić że nie jesteś robotem.",
+    "captchaResendEmailMessage": "Przed ponownym wysłaniem wiadomości email, wypełnij poniższe pole Captcha, aby udowodnić że nie jesteś robotem.",
+    "button": {
+      "close": "Zamknij",
+      "continue": "Kontynuuj"
+    }
+  }
+}

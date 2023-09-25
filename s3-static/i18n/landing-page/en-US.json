@@ -1,0 +1,42 @@
+{
+  "msph.landingPage.seo": {
+    "rootPage": {
+      "title": "Chat smarter, chat faster, stay ahead!"
+    },
+    "aboutPage": {
+      "title": "About"
+    },
+    "downloadPage": {
+      "title": "Download"
+    },
+    "brandPage": {
+      "title": "Brand"
+    },
+    "licensesPage": {
+      "title": "Licenses"
+    },
+    "privacyPolicyPage": {
+      "title": "Privacy policy"
+    },
+    "termsAndConditionsPage": {
+      "title": "Terms and conditions"
+    },
+    "thirdPartySoftwarePage": {
+      "title": "Third-party software"
+    },
+    "tutorialPage": {
+      "title": "Tutorial"
+    },
+    "statusPage": {
+      "title": "Status"
+    },
+    "notFoundPage": {
+      "title": "404"
+    }
+  },
+  "msph.landingPage.lostSection": {
+    "areYouLost": "Are you lost and just want to start using the app?",
+    "downloadApp": "Download",
+    "openAppInBrowser": "Open in browser"
+  }
+}

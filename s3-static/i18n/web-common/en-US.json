@@ -1,0 +1,40 @@
+{
+  "msph.webCommon.metaProperty": {
+    "description": "Make contact and communicate in real time with MoonSphere online chat system.",
+    "keywords": "chat, web client, send messages, online, moonsphere"
+  },
+  "msph.webCommon.footer": {
+    "description": "MoonSphere is an instant messenger system allows you to chat, create rooms and stay connected with all who you know.",
+    "openAppButton": "Open application",
+    "headers": {
+      "application": {
+        "name": "System",
+        "links": {
+          "about": "About",
+          "download": "Download",
+          "brand": "Brand",
+          "tutorial": "Tutorial",
+          "status": "Status"
+        }
+      },
+      "start": {
+        "name": "Start",
+        "links": {
+          "login": "Sign in",
+          "register": "Sign up",
+          "resetPassword": "Reset password",
+          "myAccounts": "My accounts"
+        }
+      },
+      "policies": {
+        "name": "Policies",
+        "links": {
+          "termsAndConditions": "Terms and conditions",
+          "privacyPolicy": "Privacy policy",
+          "thirdPartySoftware": "Third-party software",
+          "licenses": "Licenses"
+        }
+      }
+    }
+  }
+}

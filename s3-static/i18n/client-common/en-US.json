@@ -1,0 +1,81 @@
+{
+  "msph.clientCommon.auth": {
+    "forgotPassword": "You forgot your password?",
+    "resetPassword": "Forgot password",
+    "or": "or",
+    "fieldsRequired": "fields required",
+    "capsLockWarning": "<strong>Warning!</strong> CapsLock key is enabled."
+  },
+  "msph.clientCommon.loginPage": {
+    "formHeader": "Welcome again!",
+    "formDescription": "Log into your account in application using the form below or select alternatives.",
+    "formFields": {
+      "usernameOrEmailAddress": {
+        "value": "Username or email address",
+        "errors": {
+          "required": "Username or email address is required."
+        }
+      },
+      "password": {
+        "value": "Password",
+        "errors": {
+          "required": "Password is required."
+        }
+      },
+      "rememberAccount": {
+        "value": "Remember this account",
+        "info": "If this checkbox is selected, your account will be saved in on My Account page."
+      }
+    },
+    "sendLoginForm": "Log in",
+    "qrHeader": "QR Code",
+    "qrDescription": "Log into the application using the QR code scanned in the mobile app.",
+    "oauth2Login": "Continue with {oauth2Provider}",
+    "dontHaveAccount": "You dont't have an account yet?",
+    "createAccount": "Create an account",
+    "gotoMyAccounts": "Go to my accounts"
+  },
+  "msph.clientCommon.myAccountsPage": {
+    "formHeader": "My accounts",
+    "formDescription": "Below you will find all your remembered accounts for the application. You can delete any remembered account from memory. To log into a remembered account you still need a password.",
+    "removeAllAccountsButton": "Remove all accounts",
+    "addNewAccountButton": "Add new account",
+    "returnToLoginPage": "Return to login page",
+    "modals": {
+      "add": {
+        "header": "Add new account",
+        "formFields": {
+          "usernameOrEmailAddress": {
+            "value": "Username or email address",
+            "errors": {
+              "required": "Username or email address is required.",
+              "exist": "Username or email address is already saved."
+            }
+          }
+        },
+        "submitButton": "Add"
+      },
+      "remove": {
+        "header": "Removing saved account",
+        "paragraph": "Are you sure to delete saved account with login <strong>{accountLogin}</strong>? Operation cannot be undone.",
+        "submitButton": "Remove"
+      },
+      "removeAll": {
+        "header": "Removing all saved accounts",
+        "paragraph": "Are you sure to delete all <strong>{accountsCount}</strong> saved accounts? Operation cannot be undone.",
+        "submitButton": "Remove all"
+      },
+      "login": {
+        "proceedNotVerified": "Proceed log in on unknow account",
+        "proceedVerified": "Proceed log in on verified account"
+      }
+    },
+    "noAccountsMessage": "It looks like you haven't added any accounts yet. Log in or add an account manually.",
+    "removeAccountButton": "Remove",
+    "snackbars": {
+      "addNewMySavedAccount": "Successfully added new account to your saved accounts list.",
+      "removeMySavedAccount": "Successfully removed account from yours saved accounts.",
+      "removeAllMySavedAccounts": "Successfully removed all yours saved accounts."
+    }
+  }
+}

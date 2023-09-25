@@ -1,0 +1,42 @@
+{
+  "msph.landingPage.seo": {
+    "rootPage": {
+      "title": "Czatuj mądrzej, czatuj szybciej, bądź na bieżąco!"
+    },
+    "aboutPage": {
+      "title": "O systemie"
+    },
+    "downloadPage": {
+      "title": "Pobieranie"
+    },
+    "brandPage": {
+      "title": "Marka"
+    },
+    "licensesPage": {
+      "title": "Licencje"
+    },
+    "privacyPolicyPage": {
+      "title": "Polityka prywatności"
+    },
+    "termsAndConditionsPage": {
+      "title": "Warunki"
+    },
+    "thirdPartySoftwarePage": {
+      "title": "Oprogramowanie firm trzecich"
+    },
+    "tutorialPage": {
+      "title": "Poradnik"
+    },
+    "statusPage": {
+      "title": "Status"
+    },
+    "notFoundPage": {
+      "title": "404"
+    }
+  },
+  "msph.landingPage.lostSection": {
+    "areYouLost": "Zgubiłeś się i chcesz jedynie zacząć korzystać aplikacji?",
+    "downloadApp": "Pobierz",
+    "openAppInBrowser": "Otwórz w przeglądarce"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "msph.clientCommon.auth": {
+    "forgotPassword": "Zapomniałeś hasła?",
+    "resetPassword": "Resetuj hasło",
+    "or": "lub",
+    "fieldsRequired": "pola wymagane",
+    "capsLockWarning": "<strong>Uwaga!</strong> Klawisz CapsLock jest uruchomiony."
+  },
+  "msph.clientCommon.loginPage": {
+    "formHeader": "Logowanie",
+    "formDescription": "Zaloguj się na swoje konto przy użyciu poniższego formularza lub wybierz jedną z alternatyw.",
+    "formFields": {
+      "usernameOrEmailAddress": {
+        "value": "Nazwa użytkownika lub adres email",
+        "errors": {
+          "required": "Nazwa użytkownika lub adres email jest wymagana/ny."
+        }
+      },
+      "password": {
+        "value": "Hasło",
+        "errors": {
+          "required": "Hasło jest wymagane."
+        }
+      },
+      "rememberAccount": {
+        "value": "Zapamiętaj to konto",
+        "info": "Jeśli pole jest zaznaczone, twoje konto zapisze się na stronie Moje konta."
+      }
+    },
+    "sendLoginForm": "Zaloguj",
+    "qrHeader": "Kod QR",
+    "qrDescription": "Zaloguj się wykorzystując kod QR skanowany przez aplikację mobilną.",
+    "oauth2Login": "Zaloguj przez {oauth2Provider}",
+    "dontHaveAccount": "Nie masz jeszcze konta?",
+    "createAccount": "Załóż konto",
+    "gotoMyAccounts": "Przejdź do moich kont"
+  },
+  "msph.clientCommon.myAccountsPage": {
+    "formHeader": "Moje konta",
+    "formDescription": "Poniżej znajdziesz wszystkie zapamiętane przez Ciebie konta do aplikacji. Każde zapamiętane konto możesz usunąć z pamięci. Aby zalogować się do zapamiętanego konta w dalszym ciągu potrzebujesz hasła.",
+    "removeAllAccountsButton": "Usuń wszystkie konta",
+    "addNewAccountButton": "Dodaj nowe konto",
+    "returnToLoginPage": "Powrót do strony logowania",
+    "modals": {
+      "add": {
+        "header": "Dodaj nowe konto",
+        "formFields": {
+          "usernameOrEmailAddress": {
+            "value": "Nazwa użytkownika lub adres email",
+            "errors": {
+              "required": "Nazwa użytkownika lub adres email jest wymagana/ny.",
+              "exist": "Nazwa użytkownika lub adres email jest już zapisany."
+            }
+          }
+        },
+        "submitButton": "Dodaj"
+      },
+      "remove": {
+        "header": "Usuwanie zapisanego konta",
+        "paragraph": "Czy jesteś pewny usunięcia konta <strong>{accountLogin}</strong> z listy zapisanych kont? Operacji nie można cofnąć.",
+        "submitButton": "Usuń"
+      },
+      "removeAll": {
+        "header": "Usuwanie wszystkich zapisanych kont",
+        "paragraph": "Czy jesteś pewny usunięcia wszystkich <strong>{accountsCount}</strong> zapisanych kont? Operacji nie można cofnąć.",
+        "submitButton": "Usuń wszystkie"
+      },
+      "login": {
+        "proceedNotVerified": "Kontynuuj logowanie na niezweryfikowanym koncie",
+        "proceedVerified": "Kontynuuj logowanie na zweyryfikowanym koncie"
+      }
+    },
+    "noAccountsMessage": "Wygląda na to że jeszcze nie dodałeś żadnego konta. Zaloguj się lub dodaj konto ręcznie.",
+    "removeAccountButton": "Usuń konto",
+    "snackbars": {
+      "addNewMySavedAccount": "Pomyślnie dodano nowe konto do listy Twoich zapisanych kont.",
+      "removeMySavedAccount": "Pomyślnie usunięto wybrane konto z Twoich zapisanych kont.",
+      "removeAllMySavedAccounts": "Pomyślnie usunięto wszystkie Twoje zapisane konta."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "msph.common.theme": {
+    "lightTheme": "Jasny",
+    "darkTheme": "Ciemny",
+    "deviceTheme": "Urządzenie"
+  },
+  "msph.common.utils": {
+    "notFound": "Nie znaleziono",
+    "continue": "Kontynuuj",
+    "edit": "Edytuj",
+    "backwardMove": "Powrót",
+    "unknowError": "Oj, coś poszło nie tak. Spróbuj ponownie później.",
+    "emailMessageNotReceived": "Wiadomość email nie dotarła?",
+    "resendMessageButton": "Wyślij ponownie",
+    "responseTime": "Czas odpowiedzi"
+  }
+}

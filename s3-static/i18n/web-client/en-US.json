@@ -1,0 +1,180 @@
+{
+  "msph.webClient.pageTitle": {
+    "clientEntryPointPage": "Dashboard",
+    "authLoginPage": "Sign in",
+    "authRegisterPage": "Sign up",
+    "authResetPasswordPage": "Reset password",
+    "authChangePasswordPage": "Change password",
+    "authActivateAccountPage": "Activate account",
+    "authMyAccountsPage": "My accounts",
+    "notFoundPage": "404"
+  },
+  "msph.webClient.registerPage": {
+    "formHeader": "Create an account",
+    "formDescription": "Create an account in application using the form below.",
+    "haveAccount": "Already have an account?",
+    "loginOnAccount": "Log in",
+    "formFields": {
+      "username": {
+        "value": "Username",
+        "errors": {
+          "required": "Username is required.",
+          "minlength": "Username must have at least 3 characters.",
+          "pattern": "Username can including only small letters, digits and followind characters: '-' and '_'.",
+          "exist": "Username is already taken."
+        }
+      },
+      "emailAddress": {
+        "value": "Email address",
+        "errors": {
+          "required": "Email address is required.",
+          "email": "Inappropriate email address structure.",
+          "exist": "Account with following email account already exist."
+        }
+      },
+      "password": {
+        "value": "Password",
+        "info": "Password must have at least 8 characters, one big and small letter, one digit and one special character.",
+        "errors": {
+          "required": "Password is required.",
+          "pattern": "Password must have at least 8 characters, one big and small letter, one digit and one special character."
+        }
+      },
+      "confirmedPassword": {
+        "value": "Confirmed password",
+        "errors": {
+          "required": "Confirmed password is required.",
+          "mismatch": "Confirmed password and provided password must be the same."
+        }
+      },
+      "birthDate": {
+        "value": "Birth date",
+        "placeholders": {
+          "month": "Month",
+          "day": "Day",
+          "year": "Year"
+        },
+        "errors": {
+          "required": "Birth date is required.",
+          "notAll": "Birth date must be filled with month, day and year.",
+          "invalid": "Birth date is invalid.",
+          "inappropriateAge": "It is required to be at least 13 years old to create an account."
+        }
+      },
+      "firstName": {
+        "value": "First name",
+        "errors": {
+          "required": "First name is required.",
+          "minlength": "First name must have at least 2 characters."
+        }
+      },
+      "lastName": {
+        "value": "Last name",
+        "errors": {
+          "required": "Last name is required.",
+          "minlength": "Last name must have at least 2 characters."
+        }
+      },
+      "secondEmailAddress": {
+        "value": "Second email address",
+        "info": "Provided second email address is only for account recovery.",
+        "errors": {
+          "email": "Inappropriate second email address structure.",
+          "exact": "Second email address must be different than primary email address."
+        }
+      },
+      "allowNotifs": {
+        "value": "I want to send email notifications about new updates, changes and special offers. You can decline at any time."
+      },
+      "agreeTerms": {
+        "value": "I accept {termsUrl} and {privacyPolicyUrl}",
+        "terms": "terms and conditions",
+        "privacyPolicy": "privacy policy",
+        "errors": {
+          "required": "You need to agree to our terms of service to continue."
+        }
+      },
+      "enabledMfa": {
+        "value": "I want to enable multi factor authentication. You can decline at any time."
+      }
+    },
+    "selectDiselectAll": "Select/diselect all.",
+    "confirmedPassword": "Confirmed password",
+    "submitFormButton": "Create new account"
+  },
+  "msph.webClient.resetPasswordPage": {
+    "formHeader": "Reset password",
+    "formDescription": "In case reset password, pass your username or email address. On the mailbox associated with the account, expect further instructions.",
+    "formFields": {
+      "usernameOrEmailAddress": {
+        "value": "Username or email address",
+        "errors": {
+          "required": "Username or email address is required.",
+          "pattern": "Username or email address contains illegal characters."
+        }
+      },
+      "token": {
+        "value": "Verification token",
+        "errors": {
+          "required": "Verification token is required.",
+          "exactLength": "Verification token must have 10 characters.",
+          "pattern": "Verification token contains illegal characters."
+        }
+      }
+    },
+    "successfullSendEmailMessage": "If account with provided login exist, we send verification email on your mailbox."
+  },
+  "msph.webClient.changePasswordPage": {
+    "formHeader": "Set new password",
+    "formDescription": "In case set new password, pass your new password and password confirmation data.",
+    "formFields": {
+      "newPassword": {
+        "value": "New password",
+        "errors": {
+          "required": "New password is required.",
+          "pattern": "New password must have at least 8 characters, one big and small letter, one digit and one special character."
+        }
+      },
+      "confirmedNewPassword": {
+        "value": "Confirmed new password",
+        "errors": {
+          "required": "Confirmed new password is required.",
+          "mismatch": "Confirmed new password and new password must be the same."
+        }
+      }
+    },
+    "successfullySetNewPassword": "Your old password was successfully changed to new one. From this moment, you can log into your account with new credentials.",
+    "returnToLoginForm": "Return to login form"
+  },
+  "msph.webClient.activateAccountPage": {
+    "formHeader": "Activate account",
+    "formDescription": "To activate your account, enter the token your received the email int the field below. An unactivated account will be deleted after 48 hours.",
+    "formFields": {
+      "token": {
+        "value": "Verification token",
+        "errors": {
+          "required": "Verification token is required.",
+          "exactLength": "Verification token must have 10 characters.",
+          "pattern": "Verification token contains illegal characters."
+        }
+      }
+    },
+    "activateAccountButton": "Activate accout",
+    "successfullyActivatedMessage": "Your account was successfully activated. Now, you can log in your account using the button link below.",
+    "moveToLoginPage": "Move to login"
+  },
+  "msph.webClient.snackbar": {
+    "declineCaptchaResetPassword": "To reset your password, you need to fill in the Captcha field."
+  },
+  "msph.webClient.modal": {
+    "captchaHeader": "Verify Captcha",
+    "captchaResetPassword": "Before sending an email message to reset your password, fill in the captcha field below to prove you are not a robot.",
+    "captchaSignup": "Before create an application account, fill in the captcha field below to prove you are not a robot.",
+    "captchaResendEmailMessage": "Before re-sending an email message, fill in the captcha field below to prove you are not a robot.",
+    "button": {
+      "close": "Close",
+      "continue": "Continue",
+      "resetPassword": "Reset password"
+    }
+  }
+}
