@@ -1,4 +1,4 @@
-All used 3rd party libraries count: **1511**<br>
+All used 3rd party libraries count: **1504**<br>
 | Library                                                                                                                        | License                   |
 | ------------------------------------------------------------------------------------------------------------------------------ | ------------------------- |
 | [@aashutoshrathi/word-wrap](https://github.com/aashutoshrathi/word-wrap)                                                       | MIT                       |
@@ -241,6 +241,7 @@ All used 3rd party libraries count: **1511**<br>
 | [@parcel/watcher](https://github.com/parcel-bundler/watcher)                                                                   | MIT                       |
 | [@pkgjs/parseargs](https://github.com/pkgjs/parseargs)                                                                         | MIT                       |
 | [@pkgr/utils](https://github.com/un-ts/pkgr)                                                                                   | MIT                       |
+| [@popperjs/core](https://github.com/popperjs/popper-core)                                                                      | MIT                       |
 | [@schematics/angular](https://github.com/angular/angular-cli)                                                                  | MIT                       |
 | [@sideway/address](https://github.com/sideway/address)                                                                         | BSD-3-Clause              |
 | [@sideway/formula](https://github.com/sideway/formula)                                                                         | BSD-3-Clause              |
@@ -416,8 +417,6 @@ All used 3rd party libraries count: **1511**<br>
 | [array.prototype.tosorted](https://github.com/es-shims/Array.prototype.toSorted)                                               | MIT                       |
 | [arraybuffer.prototype.slice](https://github.com/es-shims/ArrayBuffer.prototype.slice)                                         | MIT                       |
 | [asap](https://github.com/kriskowal/asap)                                                                                      | MIT                       |
-| [asn1](https://github.com/joyent/node-asn1)                                                                                    | MIT                       |
-| [assert-plus](https://github.com/mcavage/node-assert-plus)                                                                     | MIT                       |
 | [astral-regex](https://github.com/kevva/astral-regex)                                                                          | MIT                       |
 | [astro](https://github.com/withastro/astro)                                                                                    | MIT                       |
 | [astro-eslint-parser](https://github.com/ota-meshi/astro-eslint-parser)                                                        | MIT                       |
@@ -441,7 +440,6 @@ All used 3rd party libraries count: **1511**<br>
 | [base64-js](https://github.com/beatgammit/base64-js)                                                                           | MIT                       |
 | [base64id](https://github.com/faeldt/base64id)                                                                                 | MIT                       |
 | [batch](https://github.com/visionmedia/batch)                                                                                  | MIT                       |
-| [bcrypt-pbkdf](https://github.com/joyent/node-bcrypt-pbkdf)                                                                    | BSD-3-Clause              |
 | [big-integer](https://github.com/peterolson/BigInteger.js)                                                                     | Unlicense                 |
 | [big.js](https://github.com/MikeMcl/big.js)                                                                                    | MIT                       |
 | [binary-extensions](https://github.com/sindresorhus/binary-extensions)                                                         | MIT                       |
@@ -562,7 +560,6 @@ All used 3rd party libraries count: **1511**<br>
 | [csstype](https://github.com/frenic/csstype)                                                                                   | MIT                       |
 | [custom-event](https://github.com/webmodules/custom-event)                                                                     | MIT                       |
 | [cyclist](https://github.com/mafintosh/cyclist)                                                                                | MIT                       |
-| [dashdash](https://github.com/trentm/node-dashdash)                                                                            | MIT                       |
 | [data-uri-to-buffer](https://github.com/TooTallNate/node-data-uri-to-buffer)                                                   | MIT                       |
 | [date-fns](https://github.com/date-fns/date-fns)                                                                               | MIT                       |
 | [date-format](https://github.com/nomiddlename/date-format)                                                                     | MIT                       |
@@ -613,7 +610,6 @@ All used 3rd party libraries count: **1511**<br>
 | [duplexer](https://github.com/Raynos/duplexer)                                                                                 | MIT                       |
 | [duplexify](https://github.com/mafintosh/duplexify)                                                                            | MIT                       |
 | [eastasianwidth](https://github.com/komagata/eastasianwidth)                                                                   | MIT                       |
-| [ecc-jsbn](https://github.com/quartzjer/ecc-jsbn)                                                                              | MIT                       |
 | [ee-first](https://github.com/jonathanong/ee-first)                                                                            | MIT                       |
 | [ejs](https://github.com/mde/ejs)                                                                                              | Apache-2.0                |
 | [electron](https://github.com/electron/electron)                                                                               | MIT                       |
@@ -730,7 +726,6 @@ All used 3rd party libraries count: **1511**<br>
 | [get-port](https://github.com/sindresorhus/get-port)                                                                           | MIT                       |
 | [get-stream](https://github.com/sindresorhus/get-stream)                                                                       | MIT                       |
 | [get-symbol-description](https://github.com/inspect-js/get-symbol-description)                                                 | MIT                       |
-| [getpass](https://github.com/arekinath/node-getpass)                                                                           | MIT                       |
 | [github-slugger](https://github.com/Flet/github-slugger)                                                                       | ISC                       |
 | [glob](https://github.com/isaacs/node-glob)                                                                                    | ISC                       |
 | [glob-parent](https://github.com/gulpjs/glob-parent)                                                                           | ISC                       |
@@ -875,7 +870,6 @@ All used 3rd party libraries count: **1511**<br>
 | [joi](https://github.com/hapijs/joi)                                                                                           | BSD-3-Clause              |
 | [js-tokens](https://github.com/lydell/js-tokens)                                                                               | MIT                       |
 | [js-yaml](https://github.com/nodeca/js-yaml)                                                                                   | MIT                       |
-| [jsbn](https://github.com/andyperlitch/jsbn)                                                                                   | MIT                       |
 | [jsesc](https://github.com/mathiasbynens/jsesc)                                                                                | MIT                       |
 | [json-buffer](https://github.com/dominictarr/json-buffer)                                                                      | MIT                       |
 | [json-parse-even-better-errors](https://github.com/npm/json-parse-even-better-errors)                                          | MIT                       |
@@ -1023,8 +1017,8 @@ All used 3rd party libraries count: **1511**<br>
 | [needle](https://github.com/tomas/needle)                                                                                      | MIT                       |
 | [negotiator](https://github.com/jshttp/negotiator)                                                                             | MIT                       |
 | [neo-async](https://github.com/suguru03/neo-async)                                                                             | MIT                       |
-| [network-information-types](https://github.com/lacolaco/network-information-types)                                             | MIT                       |
 | [ngx-rerender](https://github.com/ngehlert/ngx-rerender)                                                                       | MIT                       |
+| [ngx-tippy-wrapper](https://github.com/farengeyt451/ngx-tippy-wrapper)                                                         | MIT                       |
 | [ngx-translate-messageformat-compiler](https://github.com/lephyrus/ngx-translate-messageformat-compiler)                       | MIT                       |
 | [nlcst-to-string](https://github.com/syntax-tree/nlcst-to-string)                                                              | MIT                       |
 | [no-case](https://github.com/blakeembrey/change-case)                                                                          | MIT                       |
@@ -1334,7 +1328,6 @@ All used 3rd party libraries count: **1511**<br>
 | [spdy](https://github.com/indutny/node-spdy)                                                                                   | MIT                       |
 | [spdy-transport](https://github.com/spdy-http2/spdy-transport)                                                                 | MIT                       |
 | [sprintf-js](https://github.com/alexei/sprintf.js)                                                                             | BSD-3-Clause              |
-| [sshpk](https://github.com/joyent/node-sshpk)                                                                                  | MIT                       |
 | [ssri](https://github.com/npm/ssri)                                                                                            | ISC                       |
 | [stable](https://github.com/Two-Screen/stable)                                                                                 | MIT                       |
 | [statuses](https://github.com/jshttp/statuses)                                                                                 | MIT                       |
@@ -1384,6 +1377,7 @@ All used 3rd party libraries count: **1511**<br>
 | [through](https://github.com/dominictarr/through)                                                                              | MIT                       |
 | [through2](https://github.com/rvagg/through2)                                                                                  | MIT                       |
 | [thunky](https://github.com/mafintosh/thunky)                                                                                  | MIT                       |
+| [tippy.js](https://github.com/atomiks/tippyjs)                                                                                 | MIT                       |
 | [titleize](https://github.com/sindresorhus/titleize)                                                                           | MIT                       |
 | [tmp](https://github.com/raszi/node-tmp)                                                                                       | MIT                       |
 | [to-fast-properties](https://github.com/sindresorhus/to-fast-properties)                                                       | MIT                       |
@@ -1401,7 +1395,6 @@ All used 3rd party libraries count: **1511**<br>
 | [tslib](https://github.com/Microsoft/tslib)                                                                                    | 0BSD                      |
 | [tsutils](https://github.com/ajafff/tsutils)                                                                                   | MIT                       |
 | [tuf-js](https://github.com/theupdateframework/tuf-js)                                                                         | MIT                       |
-| [tweetnacl](https://github.com/dchest/tweetnacl-js)                                                                            | Unlicense                 |
 | [type-check](https://github.com/gkz/type-check)                                                                                | MIT                       |
 | [type-fest](https://github.com/sindresorhus/type-fest)                                                                         | (MIT OR CC0-1.0)          |
 | [type-is](https://github.com/jshttp/type-is)                                                                                   | MIT                       |

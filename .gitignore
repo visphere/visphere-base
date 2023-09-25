@@ -1,5 +1,3 @@
-.husky
 node_modules
 .env
-rsa-keys/*
-!rsa-keys/.gitkeep
+.volumes

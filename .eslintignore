@@ -1,10 +1,10 @@
 node_modules
 .husky
-LICENSE
 LIBRARIES.md
-rsa_keys
 .env
-.env.sample
+example.env
 package.json
 yarn.lock
 .gitignore
+docker-compose*.yml
+s3-static/
