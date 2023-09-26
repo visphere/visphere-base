@@ -2,6 +2,8 @@
   "name": "moonsphere-base",
   "version": "1.0.0",
   "scripts": {
+    "compose:web-client": "docker-compose up -d msph-web-client",
+    "compose:landing-page": "docker-compose up -d msph-landing-page",
     "configure:husky": "npx husky install && npx husky add .husky/pre-commit \"npx --no-install lint-staged\"",
     "lint:check": "npx eslint **/**/*.{js,cjs}",
     "lint:fix": "npx eslint **/**/*.{js,cjs} --fix",

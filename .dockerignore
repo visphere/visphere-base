@@ -3,7 +3,7 @@
 **/.git/
 **/.husky/
 **/.vscode/
-**/.env.sample
+**/example.env
 **/README.md
 **/LIBRARIES.md
 **/LICENSE
