@@ -31,7 +31,7 @@ module.exports = {
     'msph-button',
     'justify-start',
     'border border-msph-tint-200 dark:border-msph-dark-800',
-    'font-medium',
+    'font-semibold',
     'bg-msph-google-bg',
     'text-msph-google-fg',
   ]),
