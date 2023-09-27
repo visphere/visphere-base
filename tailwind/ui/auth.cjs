@@ -11,7 +11,7 @@ module.exports = {
     'md:rounded-xl',
     'md:shadow-md',
     'md:mx-5',
-    'border border-msph-tint-200 dark:border-msph-dark-800',
+    'md:border border-msph-tint-200 dark:border-msph-dark-800',
     'bg-msph-light-300 dark:bg-msph-dark-900',
     'text-msph-dark-900 dark:text-msph-light-100',
   ]),
