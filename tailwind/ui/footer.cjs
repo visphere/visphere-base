@@ -7,10 +7,14 @@ const { parseTwdApply } = require('../utils.cjs');
 
 module.exports = {
   '.msph-footer__container': parseTwdApply([
-    'p-5 md:p-5 lg:p-10',
-    'border-t border-t-msph-tint-200 dark:border-t-msph-dark-800',
+    'px-5 md:px-5 lg:px-10 pt-5 md:pt-20 pb-10',
+    'md:border-t border-t-msph-tint-200 dark:border-t-msph-dark-800',
     'bg-msph-light-300 dark:bg-msph-dark-900',
     'text-msph-dark-900 dark:text-msph-light-100',
+  ]),
+  '.msph-footer__wrapper': parseTwdApply([
+    'px-0 lg:px-8',
+    'msph-safe-container',
   ]),
   '.msph-footer__select-list-button': parseTwdApply([
     'border border-msph-tint-300 dark:border-msph-dark-700',
@@ -45,14 +49,14 @@ module.exports = {
   '.msph-footer__link': parseTwdApply([
     'hover:underline',
     'block',
-    'mb-1',
-    'dark:font-light',
-    'leading-[22px]',
+    'leading-[27px]',
   ]),
   '.msph-copy-footer__container': parseTwdApply([
-    'flex flex-col md:flex-row',
+    'flex flex-col lg:flex-row',
     'justify-center md:justify-between items-center',
-    'gap-y-5',
+  ]),
+  '.msph-copy-footer__wrapper': parseTwdApply([
+    'flex justify-center lg:justify-start',
   ]),
   '.msph-copy-footer__rights': parseTwdApply([
     'flex flex-col md:flex-row',
@@ -60,11 +64,5 @@ module.exports = {
     'text-sm',
     'font-light',
   ]),
-  '.msph-copy-footer__open-app-button': parseTwdApply([
-    'msph-button msph-button--small',
-    'bg-msph-tint-500',
-    'text-msph-light-100',
-    'h-fit w-full md:w-fit',
-    'text-center',
-  ]),
+  '.msph-copy-footer__buttons': parseTwdApply(['mt-5 lg:mt-0']),
 };

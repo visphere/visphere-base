@@ -4,8 +4,9 @@
     "keywords": "czat, klient internetowy, wysyłanie wiadomości, online, moonsphere"
   },
   "msph.webCommon.footer": {
-    "description": "MoonSphere to komunikator internetowy umożliwiający czatowanie, tworzenie pokoi i pozostawanie w kontakcie ze wszystkimi, których znasz.",
-    "openAppButton": "Otwórz aplikację",
+    "description": "MoonSphere to komunikator internetowy umożliwiający czatowanie, tworzenie pokoi i pozostawanie w kontakcie ze wszystkimi, których znasz. Dołącz i stwórz swoją pierwszą Sferę™ już teraz!",
+    "downloadAppButton": "Pobierz za darmo",
+    "openAppButton": "Otwórz w przeglądarce",
     "headers": {
       "application": {
         "name": "System",
