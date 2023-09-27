@@ -4,8 +4,9 @@
     "keywords": "chat, web client, send messages, online, moonsphere"
   },
   "msph.webCommon.footer": {
-    "description": "MoonSphere is an instant messenger system allows you to chat, create rooms and stay connected with all who you know.",
-    "openAppButton": "Open application",
+    "description": "MoonSphere is an instant messenger system allows you to chat, create rooms and stay connected with all who you know. Join and create your first Sphere™ now!",
+    "downloadAppButton": "Download for free",
+    "openAppButton": "Open in browser",
     "headers": {
       "application": {
         "name": "System",
