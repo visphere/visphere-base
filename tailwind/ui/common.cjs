@@ -22,6 +22,8 @@ module.exports = {
     'cursor-pointer',
     'flex justify-center items-center',
     'shadow-md',
+    'transition-[border-radius] duration-300',
+    'hover:rounded-2xl hover:disabled:rounded-lg',
     'disabled:opacity-70',
     'disabled:cursor-not-allowed',
   ]),
@@ -32,12 +34,16 @@ module.exports = {
     'bg-msph-tint-500',
     'text-msph-light-100',
   ]),
+  '.msph-button--loading': parseTwdApply([
+    'rounded-2xl hover:rounded-2xl',
+    'hover:disabled:rounded-2xl',
+  ]),
   '.msph-button--secondary': parseTwdApply([
     'w-full',
     'text-center',
     'min-h-[40px]',
-    'bg-msph-tint-300 dark:bg-msph-dark-700',
-    'text-msph-light-100',
+    'bg-msph-dark-800 dark:bg-msph-light-300',
+    'text-msph-light-100 dark:text-msph-dark-900',
   ]),
   '.msph-button--small': parseTwdApply([
     'py-1.5',
