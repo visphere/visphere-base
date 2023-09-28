@@ -7,6 +7,7 @@ const { parseTwdApply } = require('../utils.cjs');
 
 module.exports = {
   '.msph-mobile-nav__button': parseTwdApply([
+    'msph-button shadow-none',
     'col-span-12',
     'px-4 py-2',
     'rounded-lg',
@@ -22,6 +23,7 @@ module.exports = {
     'text-msph-tint-500',
   ]),
   '.msph-slide-nav__button': parseTwdApply([
+    'msph-button shadow-none',
     'px-3 py-1.5',
     'h-fit',
     'text-sm text-center',
@@ -63,6 +65,7 @@ module.exports = {
     'hover:underline',
   ]),
   '.msph-download-app-button': parseTwdApply([
+    'msph-button shadow-none',
     'rounded-lg',
     'px-10 py-2',
     'border border-msph-tint-500',
@@ -70,6 +73,7 @@ module.exports = {
     'text-msph-light-100 text-center',
   ]),
   '.msph-open-app-in-browser-button': parseTwdApply([
+    'msph-button shadow-none',
     'rounded-lg',
     'px-10 py-2',
     'border border-msph-dark-900',
