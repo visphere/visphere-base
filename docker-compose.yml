@@ -3,7 +3,7 @@ version: '3.8'
 services:
   msph-s3-static:
     container_name: msph-s3-static
-    image: bitnami/minio:latest
+    image: bitnami/minio:2023.9.27
     ports:
       - '${ENV_MSPH_STATIC_S3_API_PORT}:9000'
       - '${ENV_MSPH_STATIC_S3_PORT}:9001'
