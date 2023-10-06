@@ -19,19 +19,6 @@ const fontsConfig = [
     ],
   },
   {
-    name: 'Maven Pro',
-    cdnDir: 'mvnp',
-    formats: ['woff', 'woff2'],
-    styles: [
-      { id: 'regular', weight: 400, hasItalic: false },
-      { id: 'medium', weight: 500, hasItalic: false },
-      { id: 'semi-bold', weight: 600, hasItalic: false },
-      { id: 'bold', weight: 700, hasItalic: false },
-      { id: 'extra-bold', weight: 800, hasItalic: false },
-      { id: 'black', weight: 900, hasItalic: false },
-    ],
-  },
-  {
     name: 'Retro Gaming',
     cdnDir: 'rg',
     formats: ['woff', 'woff2'],
