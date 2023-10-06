@@ -18,7 +18,7 @@ module.exports = {
   '.msph-snackbar__list-element': parseTwdApply([
     'bg-msph-light-300 dark:bg-msph-dark-900',
     'border border-msph-tint-200 dark:border-msph-dark-700',
-    'text-msph-tint-400 dark:text-msph-tint-300',
+    'text-msph-tint-400 dark:text-msph-tint-200',
     'relative',
     'rounded-lg',
     'py-3 ps-6 pe-10',
