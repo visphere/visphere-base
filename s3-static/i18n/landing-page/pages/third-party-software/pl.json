@@ -1,8 +1,8 @@
 {
-  "msph.landingPage.thirdPartySoftware.pageContent": {
+  "vsph.landingPage.thirdPartySoftware.pageContent": {
     "header": "oprogramowanie firm trzecich",
-    "paragraph1": "System MoonSphere do swojego działania wykorzystuje poniższe bibliteki OpenSource. Po najechaniu na bibliotekę i kliknięciu w link, zostaniesz przekierowany na stronę repozytorium GitHub. Wszystkie licencje bibliotek znajdziesz",
-    "paragraph2": "Jeśli jesteś zainteresowany jak system MoonSphere jest zbudowany, jakie jest jego przeznaczenie i jak działa od strony deweloperskiej, więcej informacji znajdziesz",
+    "paragraph1": "System Visphere do swojego działania wykorzystuje poniższe bibliteki OpenSource. Po najechaniu na bibliotekę i kliknięciu w link, zostaniesz przekierowany na stronę repozytorium GitHub. Wszystkie licencje bibliotek znajdziesz",
+    "paragraph2": "Jeśli jesteś zainteresowany jak system Visphere jest zbudowany, jakie jest jego przeznaczenie i jak działa od strony deweloperskiej, więcej informacji znajdziesz",
     "belowLink": "pod tym linkiem",
     "totalLibraries": "Obecnie wykorzystywanych: {libsCount} bibliotek"
   }

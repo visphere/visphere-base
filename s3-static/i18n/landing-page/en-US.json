@@ -1,5 +1,5 @@
 {
-  "msph.landingPage.seo": {
+  "vsph.landingPage.seo": {
     "rootPage": {
       "title": "Chat smarter, chat faster, stay ahead!"
     },
@@ -34,7 +34,7 @@
       "title": "404"
     }
   },
-  "msph.landingPage.lostSection": {
+  "vsph.landingPage.lostSection": {
     "areYouLost": "Are you lost and just want to start using the app?",
     "downloadApp": "Download for free",
     "openAppInBrowser": "Open in browser"

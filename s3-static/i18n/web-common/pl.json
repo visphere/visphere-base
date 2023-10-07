@@ -1,10 +1,10 @@
 {
-  "msph.webCommon.metaProperty": {
-    "description": "Nawiązuj kontakty i komunikuj się w czasie rzeczywistym dzięki systemowi do czatu online MoonSphere.",
-    "keywords": "czat, klient internetowy, wysyłanie wiadomości, online, moonsphere"
+  "vsph.webCommon.metaProperty": {
+    "description": "Nawiązuj kontakty i komunikuj się w czasie rzeczywistym dzięki systemowi do czatu online Visphere.",
+    "keywords": "czat, klient internetowy, wysyłanie wiadomości, online, visphere"
   },
-  "msph.webCommon.footer": {
-    "description": "MoonSphere to komunikator internetowy umożliwiający czatowanie, tworzenie pokoi i pozostawanie w kontakcie ze wszystkimi, których znasz. Dołącz i stwórz swoją pierwszą Sferę™ już teraz!",
+  "vsph.webCommon.footer": {
+    "description": "Visphere to komunikator internetowy umożliwiający czatowanie, tworzenie pokoi i pozostawanie w kontakcie ze wszystkimi, których znasz. Dołącz i stwórz swoją pierwszą Sferę™ już teraz!",
     "downloadAppButton": "Pobierz za darmo",
     "openAppButton": "Otwórz w przeglądarce",
     "headers": {

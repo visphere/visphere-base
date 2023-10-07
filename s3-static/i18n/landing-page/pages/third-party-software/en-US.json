@@ -1,8 +1,8 @@
 {
-  "msph.landingPage.thirdPartySoftware.pageContent": {
+  "vsph.landingPage.thirdPartySoftware.pageContent": {
     "header": "third-party software",
-    "paragraph1": "The MoonSphere system uses the following OpenSource libraries for serving multiple different functionalities. If you hover over a library and click on the link, you will be redirected to the GitHub repository page. You can find all the libraries' licenses",
-    "paragraph2": "If you are interested in how the MoonSphere system is built, its purpose and how it works from the development side, you can find more information",
+    "paragraph1": "The Visphere system uses the following OpenSource libraries for serving multiple different functionalities. If you hover over a library and click on the link, you will be redirected to the GitHub repository page. You can find all the libraries' licenses",
+    "paragraph2": "If you are interested in how the Visphere system is built, its purpose and how it works from the development side, you can find more information",
     "belowLink": "under this link",
     "totalLibraries": "Currently using: {libsCount} libraries"
   }

@@ -1,10 +1,10 @@
 {
-  "msph.common.theme": {
+  "vsph.common.theme": {
     "lightTheme": "Light",
     "darkTheme": "Dark",
     "deviceTheme": "Device"
   },
-  "msph.common.utils": {
+  "vsph.common.utils": {
     "notFound": "Not found",
     "continue": "Continue",
     "edit": "Edit",

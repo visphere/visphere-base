@@ -1,6 +1,6 @@
 'use strict';
 /*
- * Copyright (c) 2023 by MoonSphere Systems
+ * Copyright (c) 2023 by Visphere & Vsph Technologies
  * Originally developed by Miłosz Gilga <https://miloszgilga.pl>
  */
 const plugin = require('tailwindcss/plugin');
@@ -28,57 +28,57 @@ module.exports = ({ cdnBaseUrl, loadableModules }) => ({
   theme: {
     fontFace: fontsDeclarations(cdnBaseUrl),
     colors: {
-      'msph-black': 'rgb(0, 0, 0)',
-      'msph-transparent': 'rgba(0, 0, 0, 0)',
-      'msph-gray': {
+      'vsph-black': 'rgb(0, 0, 0)',
+      'vsph-transparent': 'rgba(0, 0, 0, 0)',
+      'vsph-gray': {
         950: 'rgb(2, 6, 23)',
         900: 'rgb(15, 23, 42)',
         600: 'rgb(71, 85, 105)',
         300: 'rgb(203, 213, 225)',
       },
-      'msph-dark': {
+      'vsph-dark': {
         900: 'rgb(7, 7, 7)',
         800: 'rgb(26, 26, 26)',
         700: 'rgb(65, 73, 75)',
       },
-      'msph-light': {
+      'vsph-light': {
         100: 'rgb(255, 255, 255)',
         200: 'rgb(245, 245, 245)',
         300: 'rgb(253, 253, 253)',
       },
-      'msph-red': {
+      'vsph-red': {
         100: 'rgb(192, 91, 91)',
         200: 'rgb(189, 57, 57)',
       },
-      'msph-orange': {
+      'vsph-orange': {
         100: 'rgb(219, 164, 45)',
       },
-      'msph-green': {
+      'vsph-green': {
         100: 'rgb(86, 182, 86)',
       },
-      'msph-tint': {
+      'vsph-tint': {
         100: 'rgb(224, 224, 224)',
         200: 'rgb(209, 209, 209)',
         300: 'rgb(153, 153, 153)',
         400: 'rgb(121, 121, 121)',
         500: 'rgb(106, 109, 149)',
       },
-      'msph-accent': {
+      'vsph-accent': {
         1: 'rgb(211, 195, 211)',
         2: 'rgb(228, 189, 201)',
         3: 'rgb(255, 212, 205)',
         4: 'rgb(252, 231, 198)',
         5: 'rgb(248, 248, 214)',
       },
-      'msph-google': {
+      'vsph-google': {
         bg: 'rgb(255, 255, 255)',
         fg: 'rgb(124, 124, 124)',
       },
-      'msph-facebook': {
+      'vsph-facebook': {
         bg: 'rgb(59, 89, 152)',
         fg: 'rgb(255, 255, 255)',
       },
-      'msph-x': {
+      'vsph-x': {
         bg: 'rgb(0, 0, 0)',
         fg: 'rgb(255, 255, 255)',
       },

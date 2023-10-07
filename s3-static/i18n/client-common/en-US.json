@@ -1,12 +1,12 @@
 {
-  "msph.clientCommon.auth": {
+  "vsph.clientCommon.auth": {
     "forgotPassword": "You forgot your password?",
     "resetPassword": "Forgot password",
     "or": "or",
     "fieldsRequired": "fields required",
     "capsLockWarning": "<strong>Warning!</strong> CapsLock key is enabled."
   },
-  "msph.clientCommon.loginPage": {
+  "vsph.clientCommon.loginPage": {
     "formHeader": "Welcome again!",
     "formDescription": "Log into your account in application using the form below or select alternatives.",
     "formFields": {
@@ -35,7 +35,7 @@
     "createAccount": "Create an account",
     "gotoMyAccounts": "Go to my accounts"
   },
-  "msph.clientCommon.myAccountsPage": {
+  "vsph.clientCommon.myAccountsPage": {
     "formHeader": "My accounts",
     "formDescription": "Below you will find all your remembered accounts for the application. You can delete any remembered account from memory. To log into a remembered account you still need a password.",
     "removeAllAccountsButton": "Remove all accounts",

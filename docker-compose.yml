@@ -1,15 +1,15 @@
 version: '3.8'
 
 services:
-  msph-s3-static:
-    container_name: msph-s3-static
+  vsph-s3-static:
+    container_name: vsph-s3-static
     image: bitnami/minio:2023.9.27
     ports:
-      - '${ENV_MSPH_STATIC_S3_API_PORT}:9000'
-      - '${ENV_MSPH_STATIC_S3_PORT}:9001'
+      - '${ENV_VSPH_STATIC_S3_API_PORT}:9000'
+      - '${ENV_VSPH_STATIC_S3_PORT}:9001'
     environment:
-      - 'MINIO_ROOT_USER=${ENV_MSPH_STATIC_S3_USERNAME}'
-      - 'MINIO_ROOT_PASSWORD=${ENV_MSPH_STATIC_S3_PASSWORD}'
+      - 'MINIO_ROOT_USER=${ENV_VSPH_STATIC_S3_USERNAME}'
+      - 'MINIO_ROOT_PASSWORD=${ENV_VSPH_STATIC_S3_PASSWORD}'
       - 'MINIO_DEFAULT_BUCKETS=static:public'
       - 'MINIO_SCHEME=http'
     volumes:
@@ -21,32 +21,32 @@ services:
       timeout: 5s
       retries: 3
     networks:
-      - moonsphere-network
+      - visphere-network
 
-  msph-web-client:
-    container_name: msph-web-client
-    image: ${ENV_MSPH_DOCKERHUB_USERNAME}/msph-web-client-dev:latest
+  vsph-web-client:
+    container_name: vsph-web-client
+    image: ${ENV_VSPH_DOCKERHUB_USERNAME}/vsph-web-client-dev:latest
     ports:
-      - '${ENV_MSPH_WEB_CLIENT_PORT}:80'
+      - '${ENV_VSPH_WEB_CLIENT_PORT}:80'
     pull_policy: always
     depends_on:
-      msph-s3-static:
+      vsph-s3-static:
         condition: service_healthy
     networks:
-      - moonsphere-network
+      - visphere-network
 
-  msph-landing-page:
-    container_name: msph-landing-page
-    image: ${ENV_MSPH_DOCKERHUB_USERNAME}/msph-landing-page-dev:latest
+  vsph-landing-page:
+    container_name: vsph-landing-page
+    image: ${ENV_VSPH_DOCKERHUB_USERNAME}/vsph-landing-page-dev:latest
     ports:
-      - '${ENV_MSPH_LANDING_PAGE_PORT}:80'
+      - '${ENV_VSPH_LANDING_PAGE_PORT}:80'
     pull_policy: always
     depends_on:
-      msph-s3-static:
+      vsph-s3-static:
         condition: service_healthy
     networks:
-      - moonsphere-network
+      - visphere-network
 
 networks:
-  moonsphere-network:
+  visphere-network:
     driver: bridge

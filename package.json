@@ -1,9 +1,9 @@
 {
-  "name": "moonsphere-base",
+  "name": "visphere-base",
   "version": "1.0.0",
   "scripts": {
-    "compose:web-client": "docker-compose up -d msph-web-client",
-    "compose:landing-page": "docker-compose up -d msph-landing-page",
+    "compose:web-client": "docker-compose up -d vsph-web-client",
+    "compose:landing-page": "docker-compose up -d vsph-landing-page",
     "configure:husky": "npx husky install && npx husky add .husky/pre-commit \"npx --no-install lint-staged\"",
     "lint:check": "npx eslint **/**/*.{js,cjs}",
     "lint:fix": "npx eslint **/**/*.{js,cjs} --fix",
@@ -11,9 +11,9 @@
   },
   "private": true,
   "author": {
-    "name": "MoonSphere Systems",
-    "email": "info@moonsphere.pl",
-    "url": "https://moonsphere.pl"
+    "name": "Visphere Systems",
+    "email": "info@visphere.pl",
+    "url": "https://visphere.pl"
   },
   "lint-staged": {
     "**/*.{js,cjs,json}": [

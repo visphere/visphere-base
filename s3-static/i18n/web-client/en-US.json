@@ -1,5 +1,5 @@
 {
-  "msph.webClient.pageTitle": {
+  "vsph.webClient.pageTitle": {
     "clientEntryPointPage": "Dashboard",
     "authLoginPage": "Sign in",
     "authRegisterPage": "Sign up",
@@ -9,7 +9,7 @@
     "authMyAccountsPage": "My accounts",
     "notFoundPage": "404"
   },
-  "msph.webClient.registerPage": {
+  "vsph.webClient.registerPage": {
     "formHeader": "Create an account",
     "formDescription": "Create an account in application using the form below.",
     "haveAccount": "Already have an account?",
@@ -102,7 +102,7 @@
     "confirmedPassword": "Confirmed password",
     "submitFormButton": "Create new account"
   },
-  "msph.webClient.resetPasswordPage": {
+  "vsph.webClient.resetPasswordPage": {
     "formHeader": "Reset password",
     "formDescription": "In case reset password, pass your username or email address. On the mailbox associated with the account, expect further instructions.",
     "formFields": {
@@ -124,7 +124,7 @@
     },
     "successfullSendEmailMessage": "If account with provided login exist, we send verification email on your mailbox."
   },
-  "msph.webClient.changePasswordPage": {
+  "vsph.webClient.changePasswordPage": {
     "formHeader": "Set new password",
     "formDescription": "In case set new password, pass your new password and password confirmation data.",
     "formFields": {
@@ -146,7 +146,7 @@
     "successfullySetNewPassword": "Your old password was successfully changed to new one. From this moment, you can log into your account with new credentials.",
     "returnToLoginForm": "Return to login form"
   },
-  "msph.webClient.activateAccountPage": {
+  "vsph.webClient.activateAccountPage": {
     "formHeader": "Activate account",
     "formDescription": "To activate your account, enter the token your received the email int the field below. An unactivated account will be deleted after 48 hours.",
     "formFields": {
@@ -163,10 +163,10 @@
     "successfullyActivatedMessage": "Your account was successfully activated. Now, you can log in your account using the button link below.",
     "moveToLoginPage": "Move to login"
   },
-  "msph.webClient.snackbar": {
+  "vsph.webClient.snackbar": {
     "declineCaptchaResetPassword": "To reset your password, you need to fill in the Captcha field."
   },
-  "msph.webClient.modal": {
+  "vsph.webClient.modal": {
     "captchaHeader": "Verify Captcha",
     "captchaResetPassword": "Before sending an email message to reset your password, fill in the captcha field below to prove you are not a robot.",
     "captchaSignup": "Before create an application account, fill in the captcha field below to prove you are not a robot.",

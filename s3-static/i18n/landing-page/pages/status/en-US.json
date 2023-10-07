@@ -1,6 +1,6 @@
 {
-  "msph.landingPage.status.pageContent": {
+  "vsph.landingPage.status.pageContent": {
     "header": "system services status",
-    "paragraph": "On this page you have the possibility to view the status of all MoonSphere system services and their current operability. You will also find additional informations here if a particular part of the MoonSphere system is temporarily unavailable due to maintenance reason or failure of an infrastructure component."
+    "paragraph": "On this page you have the possibility to view the status of all Visphere system services and their current operability. You will also find additional informations here if a particular part of the Visphere system is temporarily unavailable due to maintenance reason or failure of an infrastructure component."
   }
 }

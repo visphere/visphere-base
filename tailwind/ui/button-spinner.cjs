@@ -1,26 +1,26 @@
 'use strict';
 /*
- * Copyright (c) 2023 by MoonSphere Systems
+ * Copyright (c) 2023 by Visphere & Vsph Technologies
  * Originally developed by Miłosz Gilga <https://miloszgilga.pl>
  */
 const { parseTwdApply } = require('../utils.cjs');
 
 const components = {
-  '.msph-button-spinner__carousel': parseTwdApply([
+  '.vsph-button-spinner__carousel': parseTwdApply([
     'relative -left-[9999px]',
     'w-[8px] h-[8px]',
     'rounded-[5px]',
-    'bg-msph-light-100',
-    'text-msph-light-100',
+    'bg-vsph-light-100',
+    'text-vsph-light-100',
     'shadow-[9984px_0_0_0,9999px_0_0_0,10014px_0_0_0]',
     'animate-button-spinner-carousel',
   ]),
-  '.msph-button-spinner__carousel--large': parseTwdApply([
+  '.vsph-button-spinner__carousel--large': parseTwdApply([
     'w-[10px] h-[10px]',
-    'text-msph-tint-300 dark:text-msph-tint-400',
+    'text-vsph-tint-300 dark:text-vsph-tint-400',
   ]),
-  '.msph-button-spinner__carousel--modal': parseTwdApply([
-    'text-msph-tint-400 dark:text-msph-tint-200',
+  '.vsph-button-spinner__carousel--modal': parseTwdApply([
+    'text-vsph-tint-400 dark:text-vsph-tint-200',
   ]),
 };
 

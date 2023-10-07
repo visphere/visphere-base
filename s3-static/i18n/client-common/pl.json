@@ -1,12 +1,12 @@
 {
-  "msph.clientCommon.auth": {
+  "vsph.clientCommon.auth": {
     "forgotPassword": "Zapomniałeś hasła?",
     "resetPassword": "Resetuj hasło",
     "or": "lub",
     "fieldsRequired": "pola wymagane",
     "capsLockWarning": "<strong>Uwaga!</strong> Klawisz CapsLock jest uruchomiony."
   },
-  "msph.clientCommon.loginPage": {
+  "vsph.clientCommon.loginPage": {
     "formHeader": "Logowanie",
     "formDescription": "Zaloguj się na swoje konto przy użyciu poniższego formularza lub wybierz jedną z alternatyw.",
     "formFields": {
@@ -35,7 +35,7 @@
     "createAccount": "Załóż konto",
     "gotoMyAccounts": "Przejdź do moich kont"
   },
-  "msph.clientCommon.myAccountsPage": {
+  "vsph.clientCommon.myAccountsPage": {
     "formHeader": "Moje konta",
     "formDescription": "Poniżej znajdziesz wszystkie zapamiętane przez Ciebie konta do aplikacji. Każde zapamiętane konto możesz usunąć z pamięci. Aby zalogować się do zapamiętanego konta w dalszym ciągu potrzebujesz hasła.",
     "removeAllAccountsButton": "Usuń wszystkie konta",

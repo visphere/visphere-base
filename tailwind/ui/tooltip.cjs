@@ -1,6 +1,6 @@
 'use strict';
 /*
- * Copyright (c) 2023 by MoonSphere Systems
+ * Copyright (c) 2023 by Visphere & Vsph Technologies
  * Originally developed by Miłosz Gilga <https://miloszgilga.pl>
  */
 const { parseTwdApply } = require('../utils.cjs');
@@ -20,8 +20,8 @@ const generateTooltipArrowStyles = theme =>
       ...acc,
       [`.tippy-box[data-theme~="${theme}"][data-placement^="${dir}"] > .tippy-arrow`]:
         parseTwdApply([
-          `before:border-${dirLetter}-msph-dark-900`,
-          `before:dark:border-${dirLetter}-msph-light-100`,
+          `before:border-${dirLetter}-vsph-dark-900`,
+          `before:dark:border-${dirLetter}-vsph-light-100`,
         ]),
     };
   }, {});
@@ -46,14 +46,14 @@ module.exports = {
     'shadow-lg',
     'text-sm',
   ]),
-  '.tippy-box[data-theme~="msph-auth"]': parseTwdApply([
-    'bg-msph-dark-900 dark:bg-msph-light-100',
-    'text-msph-light-100 dark:text-msph-dark-900',
+  '.tippy-box[data-theme~="vsph-auth"]': parseTwdApply([
+    'bg-vsph-dark-900 dark:bg-vsph-light-100',
+    'text-vsph-light-100 dark:text-vsph-dark-900',
   ]),
   '.tippy-arrow': parseTwdApply([
     'w-[16px] h-[16px]',
     'before:absolute',
-    'before:border-msph-transparent',
+    'before:border-vsph-transparent',
   ]),
   '.tippy-box[data-placement^="top"] > .tippy-arrow': parseTwdApply([
     'bottom-0',
@@ -79,7 +79,7 @@ module.exports = {
     'before:border-r-8 before:border-t-8 before:border-b-8',
     'before:origin-[center_right]',
   ]),
-  ...generateTooltipArrowStyles('msph-auth'),
+  ...generateTooltipArrowStyles('vsph-auth'),
   ...generateTooltipAnimationStyles('scale-subtle'),
   '.tippy-box[data-animation="scale-subtle"][data-state="hidden"]':
     parseTwdApply(['scale-[0.8]', 'opacity-0']),

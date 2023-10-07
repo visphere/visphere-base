@@ -1,5 +1,5 @@
 {
-  "msph.landingPage.seo": {
+  "vsph.landingPage.seo": {
     "rootPage": {
       "title": "Czatuj mądrzej, czatuj szybciej, bądź na bieżąco!"
     },
@@ -34,7 +34,7 @@
       "title": "404"
     }
   },
-  "msph.landingPage.lostSection": {
+  "vsph.landingPage.lostSection": {
     "areYouLost": "Zgubiłeś się i chcesz jedynie zacząć korzystać aplikacji?",
     "downloadApp": "Pobierz za darmo",
     "openAppInBrowser": "Otwórz w przeglądarce"

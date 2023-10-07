@@ -1,16 +1,16 @@
 'use strict';
 /*
- * Copyright (c) 2023 by MoonSphere Systems
+ * Copyright (c) 2023 by Visphere & Vsph Technologies
  * Originally developed by Miłosz Gilga <https://miloszgilga.pl>
  */
 const { parseTwdApply } = require('../utils.cjs');
 
 const components = {
-  '.msph-page-loader__container': parseTwdApply([
+  '.vsph-page-loader__container': parseTwdApply([
     'flex justify-center items-center',
     'w-[150px] h-[150px]',
   ]),
-  '.msph-page-loader__planet': parseTwdApply([
+  '.vsph-page-loader__planet': parseTwdApply([
     'relative',
     'w-[100%] h-[100%]',
     'top-[50%]',
@@ -19,36 +19,36 @@ const components = {
     'after:block',
     'after:w-[38%] after:h-[38%]',
     'after:rounded-full',
-    'after:bg-msph-tint-500',
+    'after:bg-vsph-tint-500',
     'after:top-[50%] after:left-[50%]',
     'after:-translate-x-[50%] -translate-y-[50%]',
     'after:origin-center',
     'after:animate-page-loader-planet',
   ]),
-  '.msph-page-loader__satellite': parseTwdApply([
+  '.vsph-page-loader__satellite': parseTwdApply([
     'absolute',
     'rounded-full',
-    'bg-msph-tint-500',
+    'bg-vsph-tint-500',
     'top-[50%] left-[50%]',
     'w-[20%] h-[20%]',
   ]),
-  '.msph-page-loader__satellite--first': parseTwdApply([
+  '.vsph-page-loader__satellite--first': parseTwdApply([
     'animate-page-loader-satellite-1',
   ]),
-  '.msph-page-loader__satellite--second': parseTwdApply([
+  '.vsph-page-loader__satellite--second': parseTwdApply([
     'animate-page-loader-satellite-2',
   ]),
-  '.msph-page-loader__satellite--third': parseTwdApply([
+  '.vsph-page-loader__satellite--third': parseTwdApply([
     'animate-page-loader-satellite-3',
   ]),
-  '.msph-page-loader__ring': parseTwdApply([
+  '.vsph-page-loader__ring': parseTwdApply([
     'absolute',
     'w-[65%] h-[65%]',
     'rounded-full',
     'border-[0.5px]',
     'opacity-20',
-    'bg-msph-transparent',
-    'border-msph-dark-700 dark:border-msph-tint-300',
+    'bg-vsph-transparent',
+    'border-vsph-dark-700 dark:border-vsph-tint-300',
     'top-[50%] left-[50%]',
     '-translate-x-[50%] -translate-y-[50%]',
     'scale-[2]',

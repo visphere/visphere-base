@@ -1,10 +1,10 @@
 {
-  "msph.webCommon.metaProperty": {
-    "description": "Make contact and communicate in real time with MoonSphere online chat system.",
-    "keywords": "chat, web client, send messages, online, moonsphere"
+  "vsph.webCommon.metaProperty": {
+    "description": "Make contact and communicate in real time with Visphere online chat system.",
+    "keywords": "chat, web client, send messages, online, visphere"
   },
-  "msph.webCommon.footer": {
-    "description": "MoonSphere is an instant messenger system allows you to chat, create rooms and stay connected with all who you know. Join and create your first Sphere™ now!",
+  "vsph.webCommon.footer": {
+    "description": "Visphere is an instant messenger system allows you to chat, create rooms and stay connected with all who you know. Join and create your first Sphere™ now!",
     "downloadAppButton": "Download for free",
     "openAppButton": "Open in browser",
     "headers": {

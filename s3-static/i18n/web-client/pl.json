@@ -1,5 +1,5 @@
 {
-  "msph.webClient.pageTitle": {
+  "vsph.webClient.pageTitle": {
     "clientEntryPointPage": "Panel główny",
     "authLoginPage": "Logowanie",
     "authRegisterPage": "Rejestracja",
@@ -9,7 +9,7 @@
     "authMyAccountsPage": "Moje konta",
     "notFoundPage": "404"
   },
-  "msph.webClient.registerPage": {
+  "vsph.webClient.registerPage": {
     "formHeader": "Rejestracja",
     "formDescription": "Stwórz nowe konto w aplikacji wypełniając niezbędne pola w poniższym formularzu.",
     "haveAccount": "Masz już konto?",
@@ -101,7 +101,7 @@
     "selectDiselectAll": "Zaznacz/odznacz wszystkie.",
     "submitFormButton": "Stwórz nowe konto"
   },
-  "msph.webClient.resetPasswordPage": {
+  "vsph.webClient.resetPasswordPage": {
     "formHeader": "Reset hasła",
     "formDescription": "W celu zresetowania hasła wprowadź w swoją nazwę użytkownika lub adres email. Na skrzynce skojarzonej z kontem oczekuj dalszych wskazówek.",
     "formFields": {
@@ -123,7 +123,7 @@
     },
     "successfullSendEmailMessage": "Jeśli konto z podanym loginem istnieje, na Twoją skrzynkę pocztową została wysłana wiadomość weryfikacyjna."
   },
-  "msph.webClient.changePasswordPage": {
+  "vsph.webClient.changePasswordPage": {
     "formHeader": "Ustaw nowe hasło",
     "formDescription": "W celu ustawienia nowego hasła wprowadź nowe hasło oraz potwierdzenie nowego hasło.",
     "formFields": {
@@ -145,7 +145,7 @@
     "successfullySetNewPassword": "Twoje stare hasło zostało pomyślnie zmienione na nowe. Od teraz możesz zalogować się z jego pomocą na konto.",
     "returnToLoginForm": "Powrót do formularza logowania"
   },
-  "msph.webClient.activateAccountPage": {
+  "vsph.webClient.activateAccountPage": {
     "formHeader": "Aktywacja konta",
     "formDescription": "Aby aktywować konto, podaj w poniższym polu token otrzymany w wiadomości email. Nieaktywowane konto po czasie 48 godzin zostanie bezpowrotnie usunięte.",
     "formFields": {
@@ -162,10 +162,10 @@
     "successfullyActivatedMessage": "Twoje konto zostało pomyślnie aktywowane. Możesz się teraz na nie zalogować poprzez poniższy link.",
     "moveToLoginPage": "Przejdź do logowania"
   },
-  "msph.webClient.snackbar": {
+  "vsph.webClient.snackbar": {
     "declineCaptchaResetPassword": "Aby zresetować hasło, musisz wypełnić polę Captcha."
   },
-  "msph.webClient.modal": {
+  "vsph.webClient.modal": {
     "captchaHeader": "Weryfikacja Captcha",
     "captchaResetPassword": "Przed wysłaniem wiadomości email w celu zresetowania hasła, wypełnij poniższe pole Captcha, aby udowodnić że nie jesteś robotem.",
     "captchaSignup": "Przed stworzeniem nowego konta do aplikacji, wypełnij poniższe pole Captcha, aby udowodnić że nie jesteś robotem.",

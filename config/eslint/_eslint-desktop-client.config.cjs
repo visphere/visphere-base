@@ -1,6 +1,6 @@
 'use strict';
 /*
- * Copyright (c) 2023 by MoonSphere Systems
+ * Copyright (c) 2023 by Visphere & Vsph Technologies
  * Originally developed by Miłosz Gilga <https://miloszgilga.pl>
  */
 
@@ -35,7 +35,7 @@ module.exports = {
           'error',
           {
             type: 'attribute',
-            prefix: 'msph',
+            prefix: 'vsph',
             style: 'camelCase',
           },
         ],
@@ -43,7 +43,7 @@ module.exports = {
           'error',
           {
             type: 'element',
-            prefix: 'msph',
+            prefix: 'vsph',
             style: 'kebab-case',
           },
         ],
