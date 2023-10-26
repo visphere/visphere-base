@@ -39,7 +39,7 @@ module.exports = ({ cdnBaseUrl, loadableModules }) => ({
       'vsph-dark': {
         900: 'rgb(7, 7, 7)',
         800: 'rgb(26, 26, 26)',
-        700: 'rgb(65, 73, 75)',
+        700: 'rgb(64, 72, 74)',
       },
       'vsph-light': {
         100: 'rgb(255, 255, 255)',
@@ -61,14 +61,16 @@ module.exports = ({ cdnBaseUrl, loadableModules }) => ({
         200: 'rgb(209, 209, 209)',
         300: 'rgb(153, 153, 153)',
         400: 'rgb(121, 121, 121)',
-        500: 'rgb(106, 109, 149)',
+        500: 'rgb(72, 157, 129)',
+        600: 'rgb(110, 167, 153)',
+        700: 'rgb(140, 194, 185)',
       },
       'vsph-accent': {
-        1: 'rgb(224, 213, 224)',
-        2: 'rgb(226, 204, 211)',
-        3: 'rgb(255, 231, 228)',
-        4: 'rgb(252, 238, 216)',
-        5: 'rgb(247, 247, 226)',
+        1: 'rgb(247, 247, 226)',
+        2: 'rgb(202, 247, 241)',
+        3: 'rgb(207, 224, 218)',
+        4: 'rgb(185, 224, 218)',
+        5: 'rgb(224, 248, 245)',
       },
       'vsph-google': {
         bg: 'rgb(255, 255, 255)',
@@ -86,7 +88,6 @@ module.exports = ({ cdnBaseUrl, loadableModules }) => ({
     extend: {
       fontFamily: {
         sans: ['FigTree', 'Arial', 'sans-serif'],
-        logo: ['Maven Pro', 'Arial', 'sans-serif'],
         mono: ['Retro Gaming', 'monospaced'],
       },
       animation: {
