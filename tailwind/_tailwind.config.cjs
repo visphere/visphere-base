@@ -89,6 +89,7 @@ module.exports = ({ cdnBaseUrl, loadableModules }) => ({
       fontFamily: {
         sans: ['FigTree', 'Arial', 'sans-serif'],
         mono: ['Retro Gaming', 'monospaced'],
+        logo: ['Alkatra', 'sans-serif'],
       },
       animation: {
         ...pageLoaderUi.animations,

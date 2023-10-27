@@ -24,6 +24,12 @@ const fontsConfig = [
     formats: ['woff', 'woff2'],
     styles: [{ id: 'regular', weight: 400, hasItalic: false }],
   },
+  {
+    name: 'Alkatra',
+    cdnDir: 'alkatra',
+    formats: ['woff', 'woff2'],
+    styles: [{ id: 'regular', weight: 400, hasItalic: false }],
+  },
 ];
 
 function generateSourcePaths(cdnBaseUrl, cdnDir, formats, id) {
