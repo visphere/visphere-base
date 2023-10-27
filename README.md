@@ -2,4 +2,4 @@
 
 # Visphere Base
 
-in progress
+Shared content between all Visphere clients.
