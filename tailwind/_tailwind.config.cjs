@@ -5,7 +5,6 @@
  */
 const plugin = require('tailwindcss/plugin');
 const fontsDeclarations = require('./font-declarations.cjs');
-const pageLoaderUi = require('./ui/page-loader.cjs');
 const buttonSpinnerUi = require('./ui/button-spinner.cjs');
 const tooltipUi = require('./ui/tooltip.cjs');
 
@@ -17,7 +16,6 @@ const availableComponents = {
   snackbar: require('./ui/snackbar.cjs'),
   modal: require('./ui/modal.cjs'),
   myAccounts: require('./ui/my-accounts.cjs'),
-  pageLoader: pageLoaderUi.components,
   buttonSpinner: buttonSpinnerUi.components,
   tooltip: tooltipUi,
 };
@@ -92,11 +90,9 @@ module.exports = ({ cdnBaseUrl, loadableModules }) => ({
         logo: ['Alkatra', 'sans-serif'],
       },
       animation: {
-        ...pageLoaderUi.animations,
         ...buttonSpinnerUi.animations,
       },
       keyframes: {
-        ...pageLoaderUi.keyframes,
         ...buttonSpinnerUi.keyframes,
       },
     },
