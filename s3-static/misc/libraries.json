@@ -662,6 +662,10 @@
     "repoUrl": "https://github.com/csstools/postcss-plugins"
   },
   {
+    "name": "@dabh/diagnostics",
+    "repoUrl": "https://github.com/3rd-Eden/diagnostics"
+  },
+  {
     "name": "@discoveryjs/json-ext",
     "repoUrl": "https://github.com/discoveryjs/json-ext"
   },
@@ -836,6 +840,7 @@
   { "name": "@nrwl/tao", "repoUrl": "https://github.com/nrwl/nx" },
   { "name": "@nx/devkit", "repoUrl": "https://github.com/nrwl/nx" },
   { "name": "@nx/nx-win32-x64-msvc", "repoUrl": "https://github.com/nrwl/nx" },
+  { "name": "@one-ini/wasm", "repoUrl": "https://github.com/one-ini/core" },
   {
     "name": "@parcel/watcher",
     "repoUrl": "https://github.com/parcel-bundler/watcher"
@@ -947,6 +952,10 @@
     "repoUrl": "https://github.com/DefinitelyTyped/DefinitelyTyped"
   },
   {
+    "name": "@types/clean-css",
+    "repoUrl": "https://github.com/DefinitelyTyped/DefinitelyTyped"
+  },
+  {
     "name": "@types/concat-stream",
     "repoUrl": "https://github.com/DefinitelyTyped/DefinitelyTyped"
   },
@@ -1015,6 +1024,10 @@
     "repoUrl": "https://github.com/DefinitelyTyped/DefinitelyTyped"
   },
   {
+    "name": "@types/html-minifier",
+    "repoUrl": "https://github.com/DefinitelyTyped/DefinitelyTyped"
+  },
+  {
     "name": "@types/html-minifier-terser",
     "repoUrl": "https://github.com/DefinitelyTyped/DefinitelyTyped"
   },
@@ -1071,6 +1084,14 @@
     "repoUrl": "https://github.com/DefinitelyTyped/DefinitelyTyped"
   },
   {
+    "name": "@types/mjml",
+    "repoUrl": "https://github.com/DefinitelyTyped/DefinitelyTyped"
+  },
+  {
+    "name": "@types/mjml-core",
+    "repoUrl": "https://github.com/DefinitelyTyped/DefinitelyTyped"
+  },
+  {
     "name": "@types/ms",
     "repoUrl": "https://github.com/DefinitelyTyped/DefinitelyTyped"
   },
@@ -1080,6 +1101,10 @@
   },
   {
     "name": "@types/node",
+    "repoUrl": "https://github.com/DefinitelyTyped/DefinitelyTyped"
+  },
+  {
+    "name": "@types/nodemon",
     "repoUrl": "https://github.com/DefinitelyTyped/DefinitelyTyped"
   },
   {
@@ -1112,6 +1137,10 @@
   },
   {
     "name": "@types/react-dom",
+    "repoUrl": "https://github.com/DefinitelyTyped/DefinitelyTyped"
+  },
+  {
+    "name": "@types/relateurl",
     "repoUrl": "https://github.com/DefinitelyTyped/DefinitelyTyped"
   },
   {
@@ -1155,7 +1184,15 @@
     "repoUrl": "https://github.com/DefinitelyTyped/DefinitelyTyped"
   },
   {
+    "name": "@types/triple-beam",
+    "repoUrl": "https://github.com/DefinitelyTyped/DefinitelyTyped"
+  },
+  {
     "name": "@types/trusted-types",
+    "repoUrl": "https://github.com/DefinitelyTyped/DefinitelyTyped"
+  },
+  {
+    "name": "@types/uglify-js",
     "repoUrl": "https://github.com/DefinitelyTyped/DefinitelyTyped"
   },
   {
@@ -1165,6 +1202,10 @@
   {
     "name": "@types/uuid",
     "repoUrl": "https://github.com/DefinitelyTyped/DefinitelyTyped"
+  },
+  {
+    "name": "@types/winston",
+    "repoUrl": "https://github.com/winstonjs/winston"
   },
   {
     "name": "@types/ws",
@@ -1213,6 +1254,10 @@
   {
     "name": "@typescript-eslint/visitor-keys",
     "repoUrl": "https://github.com/typescript-eslint/typescript-eslint"
+  },
+  {
+    "name": "@ungap/structured-clone",
+    "repoUrl": "https://github.com/ungap/structured-clone"
   },
   {
     "name": "@vicgutt/tailwindcss-font-face",
@@ -1652,6 +1697,11 @@
     "repoUrl": "https://github.com/wooorm/character-entities-legacy"
   },
   { "name": "chardet", "repoUrl": "https://github.com/runk/node-chardet" },
+  { "name": "cheerio", "repoUrl": "https://github.com/cheeriojs/cheerio" },
+  {
+    "name": "cheerio-select",
+    "repoUrl": "https://github.com/cheeriojs/cheerio-select"
+  },
   { "name": "chokidar", "repoUrl": "https://github.com/paulmillr/chokidar" },
   { "name": "chownr", "repoUrl": "https://github.com/isaacs/chownr" },
   {
@@ -1720,6 +1770,7 @@
     "repoUrl": "https://github.com/jorgebucaran/colorette"
   },
   { "name": "colors", "repoUrl": "https://github.com/Marak/colors.js" },
+  { "name": "colorspace", "repoUrl": "https://github.com/3rd-Eden/colorspace" },
   {
     "name": "combined-stream",
     "repoUrl": "https://github.com/felixge/node-combined-stream"
@@ -1770,6 +1821,10 @@
     "repoUrl": "https://github.com/open-cli-tools/concurrently"
   },
   { "name": "conf", "repoUrl": "https://github.com/sindresorhus/conf" },
+  {
+    "name": "config-chain",
+    "repoUrl": "https://github.com/dominictarr/config-chain"
+  },
   { "name": "connect", "repoUrl": "https://github.com/senchalabs/connect" },
   {
     "name": "connect-history-api-fallback",
@@ -1937,6 +1992,10 @@
     "repoUrl": "https://github.com/szmarczak/defer-to-connect"
   },
   {
+    "name": "define-data-property",
+    "repoUrl": "https://github.com/ljharb/define-data-property"
+  },
+  {
     "name": "define-lazy-prop",
     "repoUrl": "https://github.com/sindresorhus/define-lazy-prop"
   },
@@ -2009,6 +2068,10 @@
     "name": "eastasianwidth",
     "repoUrl": "https://github.com/komagata/eastasianwidth"
   },
+  {
+    "name": "editorconfig",
+    "repoUrl": "https://github.com/editorconfig/editorconfig-core-js"
+  },
   { "name": "ee-first", "repoUrl": "https://github.com/jonathanong/ee-first" },
   { "name": "ejs", "repoUrl": "https://github.com/mde/ejs" },
   { "name": "electron", "repoUrl": "https://github.com/electron/electron" },
@@ -2029,6 +2092,7 @@
     "name": "emojis-list",
     "repoUrl": "https://github.com/kikobeats/emojis-list"
   },
+  { "name": "enabled", "repoUrl": "https://github.com/3rd-Eden/enabled" },
   { "name": "encodeurl", "repoUrl": "https://github.com/pillarjs/encodeurl" },
   { "name": "encoding", "repoUrl": "https://github.com/andris9/encoding" },
   {
@@ -2086,6 +2150,10 @@
   { "name": "esbuild", "repoUrl": "https://github.com/evanw/esbuild" },
   { "name": "esbuild-wasm", "repoUrl": "https://github.com/evanw/esbuild" },
   { "name": "escalade", "repoUrl": "https://github.com/lukeed/escalade" },
+  {
+    "name": "escape-goat",
+    "repoUrl": "https://github.com/sindresorhus/escape-goat"
+  },
   {
     "name": "escape-html",
     "repoUrl": "https://github.com/component/escape-html"
@@ -2209,6 +2277,7 @@
     "name": "fd-slicer",
     "repoUrl": "https://github.com/andrewrk/node-fd-slicer"
   },
+  { "name": "fecha", "repoUrl": "https://github.com/taylorhakes/fecha" },
   {
     "name": "fetch-blob",
     "repoUrl": "https://github.com/node-fetch/fetch-blob"
@@ -2251,6 +2320,7 @@
     "name": "flush-write-stream",
     "repoUrl": "https://github.com/mafintosh/flush-write-stream"
   },
+  { "name": "fn.name", "repoUrl": "https://github.com/3rd-Eden/fn.name" },
   {
     "name": "follow-redirects",
     "repoUrl": "https://github.com/follow-redirects/follow-redirects"
@@ -2324,6 +2394,10 @@
     "repoUrl": "https://github.com/inspect-js/get-symbol-description"
   },
   {
+    "name": "get-tsconfig",
+    "repoUrl": "https://github.com/privatenumber/get-tsconfig"
+  },
+  {
     "name": "github-slugger",
     "repoUrl": "https://github.com/Flet/github-slugger"
   },
@@ -2379,6 +2453,7 @@
     "repoUrl": "https://github.com/inspect-js/has-tostringtag"
   },
   { "name": "has-unicode", "repoUrl": "https://github.com/iarna/has-unicode" },
+  { "name": "hasown", "repoUrl": "https://github.com/inspect-js/hasOwn" },
   {
     "name": "hast-util-from-parse5",
     "repoUrl": "https://github.com/syntax-tree/hast-util-from-parse5"
@@ -2438,6 +2513,10 @@
   {
     "name": "html-escaper",
     "repoUrl": "https://github.com/WebReflection/html-escaper"
+  },
+  {
+    "name": "html-minifier",
+    "repoUrl": "https://github.com/kangax/html-minifier"
   },
   {
     "name": "html-minifier-terser",
@@ -2517,6 +2596,10 @@
   { "name": "ieee754", "repoUrl": "https://github.com/feross/ieee754" },
   { "name": "iferr", "repoUrl": "https://github.com/shesek/iferr" },
   { "name": "ignore", "repoUrl": "https://github.com/kaelzhang/node-ignore" },
+  {
+    "name": "ignore-by-default",
+    "repoUrl": "https://github.com/novemberborn/ignore-by-default"
+  },
   { "name": "ignore-walk", "repoUrl": "https://github.com/npm/ignore-walk" },
   {
     "name": "image-size",
@@ -2732,6 +2815,10 @@
   { "name": "jest-worker", "repoUrl": "https://github.com/facebook/jest" },
   { "name": "jiti", "repoUrl": "https://github.com/unjs/jiti" },
   { "name": "joi", "repoUrl": "https://github.com/hapijs/joi" },
+  {
+    "name": "js-beautify",
+    "repoUrl": "https://github.com/beautify-web/js-beautify"
+  },
   { "name": "js-tokens", "repoUrl": "https://github.com/lydell/js-tokens" },
   { "name": "js-yaml", "repoUrl": "https://github.com/nodeca/js-yaml" },
   { "name": "jsesc", "repoUrl": "https://github.com/mathiasbynens/jsesc" },
@@ -2773,6 +2860,7 @@
     "name": "jsx-ast-utils",
     "repoUrl": "https://github.com/jsx-eslint/jsx-ast-utils"
   },
+  { "name": "juice", "repoUrl": "https://github.com/Automattic/juice" },
   { "name": "karma", "repoUrl": "https://github.com/karma-runner/karma" },
   {
     "name": "karma-chrome-launcher",
@@ -2814,6 +2902,7 @@
   { "name": "kind-of", "repoUrl": "https://github.com/jonschlinkert/kind-of" },
   { "name": "kleur", "repoUrl": "https://github.com/lukeed/kleur" },
   { "name": "klona", "repoUrl": "https://github.com/lukeed/klona" },
+  { "name": "kuler", "repoUrl": "https://github.com/3rd-Eden/kuler" },
   {
     "name": "launch-editor",
     "repoUrl": "https://github.com/yyx990803/launch-editor"
@@ -2867,6 +2956,7 @@
     "repoUrl": "https://github.com/sindresorhus/log-update"
   },
   { "name": "log4js", "repoUrl": "https://github.com/log4js-node/log4js-node" },
+  { "name": "logform", "repoUrl": "https://github.com/winstonjs/logform" },
   {
     "name": "longest-streak",
     "repoUrl": "https://github.com/wooorm/longest-streak"
@@ -2957,6 +3047,7 @@
   { "name": "mdn-data", "repoUrl": "https://github.com/mdn/data" },
   { "name": "media-typer", "repoUrl": "https://github.com/jshttp/media-typer" },
   { "name": "memfs", "repoUrl": "https://github.com/streamich/memfs" },
+  { "name": "mensch", "repoUrl": "https://github.com/brettstimmerman/mensch" },
   {
     "name": "merge-descriptors",
     "repoUrl": "https://github.com/component/merge-descriptors"
@@ -3132,6 +3223,47 @@
     "name": "mississippi",
     "repoUrl": "https://github.com/maxogden/mississippi"
   },
+  { "name": "mjml", "repoUrl": "https://github.com/mjmlio/mjml" },
+  { "name": "mjml-accordion", "repoUrl": "https://github.com/mjmlio/mjml" },
+  { "name": "mjml-body", "repoUrl": "https://github.com/mjmlio/mjml" },
+  { "name": "mjml-button", "repoUrl": "https://github.com/mjmlio/mjml" },
+  { "name": "mjml-carousel", "repoUrl": "https://github.com/mjmlio/mjml" },
+  { "name": "mjml-cli", "repoUrl": "https://github.com/mjmlio/mjml" },
+  { "name": "mjml-column", "repoUrl": "https://github.com/mjmlio/mjml" },
+  { "name": "mjml-core", "repoUrl": "https://github.com/mjmlio/mjml" },
+  { "name": "mjml-divider", "repoUrl": "https://github.com/mjmlio/mjml" },
+  { "name": "mjml-group", "repoUrl": "https://github.com/mjmlio/mjml" },
+  { "name": "mjml-head", "repoUrl": "https://github.com/mjmlio/mjml" },
+  {
+    "name": "mjml-head-attributes",
+    "repoUrl": "https://github.com/mjmlio/mjml"
+  },
+  {
+    "name": "mjml-head-breakpoint",
+    "repoUrl": "https://github.com/mjmlio/mjml"
+  },
+  { "name": "mjml-head-font", "repoUrl": "https://github.com/mjmlio/mjml" },
+  {
+    "name": "mjml-head-html-attributes",
+    "repoUrl": "https://github.com/mjmlio/mjml"
+  },
+  { "name": "mjml-head-preview", "repoUrl": "https://github.com/mjmlio/mjml" },
+  { "name": "mjml-head-style", "repoUrl": "https://github.com/mjmlio/mjml" },
+  { "name": "mjml-head-title", "repoUrl": "https://github.com/mjmlio/mjml" },
+  { "name": "mjml-hero", "repoUrl": "https://github.com/mjmlio/mjml" },
+  { "name": "mjml-image", "repoUrl": "https://github.com/mjmlio/mjml" },
+  { "name": "mjml-migrate", "repoUrl": "https://github.com/mjmlio/mjml" },
+  { "name": "mjml-navbar", "repoUrl": "https://github.com/mjmlio/mjml" },
+  { "name": "mjml-parser-xml", "repoUrl": "https://github.com/mjmlio/mjml" },
+  { "name": "mjml-preset-core", "repoUrl": "https://github.com/mjmlio/mjml" },
+  { "name": "mjml-raw", "repoUrl": "https://github.com/mjmlio/mjml" },
+  { "name": "mjml-section", "repoUrl": "https://github.com/mjmlio/mjml" },
+  { "name": "mjml-social", "repoUrl": "https://github.com/mjmlio/mjml" },
+  { "name": "mjml-spacer", "repoUrl": "https://github.com/mjmlio/mjml" },
+  { "name": "mjml-table", "repoUrl": "https://github.com/mjmlio/mjml" },
+  { "name": "mjml-text", "repoUrl": "https://github.com/mjmlio/mjml" },
+  { "name": "mjml-validator", "repoUrl": "https://github.com/mjmlio/mjml" },
+  { "name": "mjml-wrapper", "repoUrl": "https://github.com/mjmlio/mjml" },
   { "name": "mkdirp", "repoUrl": "https://github.com/substack/node-mkdirp" },
   {
     "name": "modern-normalize",
@@ -3192,6 +3324,7 @@
     "name": "no-case",
     "repoUrl": "https://github.com/blakeembrey/change-case"
   },
+  { "name": "nocache", "repoUrl": "https://github.com/helmetjs/nocache" },
   {
     "name": "node-addon-api",
     "repoUrl": "https://github.com/nodejs/node-addon-api"
@@ -3214,6 +3347,11 @@
   {
     "name": "node-releases",
     "repoUrl": "https://github.com/chicoxyzzy/node-releases"
+  },
+  { "name": "nodemon", "repoUrl": "https://github.com/remy/nodemon" },
+  {
+    "name": "nodemon-webpack-plugin",
+    "repoUrl": "https://github.com/Izhaki/nodemon-webpack-plugin"
   },
   { "name": "nopt", "repoUrl": "https://github.com/npm/nopt" },
   {
@@ -3300,6 +3438,7 @@
   { "name": "on-finished", "repoUrl": "https://github.com/jshttp/on-finished" },
   { "name": "on-headers", "repoUrl": "https://github.com/jshttp/on-headers" },
   { "name": "once", "repoUrl": "https://github.com/isaacs/once" },
+  { "name": "one-time", "repoUrl": "https://github.com/3rd-Eden/one-time" },
   { "name": "onetime", "repoUrl": "https://github.com/sindresorhus/onetime" },
   { "name": "open", "repoUrl": "https://github.com/sindresorhus/open" },
   { "name": "optionator", "repoUrl": "https://github.com/gkz/optionator" },
@@ -3347,6 +3486,10 @@
   { "name": "parse5", "repoUrl": "https://github.com/inikulin/parse5" },
   {
     "name": "parse5-html-rewriting-stream",
+    "repoUrl": "https://github.com/inikulin/parse5"
+  },
+  {
+    "name": "parse5-htmlparser2-tree-adapter",
     "repoUrl": "https://github.com/inikulin/parse5"
   },
   {
@@ -3712,12 +3855,14 @@
     "name": "property-information",
     "repoUrl": "https://github.com/wooorm/property-information"
   },
+  { "name": "proto-list", "repoUrl": "https://github.com/isaacs/proto-list" },
   { "name": "proxy-addr", "repoUrl": "https://github.com/jshttp/proxy-addr" },
   {
     "name": "proxy-from-env",
     "repoUrl": "https://github.com/Rob--W/proxy-from-env"
   },
   { "name": "prr", "repoUrl": "https://github.com/rvagg/prr" },
+  { "name": "pstree.remy", "repoUrl": "https://github.com/remy/pstree" },
   { "name": "pump", "repoUrl": "https://github.com/mafintosh/pump" },
   { "name": "pumpify", "repoUrl": "https://github.com/mafintosh/pumpify" },
   {
@@ -3863,6 +4008,10 @@
     "repoUrl": "https://github.com/sindresorhus/resolve-pkg"
   },
   {
+    "name": "resolve-pkg-maps",
+    "repoUrl": "https://github.com/privatenumber/resolve-pkg-maps"
+  },
+  {
     "name": "resolve-url-loader",
     "repoUrl": "https://github.com/bholloway/resolve-url-loader"
   },
@@ -3924,6 +4073,10 @@
   {
     "name": "safe-regex-test",
     "repoUrl": "https://github.com/ljharb/safe-regex-test"
+  },
+  {
+    "name": "safe-stable-stringify",
+    "repoUrl": "https://github.com/BridgeAR/safe-stable-stringify"
   },
   {
     "name": "safer-buffer",
@@ -3991,6 +4144,14 @@
     "repoUrl": "https://github.com/yargs/set-blocking"
   },
   {
+    "name": "set-function-length",
+    "repoUrl": "https://github.com/ljharb/set-function-length"
+  },
+  {
+    "name": "set-function-name",
+    "repoUrl": "https://github.com/ljharb/set-function-name"
+  },
+  {
     "name": "setprototypeof",
     "repoUrl": "https://github.com/wesleytodd/setprototypeof"
   },
@@ -4018,10 +4179,15 @@
     "name": "simple-swizzle",
     "repoUrl": "https://github.com/qix-/node-simple-swizzle"
   },
+  {
+    "name": "simple-update-notifier",
+    "repoUrl": "https://github.com/alexbrazier/simple-update-notifier"
+  },
   { "name": "sisteransi", "repoUrl": "https://github.com/terkelg/sisteransi" },
   { "name": "sitemap", "repoUrl": "https://github.com/ekalinin/sitemap.js" },
   { "name": "slash", "repoUrl": "https://github.com/sindresorhus/slash" },
   { "name": "slice-ansi", "repoUrl": "https://github.com/chalk/slice-ansi" },
+  { "name": "slick", "repoUrl": "https://github.com/kamicane/slick" },
   {
     "name": "smart-buffer",
     "repoUrl": "https://github.com/JoshGlazebrook/smart-buffer"
@@ -4094,6 +4260,10 @@
   { "name": "sprintf-js", "repoUrl": "https://github.com/alexei/sprintf.js" },
   { "name": "ssri", "repoUrl": "https://github.com/npm/ssri" },
   { "name": "stable", "repoUrl": "https://github.com/Two-Screen/stable" },
+  {
+    "name": "stack-trace",
+    "repoUrl": "https://github.com/felixge/node-stack-trace"
+  },
   { "name": "statuses", "repoUrl": "https://github.com/jshttp/statuses" },
   {
     "name": "stdin-discarder",
@@ -4221,6 +4391,7 @@
     "name": "test-exclude",
     "repoUrl": "https://github.com/istanbuljs/test-exclude"
   },
+  { "name": "text-hex", "repoUrl": "https://github.com/3rd-Eden/text-hex" },
   { "name": "text-table", "repoUrl": "https://github.com/substack/text-table" },
   { "name": "then-request", "repoUrl": "https://github.com/then/then-request" },
   { "name": "thenify", "repoUrl": "https://github.com/thenables/thenify" },
@@ -4246,11 +4417,17 @@
     "name": "toidentifier",
     "repoUrl": "https://github.com/component/toidentifier"
   },
+  { "name": "touch", "repoUrl": "https://github.com/isaacs/node-touch" },
+  { "name": "tr46", "repoUrl": "https://github.com/Sebmaster/tr46.js" },
   {
     "name": "tree-kill",
     "repoUrl": "https://github.com/pkrumins/node-tree-kill"
   },
   { "name": "trim-lines", "repoUrl": "https://github.com/wooorm/trim-lines" },
+  {
+    "name": "triple-beam",
+    "repoUrl": "https://github.com/winstonjs/triple-beam"
+  },
   { "name": "trough", "repoUrl": "https://github.com/wooorm/trough" },
   {
     "name": "ts-api-utils",
@@ -4322,7 +4499,9 @@
     "name": "unbox-primitive",
     "repoUrl": "https://github.com/ljharb/unbox-primitive"
   },
+  { "name": "undefsafe", "repoUrl": "https://github.com/remy/undefsafe" },
   { "name": "undici", "repoUrl": "https://github.com/nodejs/undici" },
+  { "name": "undici-types", "repoUrl": "https://github.com/nodejs/undici" },
   { "name": "unherit", "repoUrl": "https://github.com/wooorm/unherit" },
   {
     "name": "unicode-canonical-property-names-ecmascript",
@@ -4416,6 +4595,10 @@
     "repoUrl": "https://github.com/zertosh/v8-compile-cache"
   },
   {
+    "name": "valid-data-url",
+    "repoUrl": "https://github.com/killmenot/valid-data-url"
+  },
+  {
     "name": "validate-npm-package-license",
     "repoUrl": "https://github.com/kemitchell/validate-npm-package-license.js"
   },
@@ -4497,8 +4680,16 @@
     "repoUrl": "https://github.com/wooorm/web-namespaces"
   },
   {
+    "name": "web-resource-inliner",
+    "repoUrl": "https://github.com/jrit/web-resource-inliner"
+  },
+  {
     "name": "web-streams-polyfill",
     "repoUrl": "https://github.com/MattiasBuelens/web-streams-polyfill"
+  },
+  {
+    "name": "webidl-conversions",
+    "repoUrl": "https://github.com/jsdom/webidl-conversions"
   },
   { "name": "webpack", "repoUrl": "https://github.com/webpack/webpack" },
   {
@@ -4537,6 +4728,7 @@
     "name": "websocket-extensions",
     "repoUrl": "https://github.com/faye/websocket-extensions-node"
   },
+  { "name": "whatwg-url", "repoUrl": "https://github.com/jsdom/whatwg-url" },
   { "name": "which", "repoUrl": "https://github.com/isaacs/node-which" },
   {
     "name": "which-boxed-primitive",
@@ -4558,6 +4750,11 @@
     "repoUrl": "https://github.com/sindresorhus/widest-line"
   },
   { "name": "wildcard", "repoUrl": "https://github.com/DamonOehlman/wildcard" },
+  { "name": "winston", "repoUrl": "https://github.com/winstonjs/winston" },
+  {
+    "name": "winston-transport",
+    "repoUrl": "https://github.com/winstonjs/winston-transport"
+  },
   {
     "name": "word-wrap",
     "repoUrl": "https://github.com/jonschlinkert/word-wrap"
