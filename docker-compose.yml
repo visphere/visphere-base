@@ -52,6 +52,9 @@ services:
     image: ${ENV_VSPH_DOCKERHUB_USERNAME}/vsph-mail-parser-dev:latest
     ports:
       - '${ENV_VSPH_MAIL_PARSER_API_PORT}:80'
+    environment:
+      - 'API_HEADER=${ENV_VSPH_MAIL_PARSER_API_HEADER}'
+      - 'API_KEY=${ENV_VSPH_MAIL_PARSER_API_KEY}'
     pull_policy: always
     networks:
       - visphere-network
