@@ -50,6 +50,7 @@ module.exports = ({ cdnBaseUrl, loadableModules }) => ({
       },
       'vsph-orange': {
         100: 'rgb(219, 164, 45)',
+        50: 'rgb(236, 216, 171, .2)',
       },
       'vsph-green': {
         100: 'rgb(86, 182, 86)',

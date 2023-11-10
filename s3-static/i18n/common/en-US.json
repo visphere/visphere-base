@@ -12,6 +12,7 @@
     "unknowError": "Ooops. Something went wrong. Try again later.",
     "emailMessageNotReceived": "Email message not received?",
     "resendMessageButton": "Resend message",
-    "responseTime": "Response time"
+    "responseTime": "Response time",
+    "stepBackward": "Step backward"
   }
 }

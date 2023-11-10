@@ -7,6 +7,8 @@
     "authChangePasswordPage": "Change password",
     "authActivateAccountPage": "Activate account",
     "authMyAccountsPage": "My accounts",
+    "authMfaPage": "Multi-factor authentication",
+    "authMfaEmailPage": "Multi-factor authentication via email",
     "notFoundPage": "404"
   },
   "vsph.webClient.registerPage": {
@@ -116,9 +118,7 @@
       "token": {
         "value": "Verification token",
         "errors": {
-          "required": "Verification token is required.",
-          "exactLength": "Verification token must have 10 characters.",
-          "pattern": "Verification token contains illegal characters."
+          "required": "Verification token is required."
         }
       }
     },
@@ -153,9 +153,7 @@
       "token": {
         "value": "Verification token",
         "errors": {
-          "required": "Verification token is required.",
-          "exactLength": "Verification token must have 10 characters.",
-          "pattern": "Verification token contains illegal characters."
+          "required": "Verification token is required."
         }
       }
     },

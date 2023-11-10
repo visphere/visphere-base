@@ -12,6 +12,7 @@
     "unknowError": "Oj, coś poszło nie tak. Spróbuj ponownie później.",
     "emailMessageNotReceived": "Wiadomość email nie dotarła?",
     "resendMessageButton": "Wyślij ponownie",
-    "responseTime": "Czas odpowiedzi"
+    "responseTime": "Czas odpowiedzi",
+    "stepBackward": "Cofnij"
   }
 }

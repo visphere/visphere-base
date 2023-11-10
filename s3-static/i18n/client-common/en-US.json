@@ -77,5 +77,57 @@
       "removeMySavedAccount": "Successfully removed account from yours saved accounts.",
       "removeAllMySavedAccounts": "Successfully removed all yours saved accounts."
     }
+  },
+  "vsph.clientCommon.mfaPage": {
+    "formHeader": "Multi-factor authentication",
+    "formDescription": "Confirm your identity using the multi-factor Authenticator app.",
+    "mfaCodeForm": {
+      "formFields": {
+        "code": {
+          "value": "6-digits code",
+          "errors": {
+            "required": "6-digits code is required.",
+            "exactLength": "Code must have exact 6 digits.",
+            "pattern": "6-digits code contains illegal characters."
+          }
+        }
+      }
+    },
+    "firstSetupStepper": {
+      "qrcode": {
+        "header": "Enter authentication details",
+        "paragraph": "Scan the QR-code or enter the authenticator sercret code with Google Authenticator or Microsoft Authenticator app."
+      },
+      "confirm": {
+        "header": "Copy and save secret code",
+        "paragraph": "Copy and save this code in a safe place in case you lose access to the Google Authenticator or Microsoft Authenticator app.",
+        "infoBlock": "Make sure to save the 32-digit key. It will help you restore access to your account if you lose your device. To keep your account secure, do not share this key.",
+        "saveToFile": "Save to file"
+      },
+      "code": {
+        "header": "Sync connection",
+        "paragraph": "Insert code from authenticator app to sync connection between your authenticator device and Visphere account."
+      }
+    },
+    "secretKeyHeader": "Secret key",
+    "proceedLogin": "Proceed login",
+    "dontHaveAccessToAuthenticator": "I don't have access to verify via Authenticator app.",
+    "verifyViaEmail": "Verify via email"
+  },
+  "vsph.clientCommon.mfaEmailPage": {
+    "formHeader": "Multi-factor authentication",
+    "formDescription": "Confirm your identity using the one-time password sending via email message.",
+    "verifyViaAuthenticator": "Verify via Authenticator app",
+    "formFields": {
+      "token": {
+        "value": "Access token",
+        "errors": {
+          "required": "Access code is required."
+        }
+      }
+    },
+    "returnToAuthenticatorMethod": "Return to authenticator method",
+    "sendVerificationToken": "Send access token",
+    "proceedLogin": "Proceed login"
   }
 }

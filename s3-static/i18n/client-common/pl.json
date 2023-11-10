@@ -77,5 +77,56 @@
       "removeMySavedAccount": "Pomyślnie usunięto wybrane konto z Twoich zapisanych kont.",
       "removeAllMySavedAccounts": "Pomyślnie usunięto wszystkie Twoje zapisane konta."
     }
+  },
+  "vsph.clientCommon.mfaPage": {
+    "formHeader": "Weryfikacja wieloetapowa",
+    "formDescription": "Potwierdź swoją toższamość przy użyciu mechanizmu weryfikacji aplikacji Authenticator.",
+    "mfaCodeForm": {
+      "formFields": {
+        "code": {
+          "value": "6-cio cyfrowy kod",
+          "errors": {
+            "required": "6-cio cyfrowy kod jest wymagany.",
+            "exactLength": "Kod musi posiadać dokładnie 6 cyfr.",
+            "pattern": "6-cio cyfrowy kod posiada niedozwolone znaki."
+          }
+        }
+      }
+    },
+    "firstSetupStepper": {
+      "qrcode": {
+        "header": "Wprowadź szczegóły uwierzytelniania",
+        "paragraph": "Zeskanuj kod QR lub wprowadź tajny kod uwierzytelniający do aplikacji Google Authenticator lub Microsoft Authenticator."
+      },
+      "confirm": {
+        "header": "Skopiuj i zapisz tajny klucz",
+        "paragraph": "Skopiuj i zapisz ten kod w bezpiecznym miejscu na wypadek utraty dostępu do aplikacji Google Authenticator lub Microsoft Authenticator.",
+        "infoBlock": "Pamiętaj, aby zapisać 32-cyfrowy klucz. Pomoże on przywrócić dostęp do konta w przypadku utraty urządzenia. Aby zapewnić bezpieczeństwo konta, nie udostępniaj tego klucza.",
+        "saveToFile": "Zapisz do pliku"
+      },
+      "code": {
+        "header": "Synchronizacja połączenia",
+        "paragraph": "Wstaw kod z aplikacji uwierzytelniającej, aby zsynchronizować połączenie między urządzeniem uwierzytelniającym a kontem Visphere."
+      }
+    },
+    "secretKeyHeader": "Tajny klucz",
+    "proceedLogin": "Kontynuuj logowanie",
+    "dontHaveAccessToAuthenticator": "Nie mam dostępu do aplikacji Authenticator.",
+    "verifyViaEmail": "Potwierdź poprzez email"
+  },
+  "vsph.clientCommon.mfaEmailPage": {
+    "formHeader": "Weryfikacja wieloetapowa",
+    "formDescription": "Potwierdź swoją tożsamość przy użyciu tokenu dostępu z wiadomości email.",
+    "verifyViaAuthenticator": "Weryfikuj poprzez aplikację Authenticator",
+    "formFields": {
+      "token": {
+        "value": "Token dostępu",
+        "errors": {
+          "required": "Token dostępu jest wymagany."
+        }
+      }
+    },
+    "sendVerificationToken": "Wyślij token dostępu",
+    "proceedLogin": "Kontynuuj logowanie"
   }
 }

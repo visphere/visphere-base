@@ -156,4 +156,20 @@ module.exports = {
     'px-1.5 py-1',
     'rounded-md',
   ]),
+  '.vsph-auth__stepper-container': parseTwdApply([
+    'flex items-center',
+    'space-x-2.5',
+  ]),
+  '.vsph-auth__stepper-number': parseTwdApply([
+    'flex items-center justify-center shrink-0',
+    'w-8 h-8',
+    'border border-vsph-tint-500',
+    'rounded-full',
+    'text-vsph-tint-500 font-bold',
+  ]),
+  '.vsph-auth__stepper-header': parseTwdApply(['font-bold', 'mb-1']),
+  '.vsph-auth__stepper-paragraph': parseTwdApply([
+    'text-sm leading-[17px]',
+    'text-vsph-tint-400 dark:text-vsph-tint-300',
+  ]),
 };

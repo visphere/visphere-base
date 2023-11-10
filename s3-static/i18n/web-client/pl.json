@@ -7,6 +7,8 @@
     "authChangePasswordPage": "Zmiana hasła",
     "authActivateAccountPage": "Aktywuj konto",
     "authMyAccountsPage": "Moje konta",
+    "authMfaPage": "Uwierzytelnianie wieloetapowe",
+    "authMfaEmailPage": "Uwierzytelnianie wieloetapowe poprzez email",
     "notFoundPage": "404"
   },
   "vsph.webClient.registerPage": {
@@ -115,9 +117,7 @@
       "token": {
         "value": "Token weryfikujący",
         "errors": {
-          "required": "Token weryfikujący jest wymagany.",
-          "exactLength": "Token weryfikujący musi składać się z 10 znaków.",
-          "pattern": "Token weryfikujący zawiera niedozwolone znaki."
+          "required": "Token weryfikujący jest wymagany."
         }
       }
     },
@@ -152,9 +152,7 @@
       "token": {
         "value": "Token weryfikujący",
         "errors": {
-          "required": "Token weryfikujący jest wymagany.",
-          "exactLength": "Token weryfikujący musi składać się z 10 znaków.",
-          "pattern": "Token weryfikujący zawiera niedozwolone znaki."
+          "required": "Token weryfikujący jest wymagany."
         }
       }
     },
