@@ -1,6 +1,7 @@
 {
   "vsph.webClient.pageTitle": {
     "clientEntryPointPage": "Dashboard",
+    "settingsEntryPointPage": "Settings",
     "authLoginPage": "Sign in",
     "authRegisterPage": "Sign up",
     "authResetPasswordPage": "Reset password",

@@ -1,6 +1,7 @@
 {
   "vsph.webClient.pageTitle": {
     "clientEntryPointPage": "Panel główny",
+    "settingsEntryPointPage": "Ustawienia",
     "authLoginPage": "Logowanie",
     "authRegisterPage": "Rejestracja",
     "authResetPasswordPage": "Reset hasła",
