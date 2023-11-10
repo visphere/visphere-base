@@ -22,6 +22,9 @@ const components = {
   '.vsph-button-spinner__carousel--modal': parseTwdApply([
     'text-vsph-tint-400 dark:text-vsph-tint-200',
   ]),
+  '.vsph-button-spinner__carousel--dark': parseTwdApply([
+    'text-vsph-light-100 dark:text-vsph-dark-900',
+  ]),
 };
 
 const animations = {
