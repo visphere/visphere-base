@@ -25,6 +25,13 @@ const components = {
   '.vsph-button-spinner__carousel--dark': parseTwdApply([
     'text-vsph-light-100 dark:text-vsph-dark-900',
   ]),
+  '.vsph-button-spinner__carousel--google': parseTwdApply([
+    'text-vsph-google-fg',
+  ]),
+  '.vsph-button-spinner__carousel--facebook': parseTwdApply([
+    'text-vsph-facebook-fg',
+  ]),
+  '.vsph-button-spinner__carousel--x': parseTwdApply(['text-vsph-x-fg']),
 };
 
 const animations = {

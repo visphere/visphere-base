@@ -27,25 +27,21 @@ module.exports = {
     'mb-6',
     'text-vsph-tint-400 dark:text-vsph-tint-300',
   ]),
-  '.vsph-auth__google-oauth-button': parseTwdApply([
-    'vsph-button',
-    'justify-start',
+  '.vsph-auth__oauth-button': parseTwdApply([
+    'w-full min-h-[42px]',
+    'relative',
     'border border-vsph-tint-200 dark:border-vsph-dark-800',
+  ]),
+  '.vsph-auth__google-oauth-button': parseTwdApply([
     'font-semibold',
     'bg-vsph-google-bg',
     'text-vsph-google-fg',
   ]),
   '.vsph-auth__facebook-oauth-button': parseTwdApply([
-    'vsph-button',
-    'justify-start',
-    'border border-vsph-tint-200 dark:border-vsph-dark-800',
     'bg-vsph-facebook-bg',
     'text-vsph-facebook-fg',
   ]),
   '.vsph-auth__x-oauth-button': parseTwdApply([
-    'vsph-button',
-    'justify-start',
-    'border border-vsph-tint-200 dark:border-vsph-dark-800',
     'bg-vsph-x-bg',
     'text-vsph-x-fg',
   ]),
