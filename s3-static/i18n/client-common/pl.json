@@ -128,5 +128,61 @@
     },
     "sendVerificationToken": "Wyślij token dostępu",
     "proceedLogin": "Kontynuuj logowanie"
+  },
+  "vsph.clientCommon.fillDataPage": {
+    "formHeader": "Uzupełnij dane",
+    "formDescription": "W celu dokończenia rejestracji w aplikacji przy użyciu zewnętrznego dostawy, wprowadź dodatkowe dane.",
+    "formFields": {
+      "username": {
+        "value": "Nazwa użytkownika",
+        "errors": {
+          "required": "Nazwa użytkownika jest wymagana.",
+          "minlength": "Nazwa użytkownika musi zawierać co najmniej 3 znaki.",
+          "pattern": "Nazwa użytkownika może zawierać jedynie małe litery, cyfry oraz znaki \"-\" oraz \"_\".",
+          "exist": "Nazwa użytkownika jest już zajęta."
+        }
+      },
+      "firstName": {
+        "value": "Imię",
+        "errors": {
+          "required": "Imię jest wymagane.",
+          "minlength": "Imię musi zawierać co najmniej 2 znaki."
+        }
+      },
+      "lastName": {
+        "value": "Nazwisko",
+        "errors": {
+          "required": "Nazwisko jest wymagane.",
+          "minlength": "Nazwisko musi zawierać co najmniej 2 znaki."
+        }
+      },
+      "birthDate": {
+        "value": "Data urodzenia",
+        "placeholders": {
+          "month": "Miesiąc",
+          "day": "Dzień",
+          "year": "Rok"
+        },
+        "errors": {
+          "required": "Data urodzenia jest wymagana.",
+          "notAll": "Data urodzenia musi zawierać miesiąc, dzień i rok.",
+          "invalid": "Data urodzenia jest nieprawidłowa.",
+          "inappropriateAge": "Wymagane jest ukończenie 13 lat aby założyć konto w aplikacji."
+        }
+      },
+      "allowNotifs": {
+        "value": "Chcę otrzymywać powiadomienia email o nowych aktualizacjach, zmianach i ofertach specjalnych. Możesz zrezygnować w każdej chwili."
+      },
+      "agreeTerms": {
+        "value": "Akceptuję {termsUrl} oraz {privacyPolicyUrl}",
+        "terms": "warunki",
+        "privacyPolicy": "politykę prywatności",
+        "errors": {
+          "required": "Musisz zaakceptować warunki świadczenia usług aby kontynuować."
+        }
+      }
+    },
+    "selectDiselectAll": "Zaznacz/odznacz wszystkie.",
+    "proceedLogin": "Kontynuuj logowanie"
   }
 }

@@ -10,6 +10,7 @@
     "authMyAccountsPage": "My accounts",
     "authMfaPage": "Multi-factor authentication",
     "authMfaEmailPage": "Multi-factor authentication via email",
+    "authFillDataPage": "Fill the data",
     "notFoundPage": "404"
   },
   "vsph.webClient.registerPage": {

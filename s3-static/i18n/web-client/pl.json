@@ -10,6 +10,7 @@
     "authMyAccountsPage": "Moje konta",
     "authMfaPage": "Uwierzytelnianie wieloetapowe",
     "authMfaEmailPage": "Uwierzytelnianie wieloetapowe poprzez email",
+    "authFillDataPage": "Uzupełnij dane",
     "notFoundPage": "404"
   },
   "vsph.webClient.registerPage": {

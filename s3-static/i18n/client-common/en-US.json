@@ -129,5 +129,61 @@
     "returnToAuthenticatorMethod": "Return to authenticator method",
     "sendVerificationToken": "Send access token",
     "proceedLogin": "Proceed login"
+  },
+  "vsph.clientCommon.fillDataPage": {
+    "formHeader": "Fill the data",
+    "formDescription": "To complete sign up in the application using an external provider, enter additional personal informations.",
+    "formFields": {
+      "username": {
+        "value": "Username",
+        "errors": {
+          "required": "Username is required.",
+          "minlength": "Username must have at least 3 characters.",
+          "pattern": "Username can including only small letters, digits and followind characters: '-' and '_'.",
+          "exist": "Username is already taken."
+        }
+      },
+      "firstName": {
+        "value": "First name",
+        "errors": {
+          "required": "First name is required.",
+          "minlength": "First name must have at least 2 characters."
+        }
+      },
+      "lastName": {
+        "value": "Last name",
+        "errors": {
+          "required": "Last name is required.",
+          "minlength": "Last name must have at least 2 characters."
+        }
+      },
+      "birthDate": {
+        "value": "Birth date",
+        "placeholders": {
+          "month": "Month",
+          "day": "Day",
+          "year": "Year"
+        },
+        "errors": {
+          "required": "Birth date is required.",
+          "notAll": "Birth date must be filled with month, day and year.",
+          "invalid": "Birth date is invalid.",
+          "inappropriateAge": "It is required to be at least 13 years old to create an account."
+        }
+      },
+      "allowNotifs": {
+        "value": "I want to send email notifications about new updates, changes and special offers. You can decline at any time."
+      },
+      "agreeTerms": {
+        "value": "I accept {termsUrl} and {privacyPolicyUrl}",
+        "terms": "terms and conditions",
+        "privacyPolicy": "privacy policy",
+        "errors": {
+          "required": "You need to agree to our terms of service to continue."
+        }
+      }
+    },
+    "selectDiselectAll": "Select/diselect all.",
+    "proceedLogin": "Proceed login"
   }
 }
