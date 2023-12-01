@@ -185,5 +185,40 @@
     },
     "selectDiselectAll": "Select/diselect all.",
     "proceedLogin": "Proceed login"
+  },
+  "vsph.clientCommon.settingsPage": {
+    "category": {
+      "userSettings": {
+        "name": "User settings",
+        "subpage": {
+          "myAccount": {
+            "header": "My account"
+          },
+          "profileSettings": {
+            "header": "Profile settings"
+          },
+          "friendRequests": {
+            "header": "Friend requests"
+          }
+        }
+      },
+      "appSettings": {
+        "name": "Application settings",
+        "subpage": {
+          "appearance": {
+            "header": "Appearance"
+          },
+          "notifications": {
+            "header": "Notifications"
+          },
+          "language": {
+            "header": "Language"
+          }
+        }
+      }
+    },
+    "closeButton": "Close",
+    "logoutButton": "Logout",
+    "downloadButton": "Download"
   }
 }

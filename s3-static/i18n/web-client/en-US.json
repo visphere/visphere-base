@@ -11,6 +11,14 @@
     "authMfaPage": "Multi-factor authentication",
     "authMfaEmailPage": "Multi-factor authentication via email",
     "authFillDataPage": "Fill the data",
+    "settingsPage": {
+      "myAccount": "My account - settings",
+      "profile": "Profile - settings",
+      "friendReuqests": "Friend requests - settings",
+      "appearance": "Appearance - settings",
+      "notifications": "Notifications - settings",
+      "language": "Language - settings"
+    },
     "notFoundPage": "404"
   },
   "vsph.webClient.registerPage": {

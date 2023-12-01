@@ -184,5 +184,40 @@
     },
     "selectDiselectAll": "Zaznacz/odznacz wszystkie.",
     "proceedLogin": "Kontynuuj logowanie"
+  },
+  "vsph.clientCommon.settingsPage": {
+    "category": {
+      "userSettings": {
+        "name": "Ustawienia konta",
+        "subpage": {
+          "myAccount": {
+            "header": "Moje konto"
+          },
+          "profileSettings": {
+            "header": "Profil"
+          },
+          "friendRequests": {
+            "header": "Zaproszenia do znajomych"
+          }
+        }
+      },
+      "appSettings": {
+        "name": "Ustawienia aplikacji",
+        "subpage": {
+          "appearance": {
+            "header": "Wygląd"
+          },
+          "notifications": {
+            "header": "Powiadomienia"
+          },
+          "language": {
+            "header": "Język"
+          }
+        }
+      }
+    },
+    "closeButton": "Zamknij",
+    "logoutButton": "Wyloguj",
+    "downloadButton": "Pobierz"
   }
 }

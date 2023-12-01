@@ -9,6 +9,7 @@ module.exports = {
   '.vsph-body-container': parseTwdApply([
     'bg-vsph-light-100 dark:bg-vsph-dark-900',
     'text-vsph-dark-900 dark:text-vsph-light-100',
+    'overflow-x-hidden',
   ]),
   '.vsph-safe-container': parseTwdApply([
     'mx-auto',

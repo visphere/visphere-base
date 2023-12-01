@@ -11,6 +11,14 @@
     "authMfaPage": "Uwierzytelnianie wieloetapowe",
     "authMfaEmailPage": "Uwierzytelnianie wieloetapowe poprzez email",
     "authFillDataPage": "Uzupełnij dane",
+    "settingsPage": {
+      "myAccount": "Moje konto - ustawienia",
+      "profile": "Profil - ustawienia",
+      "friendReuqests": "Zaproszenia do znajomych - ustawienia",
+      "appearance": "Wygląd - ustawienia",
+      "notifications": "Powiadomienia - ustawienia",
+      "language": "Język - ustawienia"
+    },
     "notFoundPage": "404"
   },
   "vsph.webClient.registerPage": {

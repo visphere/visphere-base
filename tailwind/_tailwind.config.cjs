@@ -15,6 +15,7 @@ const availableComponents = {
   landing: require('./ui/landing.cjs'),
   snackbar: require('./ui/snackbar.cjs'),
   modal: require('./ui/modal.cjs'),
+  settings: require('./ui/settings.cjs'),
   myAccounts: require('./ui/my-accounts.cjs'),
   buttonSpinner: buttonSpinnerUi.components,
   tooltip: tooltipUi,
@@ -36,7 +37,9 @@ module.exports = ({ cdnBaseUrl, loadableModules }) => ({
       },
       'vsph-dark': {
         900: 'rgb(7, 7, 7)',
+        850: 'rgb(17, 17, 17)',
         800: 'rgb(26, 26, 26)',
+        750: 'rgb(38, 41, 43)',
         700: 'rgb(64, 72, 74)',
       },
       'vsph-light': {
