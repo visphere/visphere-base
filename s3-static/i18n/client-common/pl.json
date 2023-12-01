@@ -186,6 +186,9 @@
     "proceedLogin": "Kontynuuj logowanie"
   },
   "vsph.clientCommon.settingsPage": {
+    "init": {
+      "header": "Ustawienia"
+    },
     "category": {
       "userSettings": {
         "name": "Ustawienia konta",

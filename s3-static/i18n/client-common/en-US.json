@@ -187,6 +187,9 @@
     "proceedLogin": "Proceed login"
   },
   "vsph.clientCommon.settingsPage": {
+    "init": {
+      "header": "Settings"
+    },
     "category": {
       "userSettings": {
         "name": "User settings",
