@@ -37,5 +37,10 @@
         }
       }
     }
+  },
+  "vsph.webCommon.notFound": {
+    "header": "Wybrany zasób nie istnieje.",
+    "openInBrowserButton": "Otwórz w przeglądarce",
+    "download": "Pobierz"
   }
 }
