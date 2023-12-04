@@ -241,5 +241,14 @@
     "closeButton": "Close",
     "logoutButton": "Logout",
     "downloadButton": "Download"
+  },
+  "vsph.clientCommon.forAll": {
+    "modals": {
+      "logout": {
+        "header": "Logout from application",
+        "paragraph": "Are you sure to logout from application?",
+        "submitButton": "Logout"
+      }
+    }
   }
 }

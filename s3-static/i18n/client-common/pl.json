@@ -240,5 +240,14 @@
     "closeButton": "Zamknij",
     "logoutButton": "Wyloguj",
     "downloadButton": "Pobierz"
+  },
+  "vsph.clientCommon.forAll": {
+    "modals": {
+      "logout": {
+        "header": "Wylogowanie z aplikacji",
+        "paragraph": "Czy na pewno chcesz się wylogować z aplikacji?",
+        "submitButton": "Wyloguj"
+      }
+    }
   }
 }
