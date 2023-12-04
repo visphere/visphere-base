@@ -209,13 +209,31 @@
         "name": "Application settings",
         "subpage": {
           "appearance": {
-            "header": "Appearance"
+            "header": "Appearance",
+            "radioForm": {
+              "label": "Application theme"
+            },
+            "toggler": {
+              "relateSettings": {
+                "label": "Relate theme settings with your account",
+                "description": "If you check this option, theme settings be assigned to your account."
+              }
+            }
           },
           "notifications": {
             "header": "Notifications"
           },
           "language": {
-            "header": "Language"
+            "header": "Language",
+            "radioForm": {
+              "label": "Application language"
+            },
+            "toggler": {
+              "relateSettings": {
+                "label": "Relate language settings with your account",
+                "description": "If you check this option, language settings be assigned to your account."
+              }
+            }
           }
         }
       }

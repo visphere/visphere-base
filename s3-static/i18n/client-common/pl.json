@@ -208,13 +208,31 @@
         "name": "Ustawienia aplikacji",
         "subpage": {
           "appearance": {
-            "header": "Wygląd"
+            "header": "Wygląd",
+            "radioForm": {
+              "label": "Motyw aplikacji"
+            },
+            "toggler": {
+              "relateSettings": {
+                "label": "Powiąż ustawienia motywu z kontem",
+                "description": "Jeśli zaznaczysz tę opcję, ustawienia motywu będą przypisane do Twojego konta."
+              }
+            }
           },
           "notifications": {
             "header": "Powiadomienia"
           },
           "language": {
-            "header": "Język"
+            "header": "Język",
+            "radioForm": {
+              "label": "Język aplikacji"
+            },
+            "toggler": {
+              "relateSettings": {
+                "label": "Powiąż ustawienia języka z kontem",
+                "description": "Jeśli zaznaczysz tę opcję, ustawienia języka będą przypisane do Twojego konta."
+              }
+            }
           }
         }
       }
