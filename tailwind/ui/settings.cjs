@@ -52,6 +52,7 @@ module.exports = {
     'bg-vsph-tint-500',
     'text-vsph-light-100',
     'hover:rounded-2xl',
+    'shadow-md',
     'transition-[border-radius] duration-300',
     'hover:bg-vsph-tint-500 hover:dark:bg-vsph-tint-500',
   ]),
