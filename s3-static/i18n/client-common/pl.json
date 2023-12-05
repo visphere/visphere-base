@@ -220,7 +220,18 @@
             }
           },
           "notifications": {
-            "header": "Powiadomienia"
+            "header": "Powiadomienia",
+            "toggler": {
+              "pushNotifications": {
+                "label": "Włącz/wyłącz powiadomienia",
+                "description": "Jeśli zaznaczysz tę opcję, w aplikacji będą wyświetlane powiadomienia w formie push."
+              },
+              "pushNotificationsSound": {
+                "label": "Włącz/wyłącz dźwięk w powiadomieniach",
+                "description": "Jeśli zaznaczysz tę opcję, wyświetlanym powiadomieniom w aplikacji będzie towarzyszył odgłos dźwiękowy."
+              }
+            },
+            "soundSampleButton": "Odtwórz dźwięk powiadomień"
           },
           "language": {
             "header": "Język",

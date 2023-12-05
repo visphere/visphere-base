@@ -221,7 +221,18 @@
             }
           },
           "notifications": {
-            "header": "Notifications"
+            "header": "Notifications",
+            "toggler": {
+              "pushNotifications": {
+                "label": "Enable/disable notifications",
+                "description": "If you select this option, the app will display push notifications."
+              },
+              "pushNotificationsSound": {
+                "label": "Enable/disable notifications sound effect",
+                "description": "If you check this option, notifications displayed in the app will be accompanied by an sound."
+              }
+            },
+            "soundSampleButton": "Play notification sound"
           },
           "language": {
             "header": "Language",

@@ -117,4 +117,9 @@ module.exports = {
     'text-vsph-dark-900',
     'bg-vsph-light-100',
   ]),
+  '.vsph-settings__section-header': parseTwdApply([
+    'mb-4',
+    'text-sm uppercase',
+    'text-vsph-tint-300 dark:text-vsph-tint-400',
+  ]),
 };
