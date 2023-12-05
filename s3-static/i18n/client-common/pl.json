@@ -209,39 +209,54 @@
         "subpage": {
           "appearance": {
             "header": "Wygląd",
-            "radioForm": {
-              "label": "Motyw aplikacji"
-            },
-            "toggler": {
-              "relateSettings": {
-                "label": "Powiąż ustawienia motywu z kontem",
-                "description": "Jeśli zaznaczysz tę opcję, ustawienia motywu będą przypisane do Twojego konta."
+            "section": {
+              "theme": {
+                "header": "ustawienia motywu aplikacji",
+                "radioForm": {
+                  "label": "Motyw aplikacji"
+                },
+                "toggler": {
+                  "relateSettings": {
+                    "label": "Powiąż ustawienia motywu z kontem",
+                    "description": "Jeśli zaznaczysz tę opcję, ustawienia motywu będą przypisane do Twojego konta."
+                  }
+                }
               }
             }
           },
           "notifications": {
             "header": "Powiadomienia",
-            "toggler": {
-              "pushNotifications": {
-                "label": "Włącz/wyłącz powiadomienia",
-                "description": "Jeśli zaznaczysz tę opcję, w aplikacji będą wyświetlane powiadomienia w formie push."
-              },
-              "pushNotificationsSound": {
-                "label": "Włącz/wyłącz dźwięk w powiadomieniach",
-                "description": "Jeśli zaznaczysz tę opcję, wyświetlanym powiadomieniom w aplikacji będzie towarzyszył odgłos dźwiękowy."
+            "section": {
+              "notifs": {
+                "header": "ustawienia powiadomień aplikacji",
+                "toggler": {
+                  "pushNotifications": {
+                    "label": "Włącz/wyłącz powiadomienia",
+                    "description": "Jeśli zaznaczysz tę opcję, w aplikacji będą wyświetlane powiadomienia w formie push."
+                  },
+                  "pushNotificationsSound": {
+                    "label": "Włącz/wyłącz dźwięk w powiadomieniach",
+                    "description": "Jeśli zaznaczysz tę opcję, wyświetlanym powiadomieniom w aplikacji będzie towarzyszył odgłos dźwiękowy."
+                  }
+                },
+                "soundSampleButton": "Odtwórz dźwięk powiadomień"
               }
-            },
-            "soundSampleButton": "Odtwórz dźwięk powiadomień"
+            }
           },
           "language": {
             "header": "Język",
-            "radioForm": {
-              "label": "Język aplikacji"
-            },
-            "toggler": {
-              "relateSettings": {
-                "label": "Powiąż ustawienia języka z kontem",
-                "description": "Jeśli zaznaczysz tę opcję, ustawienia języka będą przypisane do Twojego konta."
+            "section": {
+              "lang": {
+                "header": "ustawienia języka aplikacji",
+                "radioForm": {
+                  "label": "Język aplikacji"
+                },
+                "toggler": {
+                  "relateSettings": {
+                    "label": "Powiąż ustawienia języka z kontem",
+                    "description": "Jeśli zaznaczysz tę opcję, ustawienia języka będą przypisane do Twojego konta."
+                  }
+                }
               }
             }
           }

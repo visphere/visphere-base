@@ -210,39 +210,54 @@
         "subpage": {
           "appearance": {
             "header": "Appearance",
-            "radioForm": {
-              "label": "Application theme"
-            },
-            "toggler": {
-              "relateSettings": {
-                "label": "Relate theme settings with your account",
-                "description": "If you check this option, theme settings be assigned to your account."
+            "section": {
+              "theme": {
+                "header": "application theme settings",
+                "radioForm": {
+                  "label": "Application theme"
+                },
+                "toggler": {
+                  "relateSettings": {
+                    "label": "Relate theme settings with your account",
+                    "description": "If you check this option, theme settings be assigned to your account."
+                  }
+                }
               }
             }
           },
           "notifications": {
             "header": "Notifications",
-            "toggler": {
-              "pushNotifications": {
-                "label": "Enable/disable notifications",
-                "description": "If you select this option, the app will display push notifications."
-              },
-              "pushNotificationsSound": {
-                "label": "Enable/disable notifications sound effect",
-                "description": "If you check this option, notifications displayed in the app will be accompanied by an sound."
+            "section": {
+              "notifs": {
+                "header": "application notifications settings",
+                "toggler": {
+                  "pushNotifications": {
+                    "label": "Enable/disable notifications",
+                    "description": "If you select this option, the app will display push notifications."
+                  },
+                  "pushNotificationsSound": {
+                    "label": "Enable/disable notifications sound effect",
+                    "description": "If you check this option, notifications displayed in the app will be accompanied by an sound."
+                  }
+                },
+                "soundSampleButton": "Play notification sound"
               }
-            },
-            "soundSampleButton": "Play notification sound"
+            }
           },
           "language": {
             "header": "Language",
-            "radioForm": {
-              "label": "Application language"
-            },
-            "toggler": {
-              "relateSettings": {
-                "label": "Relate language settings with your account",
-                "description": "If you check this option, language settings be assigned to your account."
+            "section": {
+              "lang": {
+                "header": "application language settings",
+                "radioForm": {
+                  "label": "Application language"
+                },
+                "toggler": {
+                  "relateSettings": {
+                    "label": "Relate language settings with your account",
+                    "description": "If you check this option, language settings be assigned to your account."
+                  }
+                }
               }
             }
           }
