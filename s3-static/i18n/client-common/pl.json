@@ -187,7 +187,12 @@
   },
   "vsph.clientCommon.settingsPage": {
     "init": {
-      "header": "Ustawienia"
+      "header": "Ustawienia",
+      "title": "Ustawienia aplikacji Visphere",
+      "paragraph1": "Na tej stronie możesz ustawić najważniejsze parametry Twojego konta, motywu aplikacji czy wyświetlanego języka. Więcej informacji o aplikacji możesz uzyskać klikając w poniższy przycisk.",
+      "aboutInfoButton": "O aplikacji Visphere i Sferach™",
+      "paragraph2": "Potrzebujesz wersji na komputer lub telefon? Kliknij w przycisk poniżej aby przejść do pobierania.",
+      "downloadButton": "Pobierz"
     },
     "category": {
       "userSettings": {

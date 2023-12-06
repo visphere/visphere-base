@@ -71,6 +71,7 @@ module.exports = {
     'rounded-lg',
     'w-full',
     'bg-vsph-light-200 dark:bg-vsph-dark-850',
+    'disabled:opacity-80',
   ]),
   '.vsph-settings__radio-button--active': parseTwdApply([
     'vsph-settings__nav-button--active',
@@ -95,10 +96,13 @@ module.exports = {
     'border-2 border-vsph-light-100 dark:border-vsph-light-100',
   ]),
   '.vsph-settings__toggler-container': parseTwdApply([
+    'flex-shrink-0',
     'relative',
     'w-[43px] h-[24px]',
     'rounded-full',
+    'ms-10',
     'bg-vsph-light-200 dark:bg-vsph-dark-850',
+    'disabled:opacity-80',
   ]),
   '.vsph-settings__toggler-container--active': parseTwdApply([
     'bg-vsph-tint-500 dark:bg-vsph-tint-500',
@@ -122,5 +126,13 @@ module.exports = {
     'mb-4',
     'text-sm uppercase',
     'text-vsph-tint-300 dark:text-vsph-tint-400',
+  ]),
+  '.vsph-settings__init-paragraph': parseTwdApply([
+    'leading-[20px] text-center',
+    'text-vsph-tint-300 dark:text-vsph-tint-400',
+  ]),
+  '.vsph-settings__init-paragraph--link': parseTwdApply([
+    'text-vsph-tint-500 dark:text-vsph-tint-500',
+    'hover:underline',
   ]),
 };

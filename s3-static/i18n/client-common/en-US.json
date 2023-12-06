@@ -188,7 +188,12 @@
   },
   "vsph.clientCommon.settingsPage": {
     "init": {
-      "header": "Settings"
+      "header": "Settings",
+      "title": "Visphere application settings",
+      "paragraph1": "On this page you can set the most important parameters of your account, application theme or displayed language. You can get more information about the application get by clicking on button below.",
+      "aboutInfoButton": "About Visphere and Spheres™",
+      "paragraph2": "Need a version for your computer or phone? Click on the button below to go to the download page.",
+      "downloadButton": "Download"
     },
     "category": {
       "userSettings": {

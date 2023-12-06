@@ -53,4 +53,5 @@ module.exports = {
     'disabled:opacity-70',
     'disabled:cursor-not-allowed',
   ]),
+  '.vsph-button--fit': parseTwdApply(['w-fit', 'px-8']),
 };
