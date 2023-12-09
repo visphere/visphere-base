@@ -323,7 +323,36 @@
         "name": "Ustawienia konta",
         "subpage": {
           "myAccount": {
-            "header": "Moje konto"
+            "header": "Moje konto",
+            "section": {
+              "vis": {
+                "editProfileButton": "Edytuj profil",
+                "firstName": "imię",
+                "lastName": "nazwisko",
+                "username": "nazwa użytkownika",
+                "emailAddress": "adres email",
+                "secondEmailAddress": "Dodatkowy adres email",
+                "birthDate": "data urodzenia",
+                "joinedDate": "Data dołączenia"
+              },
+              "authentication": {
+                "header": "hasło i uwierzytelnianie",
+                "description": "Możesz zmienić aktualne hasło, podając aktualne i nowe hasło w wyskakującym formularzu. Dostępne tylko dla kont lokalnych.",
+                "changePasswordButton": "Zmień hasło",
+                "toggler": {
+                  "mfaSettings": {
+                    "label": "Włącz/wyłącz weryfikację wieloetapową (MFA)",
+                    "description": "Jeśli zaznaczysz tę opcję, na Twoim koncie zostanie włączone uwierzytelnianie wieloskładnikowe (dostarczane przez Google lub Microsoft Authenticator). Dostępne tylko dla kont lokalnych."
+                  }
+                }
+              },
+              "removal": {
+                "header": "usuwanie konta",
+                "description": "Wyłączone konto można aktywować w dowolnym momencie po zalogowaniu. Po rozpoczęciu procedury usuwania konta, masz 30 dni na podjęcie ostatecznej decyzji. Po upływie tego czasu konto zostanie trwale usunięte.",
+                "disableAccountButton": "Wyłącz konto",
+                "removeAccountButton": "Usuń konto"
+              }
+            }
           },
           "profileSettings": {
             "header": "Profil"

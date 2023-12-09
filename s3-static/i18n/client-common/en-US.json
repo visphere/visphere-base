@@ -324,7 +324,36 @@
         "name": "User settings",
         "subpage": {
           "myAccount": {
-            "header": "My account"
+            "header": "My account",
+            "section": {
+              "vis": {
+                "editProfileButton": "Edit profile",
+                "firstName": "first name",
+                "lastName": "last name",
+                "username": "username",
+                "emailAddress": "email address",
+                "secondEmailAddress": "second email address",
+                "birthDate": "birth date",
+                "joinedDate": "Joined date"
+              },
+              "authentication": {
+                "header": "password and authentication",
+                "description": "You can change current password, by passing current and new password in popup form. Allow only for local accounts.",
+                "changePasswordButton": "Change password",
+                "toggler": {
+                  "mfaSettings": {
+                    "label": "Enable/disable MFA for your account",
+                    "description": "If you check this option, Multi-factor authentication (provided by Google or Microsoft Authenticator) will be enabled on your account. Allow only for local accounts."
+                  }
+                }
+              },
+              "removal": {
+                "header": "account removal",
+                "description": "You can enable a disabled account at any time when you log in. Once you decide to delete your account, you have 30 days to make a final decision. After this time, the account will be deleted permamently.",
+                "disableAccountButton": "Disable account",
+                "removeAccountButton": "Remove account"
+              }
+            }
           },
           "profileSettings": {
             "header": "Profile settings"
