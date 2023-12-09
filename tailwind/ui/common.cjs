@@ -47,7 +47,7 @@ module.exports = {
     'text-vsph-light-100 dark:text-vsph-dark-900',
   ]),
   '.vsph-button--small': parseTwdApply([
-    'py-1.5',
+    'text-center',
     'text-sm',
     'shadow-md',
     'disabled:opacity-70',

@@ -27,7 +27,7 @@ module.exports = {
     'w-[720px] h-fit',
     'rounded-lg',
     'my-12 ms-4',
-    'p-6',
+    'p-10',
     'bg-vsph-light-100 dark:bg-vsph-dark-900',
   ]),
   '.vsph-settings__nav-paragraph': parseTwdApply([
@@ -125,7 +125,8 @@ module.exports = {
   '.vsph-settings__section-header': parseTwdApply([
     'mb-4',
     'text-sm uppercase',
-    'text-vsph-tint-300 dark:text-vsph-tint-400',
+    'font-bold',
+    'text-vsph-dark-900 dark:text-vsph-light-100',
   ]),
   '.vsph-settings__init-paragraph': parseTwdApply([
     'leading-[20px] text-center',

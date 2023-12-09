@@ -88,11 +88,11 @@
         }
       },
       "secondEmailAddress": {
-        "value": "Pomocniczy adres email",
-        "info": "Wprowdzony pomocniczy adres email służy jedynie do odzyskiwania konta.",
+        "value": "Dodatkowy adres email",
+        "info": "Wprowdzony dodatkowy adres email służy jedynie do wysyłania informacji marketingowych.",
         "errors": {
-          "email": "Niepoprawna struktura pomocniczego adresu email.",
-          "exact": "Pomocniczy adres email nie może być taki sam jak główny adres email."
+          "email": "Niepoprawna struktura dodatkowego adresu email.",
+          "exact": "Dodatkowy adres email nie może być taki sam jak główny adres email."
         }
       },
       "allowNotifs": {

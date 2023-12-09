@@ -41,7 +41,7 @@
         "errors": {
           "required": "Email address is required.",
           "email": "Inappropriate email address structure.",
-          "exist": "Account with following email account already exist."
+          "exist": "Account with following email already exist."
         }
       },
       "password": {
@@ -89,7 +89,7 @@
       },
       "secondEmailAddress": {
         "value": "Second email address",
-        "info": "Provided second email address is only for account recovery.",
+        "info": "Provided second email address is only for marketing informations.",
         "errors": {
           "email": "Inappropriate second email address structure.",
           "exact": "Second email address must be different than primary email address."
