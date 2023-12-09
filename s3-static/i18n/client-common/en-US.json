@@ -195,6 +195,130 @@
       "paragraph2": "Need a version for your computer or phone? Click on the button below to go to the download page.",
       "downloadButton": "Download"
     },
+    "modal": {
+      "fullName": {
+        "header": "First and last name",
+        "formFields": {
+          "firstName": {
+            "value": "First name",
+            "errors": {
+              "required": "First name is required.",
+              "minlength": "First name must have at least 2 characters."
+            }
+          },
+          "lastName": {
+            "value": "Last name",
+            "errors": {
+              "required": "Last name is required.",
+              "minlength": "Last name must have at least 2 characters."
+            }
+          }
+        }
+      },
+      "username": {
+        "header": "Username",
+        "formFields": {
+          "username": {
+            "value": "Username",
+            "errors": {
+              "required": "Username is required.",
+              "minlength": "Username must have at least 3 characters.",
+              "pattern": "Username can including only small letters, digits and followind characters: '-' and '_'.",
+              "exist": "Username is already taken."
+            }
+          }
+        }
+      },
+      "emailAddress": {
+        "header": "Email address",
+        "formFields": {
+          "emailAddress": {
+            "value": "Email address",
+            "errors": {
+              "required": "Email address is required.",
+              "email": "Inappropriate email address structure.",
+              "exist": "Account with following email already exist."
+            }
+          },
+          "token": {
+            "value": "Verification token",
+            "errors": {
+              "required": "Verification token is required."
+            }
+          }
+        }
+      },
+      "secondEmailAddress": {
+        "header": "Second email address",
+        "formFields": {
+          "emailAddress": {
+            "value": "Second email address",
+            "info": "Provided second email address is only for marketing informations.",
+            "errors": {
+              "email": "Inappropriate second email address structure.",
+              "exact": "Second email address must be different than primary email address."
+            }
+          },
+          "token": {
+            "value": "Verification token",
+            "errors": {
+              "required": "Verification token is required."
+            }
+          }
+        }
+      },
+      "deleteSecondEmailAddress": {
+        "header": "Removal of second email address",
+        "description": "Are you sure you want to delete second email address? Once deleted, all emails (including marketing) will be placed at your primary email address.",
+        "submitButton": "Delete"
+      },
+      "birthDate": {
+        "header": "Birth date",
+        "formFields": {
+          "birthDate": {
+            "value": "Birth date",
+            "placeholders": {
+              "month": "Month",
+              "day": "Day",
+              "year": "Year"
+            },
+            "errors": {
+              "required": "Birth date is required.",
+              "notAll": "Birth date must be filled with month, day and year.",
+              "invalid": "Birth date is invalid.",
+              "inappropriateAge": "It is required to be at least 13 years old to create an account."
+            }
+          }
+        }
+      },
+      "password": {
+        "header": "Password",
+        "formFields": {
+          "oldPassword": {
+            "value": "Old password",
+            "errors": {
+              "required": "Old password is required."
+            }
+          },
+          "newPassword": {
+            "value": "New password",
+            "errors": {
+              "required": "New password is required.",
+              "pattern": "New password must have at least 8 characters, one big and small letter, one digit and one special character."
+            }
+          },
+          "confirmedNewPassword": {
+            "value": "Confirmed new password",
+            "errors": {
+              "required": "Confirmed new password is required.",
+              "mismatch": "Confirmed new password and new password must be the same."
+            }
+          }
+        }
+      },
+      "successfullSendEmailMessage": "If mailbox with provided email address exist, we send verifiction email on this mailbox.",
+      "updateButton": "Update"
+    },
     "category": {
       "userSettings": {
         "name": "User settings",
@@ -280,6 +404,8 @@
         "paragraph": "Are you sure to logout from application?",
         "submitButton": "Logout"
       }
-    }
+    },
+    "editButton": "Edit",
+    "functionEnabledOnLocal": "Selected options is currently supported only for local accounts."
   }
 }

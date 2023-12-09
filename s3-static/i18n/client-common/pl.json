@@ -194,6 +194,130 @@
       "paragraph2": "Potrzebujesz wersji na komputer lub telefon? Kliknij w przycisk poniżej aby przejść do pobierania.",
       "downloadButton": "Pobierz"
     },
+    "modal": {
+      "fullName": {
+        "header": "Imię i nazwisko",
+        "formFields": {
+          "firstName": {
+            "value": "Imię",
+            "errors": {
+              "required": "Imię jest wymagane.",
+              "minlength": "Imię musi zawierać co najmniej 2 znaki."
+            }
+          },
+          "lastName": {
+            "value": "Nazwisko",
+            "errors": {
+              "required": "Nazwisko jest wymagane.",
+              "minlength": "Nazwisko musi zawierać co najmniej 2 znaki."
+            }
+          }
+        }
+      },
+      "username": {
+        "header": "Nazwa użytkownika",
+        "formFields": {
+          "username": {
+            "value": "Nazwa użytkownika",
+            "errors": {
+              "required": "Nazwa użytkownika jest wymagana.",
+              "minlength": "Nazwa użytkownika musi zawierać co najmniej 3 znaki.",
+              "pattern": "Nazwa użytkownika może zawierać jedynie małe litery, cyfry oraz znaki \"-\" oraz \"_\".",
+              "exist": "Nazwa użytkownika jest już zajęta."
+            }
+          }
+        }
+      },
+      "emailAddress": {
+        "header": "Adres email",
+        "formFields": {
+          "emailAddress": {
+            "value": "Adres email",
+            "errors": {
+              "required": "Adres email jest wymagany.",
+              "email": "Niepoprawna struktura adresu email.",
+              "exist": "Konto z podanym adresem email istnieje już w systemie."
+            }
+          },
+          "token": {
+            "value": "Token weryfikujący",
+            "errors": {
+              "required": "Token weryfikujący jest wymagany."
+            }
+          }
+        }
+      },
+      "secondEmailAddress": {
+        "header": "Dodatkowy adres email",
+        "formFields": {
+          "emailAddress": {
+            "value": "Dodatkowy adres email",
+            "info": "Wprowdzony dodatkowy adres email służy jedynie do wysyłania informacji marketingowych.",
+            "errors": {
+              "email": "Niepoprawna struktura dodatkowego adresu email.",
+              "exact": "Dodatkowy adres email nie może być taki sam jak główny adres email."
+            }
+          },
+          "token": {
+            "value": "Token weryfikujący",
+            "errors": {
+              "required": "Token weryfikujący jest wymagany."
+            }
+          }
+        }
+      },
+      "deleteSecondEmailAddress": {
+        "header": "Usuwanie dodatkowego adresu email",
+        "description": "Czy na pewno chcesz usunąć dodatkowy adres email? Po usunięciu wszystkie wiadomości email (również wiadomości marketingowe) będą umieszczane na Twoim głównym adresie email.",
+        "submitButton": "Usuń"
+      },
+      "birthDate": {
+        "header": "Data urodzenia",
+        "formFields": {
+          "birthDate": {
+            "value": "Data urodzenia",
+            "placeholders": {
+              "month": "Miesiąc",
+              "day": "Dzień",
+              "year": "Rok"
+            },
+            "errors": {
+              "required": "Data urodzenia jest wymagana.",
+              "notAll": "Data urodzenia musi zawierać miesiąc, dzień i rok.",
+              "invalid": "Data urodzenia jest nieprawidłowa.",
+              "inappropriateAge": "Wymagane jest ukończenie 13 lat aby założyć konto w aplikacji."
+            }
+          }
+        }
+      },
+      "password": {
+        "header": "Hasło",
+        "formFields": {
+          "oldPassword": {
+            "value": "Aktualne hasło",
+            "errors": {
+              "required": "Aktualne hasło jest wymagane."
+            }
+          },
+          "newPassword": {
+            "value": "Nowe hasło",
+            "errors": {
+              "required": "Nowe hasło jest wymagane.",
+              "pattern": "Nowe hasło musi mieć co najmniej 8 znaków, zawierać jedną wielką i małą literę, jedną cyfrę oraz jeden znak specjalny."
+            }
+          },
+          "confirmedNewPassword": {
+            "value": "Powtórz nowe hasło",
+            "errors": {
+              "required": "Powtórzone nowe hasło jest wymagane.",
+              "mismatch": "Powtórzone nowe hasło musi być takie same jak nowe hasło."
+            }
+          }
+        }
+      },
+      "successfullSendEmailMessage": "Jeśli skrzynka pocztowa z podanym adresem email istnieje, wysłaliśmy wiadomość weryfikującą na tą skrzynkę pocztową.",
+      "updateButton": "Aktualizuj"
+    },
     "category": {
       "userSettings": {
         "name": "Ustawienia konta",
@@ -279,6 +403,8 @@
         "paragraph": "Czy na pewno chcesz się wylogować z aplikacji?",
         "submitButton": "Wyloguj"
       }
-    }
+    },
+    "editButton": "Edytuj",
+    "functionEnabledOnLocal": "Wybrana funkcja jest dostępną tylko dla kont lokalnych."
   }
 }
