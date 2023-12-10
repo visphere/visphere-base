@@ -36,6 +36,9 @@ module.exports = {
   '.vsph-modal__window-wrapper--devastate': parseTwdApply([
     'border-vsph-orange-100 dark:border-vsph-orange-100',
   ]),
+  '.vsph-modal__window-wrapper--devastate-higher-precedence': parseTwdApply([
+    'border-vsph-red-200 dark:border-vsph-red-200',
+  ]),
   '.vsph-modal__window-notch': parseTwdApply([
     'absolute',
     'top-0 left-[50%] -translate-x-[50%]',
@@ -44,6 +47,9 @@ module.exports = {
     'bg-vsph-tint-500',
   ]),
   '.vsph-modal__window-notch--devastate': parseTwdApply(['bg-vsph-orange-100']),
+  '.vsph-modal__window-notch--devastate-higher-precedence': parseTwdApply([
+    'bg-vsph-red-200',
+  ]),
   '.vsph-modal__window-x-button': parseTwdApply([
     'absolute',
     'top-[14px] right-[14px]',
@@ -57,11 +63,11 @@ module.exports = {
   ]),
   '.vsph-modal__window-paragraph': parseTwdApply([
     'leading-5',
-    'sm:max-w-[80%]',
     'text-center',
     'mx-auto',
     'text-vsph-tint-400 dark:text-vsph-tint-300',
   ]),
+  '.vsph-modal__window-paragraph--large': parseTwdApply(['sm:max-w-[80%]']),
   '.vsph-modal__window-buttons-container': parseTwdApply([
     'flex justify-center',
   ]),
@@ -74,14 +80,19 @@ module.exports = {
     'border border-vsph-tint-400 dark:border-vsph-tint-200',
     'text-vsph-tint-400 dark:text-vsph-tint-200',
   ]),
-  '.vsph-modal__devastate-button': parseTwdApply([
+  '.vsph-modal__button': parseTwdApply([
     'vsph-button vsph-button--small',
     'min-h-[34px] min-w-[72px]',
     'flex justify-center items-center',
     'bg-vsph-transparent',
     'shadow-none',
-    'bg-vsph-orange-100',
     'text-vsph-light-100',
+  ]),
+  '.vsph-modal__devastate-button--precedence-normal': parseTwdApply([
+    'bg-vsph-orange-100',
+  ]),
+  '.vsph-modal__devastate-button--precedence-higher': parseTwdApply([
+    'bg-vsph-red-200',
   ]),
   '.vsph-captcha-modal__skeleton-loader': parseTwdApply([
     'absolute',

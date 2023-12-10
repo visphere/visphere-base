@@ -46,7 +46,7 @@ module.exports = {
   '.vsph-settings__nav-button--logout': parseTwdApply([
     'text-vsph-red-200 dark:text-vsph-red-100',
     'hover:text-vsph-light-100 hover:dark:text-vsph-light-100',
-    'hover:bg-vsph-red-200 hover:dark:bg-vsph-red-100',
+    'hover:bg-vsph-red-200 hover:dark:bg-vsph-red-200',
   ]),
   '.vsph-settings__nav-button--active': parseTwdApply([
     'bg-vsph-tint-500',
