@@ -82,14 +82,6 @@ module.exports = {
     'w-full',
     'text-start',
   ]),
-  '.vsph-auth__top-nav-button': parseTwdApply([
-    'text-sm',
-    'font-medium',
-    'text-vsph-tint-400 dark:text-vsph-tint-300',
-    'hover:bg-vsph-tint-100 dark:hover:bg-vsph-dark-800',
-    'px-1.5 py-1',
-    'rounded-md',
-  ]),
   '.vsph-auth__stepper-container': parseTwdApply([
     'flex items-center',
     'space-x-2.5',

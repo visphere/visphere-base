@@ -125,4 +125,12 @@ module.exports = {
     'checked:dark:bg-vsph-tint-500 checked:border-none',
     'disabled:cursor-not-allowed',
   ]),
+  '.vsph-top-nav-button': parseTwdApply([
+    'text-sm',
+    'font-medium',
+    'text-vsph-tint-400 dark:text-vsph-tint-300',
+    'hover:bg-vsph-tint-100 dark:hover:bg-vsph-dark-800',
+    'px-1.5 py-1',
+    'rounded-md',
+  ]),
 };
