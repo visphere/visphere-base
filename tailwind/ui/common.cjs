@@ -47,7 +47,9 @@ module.exports = {
     'text-vsph-light-100 dark:text-vsph-dark-900',
   ]),
   '.vsph-button--danger': parseTwdApply([
-    'bg-vsph-red-200 dark:bg-vsph-red-100',
+    'w-full',
+    'text-vsph-light-100 dark:text-vsph-light-100',
+    'bg-vsph-red-200 dark:bg-vsph-red-200',
   ]),
   '.vsph-button--danger--outline': parseTwdApply([
     'border',
