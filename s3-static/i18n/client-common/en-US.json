@@ -363,6 +363,7 @@
             "header": "My account",
             "section": {
               "vis": {
+                "oauth2Login": "Provided by {oauth2Provider}",
                 "editProfileButton": "Edit profile",
                 "firstName": "first name",
                 "lastName": "last name",

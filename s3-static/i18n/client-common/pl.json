@@ -362,6 +362,7 @@
             "header": "Moje konto",
             "section": {
               "vis": {
+                "oauth2Login": "Provided by {oauth2Provider}",
                 "editProfileButton": "Edytuj profil",
                 "firstName": "imię",
                 "lastName": "nazwisko",
