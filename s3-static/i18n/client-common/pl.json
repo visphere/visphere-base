@@ -473,6 +473,11 @@
   },
   "vsph.clientCommon.forAll": {
     "modals": {
+      "enableAccount": {
+        "header": "Konto zablokowane",
+        "paragraph": "Twoje konto jest zablokowane. Aby odblokować konto i się na nie zalogować, kliknij w przycisk poniżej. Zamknęcie okna pozostawi konto zablokowanym.",
+        "submitButton": "Odblokuj konto"
+      },
       "logout": {
         "header": "Wylogowanie z aplikacji",
         "paragraph": "Czy na pewno chcesz się wylogować z aplikacji?",

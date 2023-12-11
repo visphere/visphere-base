@@ -474,6 +474,11 @@
   },
   "vsph.clientCommon.forAll": {
     "modals": {
+      "enableAccount": {
+        "header": "Disabled account",
+        "paragraph": "Your account is disabled. To enable your account and log into it, click on the button below. Closing the window will leave the account disabled.",
+        "submitButton": "Enable account"
+      },
       "logout": {
         "header": "Logout from application",
         "paragraph": "Are you sure to logout from application?",
