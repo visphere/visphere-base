@@ -380,7 +380,9 @@
                     "label": "Wyłącz/włącz weryfikację wieloetapową (MFA)",
                     "description": "Jeśli zaznaczysz tę opcję, na Twoim koncie zostanie włączone uwierzytelnianie wieloskładnikowe (dostarczane przez Google lub Microsoft Authenticator). Dostępne tylko dla kont lokalnych."
                   }
-                }
+                },
+                "resetMfaDescription": "Kliknij poniższy przycisk, aby zresetować ustawienia MFA. Spowoduje to usunięcie zapisanego klucza i konieczność ponownej konfiguracji przy następnym logowaniu.",
+                "resetMfaButton": "Resetuj ustawienia MFA"
               },
               "removal": {
                 "header": "usuwanie konta",

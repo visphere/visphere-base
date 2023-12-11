@@ -381,7 +381,9 @@
                     "label": "Disable/Enable MFA for your account",
                     "description": "If you check this option, Multi-factor authentication (provided by Google or Microsoft Authenticator) will be enabled on your account. Allow only for local accounts."
                   }
-                }
+                },
+                "resetMfaDescription": "Click the button below to reset the MFA settings. This will remove the saved key and the need to reconfigure the next time you log in.",
+                "resetMfaButton": "Reset MFA settings"
               },
               "removal": {
                 "header": "account removal",
