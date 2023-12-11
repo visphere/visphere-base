@@ -136,4 +136,49 @@ module.exports = {
     'text-vsph-tint-500 dark:text-vsph-tint-500',
     'hover:underline',
   ]),
+  '.vsph-settings__init-small-paragraph': parseTwdApply([
+    'text-sm leading-[17px]',
+    'text-vsph-tint-300 dark:text-vsph-tint-400',
+  ]),
+  '.vsph-settings__setting-edit-button': parseTwdApply([
+    'px-5',
+    'bg-vsph-dark-900 dark:bg-vsph-light-100',
+    'text-vsph-light-100 dark:text-vsph-dark-900',
+  ]),
+  '.vsph-settings__editable-value-container': parseTwdApply([
+    'flex justify-between items-center',
+  ]),
+  '.vsph-settings__editable-value-description': parseTwdApply([
+    'uppercase',
+    'leading-[15px]',
+    'text-sm',
+    'text-vsph-tint-300 dark:text-vsph-tint-400',
+  ]),
+  '.vsph-settings__vis-container': parseTwdApply([
+    'relative',
+    'overflow-hidden',
+    'rounded-lg',
+    'p-4 pt-[100px]',
+    'bg-vsph-light-200 dark:bg-vsph-dark-850',
+    'border border-vsph-light-200 dark:border-vsph-dark-850',
+  ]),
+  '.vsph-settings__vis-wrapper': parseTwdApply([
+    'flex flex-col gap-y-3',
+    'p-6',
+    'rounded-lg',
+    'bg-vsph-light-100 dark:bg-vsph-dark-900',
+  ]),
+  '.vsph-settings__vis-profile-image-container': parseTwdApply([
+    'absolute',
+    'top-[60px] left-7',
+    'w-[90px] h-[90px]',
+    'flex justify-center items-center',
+    'rounded-xl',
+    'bg-vsph-light-200 dark:bg-vsph-dark-850',
+  ]),
+  '.vsph-settings__vis-profile-banner-container': parseTwdApply([
+    'absolute',
+    'w-full h-[90px]',
+    'top-0 left-0',
+  ]),
 };

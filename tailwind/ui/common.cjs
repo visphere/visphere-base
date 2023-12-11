@@ -127,6 +127,10 @@ module.exports = {
     'checked:dark:bg-vsph-tint-500 checked:border-none',
     'disabled:cursor-not-allowed',
   ]),
+  '.vsph-checkbox--danger': parseTwdApply([
+    'focus:checked:bg-vsph-orange-100 checked:bg-vsph-orange-100 hover:checked:bg-vsph-orange-100',
+    'checked:dark:bg-vsph-orange-100 checked:border-none',
+  ]),
   '.vsph-top-nav-button': parseTwdApply([
     'text-sm',
     'font-medium',
