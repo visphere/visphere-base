@@ -292,7 +292,7 @@
         }
       },
       "password": {
-        "header": "Password",
+        "header": "Change password",
         "formFields": {
           "oldPassword": {
             "value": "Old password",
@@ -342,7 +342,7 @@
                 "changePasswordButton": "Change password",
                 "toggler": {
                   "mfaSettings": {
-                    "label": "Enable/disable MFA for your account",
+                    "label": "Disable/Enable MFA for your account",
                     "description": "If you check this option, Multi-factor authentication (provided by Google or Microsoft Authenticator) will be enabled on your account. Allow only for local accounts."
                   }
                 }
@@ -351,15 +351,12 @@
                 "header": "account removal",
                 "description": "You can enable a disabled account at any time when you log in. Once you decide to delete your account, you have 30 days to make a final decision. After this time, the account will be deleted permamently.",
                 "disableAccountButton": "Disable account",
-                "removeAccountButton": "Remove account"
+                "deleteAccountButton": "Delete account"
               }
             }
           },
           "profileSettings": {
             "header": "Profile settings"
-          },
-          "friendRequests": {
-            "header": "Friend requests"
           }
         }
       },

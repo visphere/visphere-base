@@ -291,7 +291,7 @@
         }
       },
       "password": {
-        "header": "Hasło",
+        "header": "Zmiana hasła",
         "formFields": {
           "oldPassword": {
             "value": "Aktualne hasło",
@@ -341,7 +341,7 @@
                 "changePasswordButton": "Zmień hasło",
                 "toggler": {
                   "mfaSettings": {
-                    "label": "Włącz/wyłącz weryfikację wieloetapową (MFA)",
+                    "label": "Wyłącz/włącz weryfikację wieloetapową (MFA)",
                     "description": "Jeśli zaznaczysz tę opcję, na Twoim koncie zostanie włączone uwierzytelnianie wieloskładnikowe (dostarczane przez Google lub Microsoft Authenticator). Dostępne tylko dla kont lokalnych."
                   }
                 }
@@ -350,15 +350,12 @@
                 "header": "usuwanie konta",
                 "description": "Wyłączone konto można aktywować w dowolnym momencie po zalogowaniu. Po rozpoczęciu procedury usuwania konta, masz 30 dni na podjęcie ostatecznej decyzji. Po upływie tego czasu konto zostanie trwale usunięte.",
                 "disableAccountButton": "Wyłącz konto",
-                "removeAccountButton": "Usuń konto"
+                "deleteAccountButton": "Usuń konto"
               }
             }
           },
           "profileSettings": {
             "header": "Profil"
-          },
-          "friendRequests": {
-            "header": "Zaproszenia do znajomych"
           }
         }
       },
