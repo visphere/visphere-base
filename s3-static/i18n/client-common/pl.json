@@ -315,8 +315,44 @@
           }
         }
       },
+      "devastate": {
+        "disableAccount": {
+          "header": "Wyłączenie konta",
+          "description": "Czy jesteś pewien wyłączenia konta? Konto można włączyć ponownie przy próbie zalogowania się do aplikacji. Wszystkie twoje dane zostaną zachowane.",
+          "submitButton": "Wyłącz konto"
+        },
+        "deleteAccount": {
+          "header": "Usunięcie konta",
+          "description": "Czy na pewno chcesz usunąć swoje konto? Wszystkie dane i ustawienia zostaną bezpowrotnie usunięte. Jeśli chcesz tymczasowo wyłączyć swoje konto, użyj opcji 'Wyłącz konto'.",
+          "submitButton": "Usuń konto"
+        },
+        "resetMfa": {
+          "header": "Reset uwierzytelania wieloetapowego",
+          "description": "Czy na pewno chcesz zresetować ustawienia uwierzytelniania wieloetapowego?",
+          "submitButton": "Zresetuj ustawienia"
+        },
+        "formFields": {
+          "password": {
+            "value": "Hasło",
+            "errors": {
+              "required": "Hasło jest wymagane."
+            }
+          },
+          "mfaCode": {
+            "value": "6-cio cyfrowy kod",
+            "errors": {
+              "required": "6-cio cyfrowy kod jest wymagany.",
+              "exactLength": "Kod musi posiadać dokładnie 6 cyfr.",
+              "pattern": "6-cio cyfrowy kod posiada niedozwolone znaki."
+            }
+          }
+        },
+        "confirmPassword": "W celu dodatkowgo potwierdzenia wprowadź hasło do Twojego konta w aplikacji Visphere.",
+        "nextInsertMfaCode": "W celu dokończenia weryfikacji, wprowadź 6-cio cyfrowy kod z aplikacji Google Authenticator lub Microsoft Authenticator."
+      },
       "successfullSendEmailMessage": "Jeśli skrzynka pocztowa z podanym adresem email istnieje, wysłaliśmy wiadomość weryfikującą na tą skrzynkę pocztową.",
-      "updateButton": "Aktualizuj"
+      "updateButton": "Aktualizuj",
+      "logoutFromAll": "Wyloguj ze wszystkich aktywnych sesji"
     },
     "category": {
       "userSettings": {

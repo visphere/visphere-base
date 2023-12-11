@@ -316,8 +316,44 @@
           }
         }
       },
+      "devastate": {
+        "disableAccount": {
+          "header": "Disable account",
+          "description": "Are you sure to disabled your account? You can enable your account when you try to log into the application. All your data will not be deleted.",
+          "submitButton": "Disable account"
+        },
+        "deleteAccount": {
+          "header": "Delete account",
+          "description": "Are you sure to delete your account? All your data and settings will be ERASED IRRETRIEVABLY. If you want to temporarily disable your account, use 'Disable account' option.",
+          "submitButton": "Delete account"
+        },
+        "resetMfa": {
+          "header": "Reset MFA",
+          "description": "Are you sure to reset multi-factor authnetication settings?",
+          "submitButton": "Reset MFA"
+        },
+        "formFields": {
+          "password": {
+            "value": "Password",
+            "errors": {
+              "required": "Password is required."
+            }
+          },
+          "mfaCode": {
+            "value": "6-digits code",
+            "errors": {
+              "required": "6-digits code is required.",
+              "exactLength": "Code must have exact 6 digits.",
+              "pattern": "6-digits code contains illegal characters."
+            }
+          }
+        },
+        "confirmPassword": "For additional confirmation, enter password of your account.",
+        "nextInsertMfaCode": "For finish verification, enter a 6-digit code from the Google Authenticator or Microsoft Authenticator app."
+      },
       "successfullSendEmailMessage": "If mailbox with provided email address exist, we send verifiction email on this mailbox.",
-      "updateButton": "Update"
+      "updateButton": "Update",
+      "logoutFromAll": "Logout from all active sessions"
     },
     "category": {
       "userSettings": {
