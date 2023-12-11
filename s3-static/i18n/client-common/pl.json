@@ -383,18 +383,29 @@
             "header": "Powiadomienia",
             "section": {
               "notifs": {
-                "header": "ustawienia powiadomień aplikacji",
-                "toggler": {
-                  "pushNotifications": {
-                    "label": "Włącz/wyłącz powiadomienia",
-                    "description": "Jeśli zaznaczysz tę opcję, w aplikacji będą wyświetlane powiadomienia w formie push."
+                "app": {
+                  "header": "ustawienia powiadomień aplikacji",
+                  "toggler": {
+                    "pushNotifications": {
+                      "label": "Wyłącz/włącz powiadomienia",
+                      "description": "Jeśli zaznaczysz tę opcję, w aplikacji będą wyświetlane powiadomienia w formie push."
+                    },
+                    "pushNotificationsSound": {
+                      "label": "Wyłącz/włącz dźwięk w powiadomieniach",
+                      "description": "Jeśli zaznaczysz tę opcję, wyświetlanym powiadomieniom w aplikacji będzie towarzyszył odgłos dźwiękowy."
+                    }
                   },
-                  "pushNotificationsSound": {
-                    "label": "Włącz/wyłącz dźwięk w powiadomieniach",
-                    "description": "Jeśli zaznaczysz tę opcję, wyświetlanym powiadomieniom w aplikacji będzie towarzyszył odgłos dźwiękowy."
-                  }
+                  "soundSampleButton": "Odtwórz dźwięk powiadomień"
                 },
-                "soundSampleButton": "Odtwórz dźwięk powiadomień"
+                "email": {
+                  "header": "ustawienia powiadomień email",
+                  "toggler": {
+                    "emailNotifications": {
+                      "label": "Wyłącz/włącz powiadomienia email",
+                      "description": "Jeśli zaznaczysz tę opcję, wiadomości email (marketingowe) będą dostarczane na Twój adres email. Wszystkie wiadomości będą wysyłane na dodatkowy adres email, jeśli został ustawiony."
+                    }
+                  }
+                }
               }
             }
           },
