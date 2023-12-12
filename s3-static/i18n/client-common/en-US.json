@@ -267,11 +267,6 @@
           }
         }
       },
-      "deleteSecondEmailAddress": {
-        "header": "Removal of second email address",
-        "description": "Are you sure you want to delete second email address? Once deleted, all emails (including marketing) will be placed at your primary email address.",
-        "submitButton": "Delete"
-      },
       "birthDate": {
         "header": "Birth date",
         "formFields": {
@@ -316,6 +311,11 @@
           }
         }
       },
+      "uploadProfileImage": {
+        "header": "Uploading profile image",
+        "infoBlock": "Profile image should have 1:1 aspect ratio and resolution at least 250px and not exceed 5MB.",
+        "submitButton": "Upload image"
+      },
       "devastate": {
         "disableAccount": {
           "header": "Disable account",
@@ -331,6 +331,16 @@
           "header": "Reset MFA",
           "description": "Are you sure to reset multi-factor authnetication settings?",
           "submitButton": "Reset MFA"
+        },
+        "deleteProfileImage": {
+          "header": "Deleting profile image",
+          "description": "Are you sure to delete your custom profile image from your account?",
+          "submitButton": "Delete"
+        },
+        "deleteSecondEmailAddress": {
+          "header": "Removal of second email address",
+          "description": "Are you sure you want to delete second email address? Once deleted, all emails (including marketing) will be placed at your primary email address.",
+          "submitButton": "Delete"
         },
         "formFields": {
           "password": {
@@ -364,14 +374,12 @@
             "section": {
               "vis": {
                 "oauth2Login": "Provided by {oauth2Provider}",
-                "editProfileButton": "Edit profile",
                 "firstName": "first name",
                 "lastName": "last name",
                 "username": "username",
                 "emailAddress": "email address",
                 "secondEmailAddress": "second email address",
-                "birthDate": "birth date",
-                "joinedDate": "Joined date"
+                "birthDate": "birth date"
               },
               "authentication": {
                 "header": "password and authentication",
@@ -395,7 +403,18 @@
             }
           },
           "profileSettings": {
-            "header": "Profile settings"
+            "header": "Profile settings",
+            "section": {
+              "color": {
+                "header": "profile color"
+              },
+              "image": {
+                "header": "profile image",
+                "uploadImageButton": "Upload image",
+                "generateIdenticonButton": "Generate identicon",
+                "deleteImage": "Delete image"
+              }
+            }
           }
         }
       },
@@ -469,6 +488,7 @@
         }
       }
     },
+    "editProfileButton": "Edit profile",
     "closeButton": "Close",
     "logoutButton": "Logout",
     "downloadButton": "Download"
@@ -487,6 +507,7 @@
       }
     },
     "editButton": "Edit",
+    "joinedDate": "Joined date",
     "functionEnabledOnLocal": "Selected options is currently supported only for local accounts."
   }
 }

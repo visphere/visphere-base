@@ -266,11 +266,6 @@
           }
         }
       },
-      "deleteSecondEmailAddress": {
-        "header": "Usuwanie dodatkowego adresu email",
-        "description": "Czy na pewno chcesz usunąć dodatkowy adres email? Po usunięciu wszystkie wiadomości email (również wiadomości marketingowe) będą umieszczane na Twoim głównym adresie email.",
-        "submitButton": "Usuń"
-      },
       "birthDate": {
         "header": "Data urodzenia",
         "formFields": {
@@ -315,6 +310,11 @@
           }
         }
       },
+      "uploadProfileImage": {
+        "header": "Wgrywanie zdjęcia profilowego",
+        "infoBlock": "Zdjęcie powinno mieć proporcje 1:1 i rozdzielczość co najmniej 250px oraz nie przekraczać 5MB.",
+        "submitButton": "Wgraj zdjęcie profilowe"
+      },
       "devastate": {
         "disableAccount": {
           "header": "Wyłączenie konta",
@@ -330,6 +330,16 @@
           "header": "Reset uwierzytelania wieloetapowego",
           "description": "Czy na pewno chcesz zresetować ustawienia uwierzytelniania wieloetapowego?",
           "submitButton": "Zresetuj ustawienia"
+        },
+        "deleteProfileImage": {
+          "header": "Usuwanie zdjęcia profilowego",
+          "description": "Czy na pewno chcesz usunąć zdjęcie profilowe z Twojego konta?",
+          "submitButton": "Usuń"
+        },
+        "deleteSecondEmailAddress": {
+          "header": "Usuwanie dodatkowego adresu email",
+          "description": "Czy na pewno chcesz usunąć dodatkowy adres email? Po usunięciu wszystkie wiadomości email (również wiadomości marketingowe) będą umieszczane na Twoim głównym adresie email.",
+          "submitButton": "Usuń"
         },
         "formFields": {
           "password": {
@@ -363,14 +373,12 @@
             "section": {
               "vis": {
                 "oauth2Login": "Provided by {oauth2Provider}",
-                "editProfileButton": "Edytuj profil",
                 "firstName": "imię",
                 "lastName": "nazwisko",
                 "username": "nazwa użytkownika",
                 "emailAddress": "adres email",
                 "secondEmailAddress": "Dodatkowy adres email",
-                "birthDate": "data urodzenia",
-                "joinedDate": "Data dołączenia"
+                "birthDate": "data urodzenia"
               },
               "authentication": {
                 "header": "hasło i uwierzytelnianie",
@@ -394,7 +402,18 @@
             }
           },
           "profileSettings": {
-            "header": "Profil"
+            "header": "Profil",
+            "section": {
+              "color": {
+                "header": "kolor profilu"
+              },
+              "image": {
+                "header": "zdjęcie profilowe",
+                "uploadImageButton": "Wgraj zdjęcie",
+                "generateIdenticonButton": "Wygeneruj identikon",
+                "deleteImage": "Usuń zdjęcie"
+              }
+            }
           }
         }
       },
@@ -468,6 +487,7 @@
         }
       }
     },
+    "editProfileButton": "Edytuj profil",
     "closeButton": "Zamknij",
     "logoutButton": "Wyloguj",
     "downloadButton": "Pobierz"
@@ -486,6 +506,7 @@
       }
     },
     "editButton": "Edytuj",
+    "joinedDate": "Data dołączenia",
     "functionEnabledOnLocal": "Wybrana funkcja jest dostępną tylko dla kont lokalnych."
   }
 }
