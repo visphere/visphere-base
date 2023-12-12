@@ -139,4 +139,20 @@ module.exports = {
     'px-1.5 py-1',
     'rounded-md',
   ]),
+  '.vsph-info-block__container': parseTwdApply([
+    'my-8',
+    'py-3 px-4',
+    'flex items-center',
+    'border border-vsph-orange-100',
+    'rounded-lg',
+  ]),
+  '.vsph-info-block__container--danger': parseTwdApply([
+    'bg-vsph-orange-50 dark:bg-vsph-transparent',
+  ]),
+  '.vsph-info-block__image': parseTwdApply([
+    'flex items-center justify-center shrink-0',
+    'me-4',
+  ]),
+  '.vsph-info-block__text': parseTwdApply(['text-sm leading-[17px]']),
+  '.vsph-info-block__text--danger': parseTwdApply(['text-vsph-orange-100']),
 };
