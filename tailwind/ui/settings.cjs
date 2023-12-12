@@ -181,4 +181,11 @@ module.exports = {
     'w-full h-[90px]',
     'top-0 left-0',
   ]),
+  '.vsph-settings__profile-color-element': parseTwdApply([
+    'w-[32px] h-[32px]',
+    'rounded-full',
+  ]),
+  '.vsph-settings__profile-color-element--loading': parseTwdApply([
+    'opacity-50',
+  ]),
 };
