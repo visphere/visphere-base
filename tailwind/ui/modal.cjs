@@ -7,26 +7,21 @@ const { parseTwdApply } = require('../utils.cjs');
 
 module.exports = {
   '.vsph-modal__container': parseTwdApply([
-    'fixed',
+    'absolute',
     'top-0 left-0',
-    'w-full min-h-screen h-screen',
+    'w-full h-screen',
+    'overflow-y-auto',
+    'bg-vsph-modal-background',
     'z-50',
   ]),
-  '.vsph-modal__background': parseTwdApply([
-    'absolute',
-    'w-full h-full',
-    'bg-vsph-black bg-opacity-75',
-  ]),
   '.vsph-modal__window-container': parseTwdApply([
-    'absolute',
-    'w-full h-full',
     'flex justify-center',
-    'pt-3 md:pt-0 md:mt-28 px-3',
-    'shadow-md',
+    'pt-3 md:pt-0 md:mt-28 md:mb-28 px-3',
   ]),
   '.vsph-modal__window-wrapper': parseTwdApply([
     'relative',
     'w-full h-fit',
+    'shadow-md',
     'rounded-xl',
     'pt-8 pb-6 px-6 sm:px-8',
     'border border-vsph-tint-500 dark:border-vsph-dark-800',
