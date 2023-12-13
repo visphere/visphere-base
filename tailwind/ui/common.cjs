@@ -140,7 +140,7 @@ module.exports = {
     'rounded-md',
   ]),
   '.vsph-info-block__container': parseTwdApply([
-    'my-8',
+    'my-6',
     'py-3 px-4',
     'flex items-center',
     'border border-vsph-orange-100',
@@ -155,4 +155,27 @@ module.exports = {
   ]),
   '.vsph-info-block__text': parseTwdApply(['text-sm leading-[17px]']),
   '.vsph-info-block__text--danger': parseTwdApply(['text-vsph-orange-100']),
+  '.vsph-drag-drop__container': parseTwdApply([
+    'relative',
+    'rounded-lg',
+    'text-center',
+    'min-h-[160px]',
+    'mb-6',
+    'p-6',
+    'flex flex-col items-center justify-center',
+    'border-2 border-dashed',
+    'border-vsph-tint-300 dark:border-vsph-dark-700',
+  ]),
+  '.vsph-drag-drop__input': parseTwdApply([
+    'absolute top-0 left-0',
+    'opacity-0',
+    'w-full h-full',
+  ]),
+  '.vsph-drag-drop__label': parseTwdApply([
+    'relative z-20',
+    'vsph-button',
+    'vsph-button--secondary',
+    'vsph-button--fit',
+    'border-vsph-tint-300 dark:border-vsph-dark-700',
+  ]),
 };

@@ -13,6 +13,18 @@
     "emailMessageNotReceived": "Wiadomość email nie dotarła?",
     "resendMessageButton": "Wyślij ponownie",
     "responseTime": "Czas odpowiedzi",
-    "stepBackward": "Cofnij"
+    "stepBackward": "Cofnij",
+    "or": "lub"
+  },
+  "vsph.common.file": {
+    "dragAndDropContent": "Przeciągnij i upuść tutaj",
+    "browseFile": "Przeglądaj pliki",
+    "removeFile": "Usuń plik",
+    "error": {
+      "noFileChoose": "Nie wybranu pliku.",
+      "notSupportedExt": "Nieobsługiwane rozszerzenie. Prawidłowe rozszerzenia: {extensions}.",
+      "tooLargeFileSize": "Zbyt duży rozmiar pliku. Maksymalny rozmiar: {size}.",
+      "failedToLoadFile": "Nieudane załadowanie pliku."
+    }
   }
 }

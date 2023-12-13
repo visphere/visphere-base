@@ -13,6 +13,18 @@
     "emailMessageNotReceived": "Email message not received?",
     "resendMessageButton": "Resend message",
     "responseTime": "Response time",
-    "stepBackward": "Step backward"
+    "stepBackward": "Step backward",
+    "or": "or"
+  },
+  "vsph.common.file": {
+    "dragAndDropContent": "Drag and drop here",
+    "browseFile": "Browse file",
+    "removeFile": "Remove file",
+    "error": {
+      "noFileChoose": "No file selected.",
+      "notSupportedExt": "Unsupported extension. Valid extensions: {extensions}.",
+      "tooLargeFileSize": "File size too large. Maximum size: {size}.",
+      "failedToLoadFile": "Failed to load file."
+    }
   }
 }

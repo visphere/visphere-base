@@ -10,4 +10,12 @@ module.exports = {
       [`@apply ${twdClasses.join(' ')}`]: {},
     };
   },
+  rgbaFromRgb: function (rgbString, alpha) {
+    alpha = alpha || 1;
+    const match = rgbString.match(/\d+/g);
+    if (match && match.length === 3) {
+      return `rgba(${match[0]}, ${match[1]}, ${match[2]}, ${alpha})`;
+    }
+    return rgbString;
+  },
 };

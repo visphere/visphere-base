@@ -2,7 +2,6 @@
   "vsph.clientCommon.auth": {
     "forgotPassword": "You forgot your password?",
     "resetPassword": "Forgot password",
-    "or": "or",
     "fieldsRequired": "fields required",
     "capsLockWarning": "<strong>Warning!</strong> CapsLock key is enabled."
   },
