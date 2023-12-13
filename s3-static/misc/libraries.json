@@ -1008,6 +1008,10 @@
     "repoUrl": "https://github.com/DefinitelyTyped/DefinitelyTyped"
   },
   {
+    "name": "@types/file-saver",
+    "repoUrl": "https://github.com/DefinitelyTyped/DefinitelyTyped"
+  },
+  {
     "name": "@types/flat",
     "repoUrl": "https://github.com/DefinitelyTyped/DefinitelyTyped"
   },
@@ -2291,6 +2295,10 @@
     "name": "file-entry-cache",
     "repoUrl": "https://github.com/royriojas/file-entry-cache"
   },
+  {
+    "name": "file-saver",
+    "repoUrl": "https://github.com/eligrey/FileSaver.js"
+  },
   { "name": "filelist", "repoUrl": "https://github.com/mde/filelist" },
   {
     "name": "fill-range",
@@ -3304,6 +3312,10 @@
   { "name": "needle", "repoUrl": "https://github.com/tomas/needle" },
   { "name": "negotiator", "repoUrl": "https://github.com/jshttp/negotiator" },
   { "name": "neo-async", "repoUrl": "https://github.com/suguru03/neo-async" },
+  {
+    "name": "ngx-image-cropper",
+    "repoUrl": "https://github.com/Mawi137/ngx-image-cropper"
+  },
   {
     "name": "ngx-rerender",
     "repoUrl": "https://github.com/ngehlert/ngx-rerender"
