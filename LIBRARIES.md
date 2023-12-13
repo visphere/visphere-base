@@ -1,4 +1,4 @@
-All used 3rd party libraries count: **1593**<br>
+All used 3rd party libraries count: **1596**<br>
 | Library                                                                                                                        | License                               |
 | ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------- |
 | [@aashutoshrathi/word-wrap](https://github.com/aashutoshrathi/word-wrap)                                                       | MIT                                   |
@@ -283,6 +283,7 @@ All used 3rd party libraries count: **1593**<br>
 | [@types/estree](https://github.com/DefinitelyTyped/DefinitelyTyped)                                                            | MIT                                   |
 | [@types/express](https://github.com/DefinitelyTyped/DefinitelyTyped)                                                           | MIT                                   |
 | [@types/express-serve-static-core](https://github.com/DefinitelyTyped/DefinitelyTyped)                                         | MIT                                   |
+| [@types/file-saver](https://github.com/DefinitelyTyped/DefinitelyTyped)                                                        | MIT                                   |
 | [@types/flat](https://github.com/DefinitelyTyped/DefinitelyTyped)                                                              | MIT                                   |
 | [@types/form-data](https://github.com/DefinitelyTyped/DefinitelyTyped)                                                         | MIT                                   |
 | [@types/glob](https://github.com/DefinitelyTyped/DefinitelyTyped)                                                              | MIT                                   |
@@ -709,6 +710,7 @@ All used 3rd party libraries count: **1593**<br>
 | [figgy-pudding](https://github.com/npm/figgy-pudding)                                                                          | ISC                                   |
 | [figures](https://github.com/sindresorhus/figures)                                                                             | MIT                                   |
 | [file-entry-cache](https://github.com/royriojas/file-entry-cache)                                                              | MIT                                   |
+| [file-saver](https://github.com/eligrey/FileSaver.js)                                                                          | MIT                                   |
 | [filelist](https://github.com/mde/filelist)                                                                                    | Apache-2.0                            |
 | [fill-range](https://github.com/jonschlinkert/fill-range)                                                                      | MIT                                   |
 | [finalhandler](https://github.com/pillarjs/finalhandler)                                                                       | MIT                                   |
@@ -1080,6 +1082,7 @@ All used 3rd party libraries count: **1593**<br>
 | [needle](https://github.com/tomas/needle)                                                                                      | MIT                                   |
 | [negotiator](https://github.com/jshttp/negotiator)                                                                             | MIT                                   |
 | [neo-async](https://github.com/suguru03/neo-async)                                                                             | MIT                                   |
+| [ngx-image-cropper](https://github.com/Mawi137/ngx-image-cropper)                                                              | MIT                                   |
 | [ngx-rerender](https://github.com/ngehlert/ngx-rerender)                                                                       | MIT                                   |
 | [ngx-tippy-wrapper](https://github.com/farengeyt451/ngx-tippy-wrapper)                                                         | MIT                                   |
 | [ngx-translate-messageformat-compiler](https://github.com/lephyrus/ngx-translate-messageformat-compiler)                       | MIT                                   |
