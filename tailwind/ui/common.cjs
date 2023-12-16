@@ -64,6 +64,7 @@ module.exports = {
     'disabled:opacity-70',
     'disabled:cursor-not-allowed',
   ]),
+  '.vsph-button--small--padding': parseTwdApply(['p-1.5 py-1', 'min-h-[32px]']),
   '.vsph-button--fit': parseTwdApply(['w-fit', 'px-8']),
   '.vsph-info-card__container': parseTwdApply([
     'rounded-md',
@@ -170,6 +171,7 @@ module.exports = {
     'absolute top-0 left-0',
     'opacity-0',
     'w-full h-full',
+    'cursor-pointer file:cursor-pointer',
   ]),
   '.vsph-drag-drop__label': parseTwdApply([
     'relative z-20',
@@ -177,5 +179,13 @@ module.exports = {
     'vsph-button--secondary',
     'vsph-button--fit',
     'border-vsph-tint-300 dark:border-vsph-dark-700',
+  ]),
+  '.vsph-separator': parseTwdApply([
+    'border-vsph-tint-200 dark:border-vsph-dark-800',
+  ]),
+  '.vsph-separator__text': parseTwdApply([
+    'mx-5',
+    'uppercase',
+    'text-sm text-vsph-tint-400 dark:text-vsph-tint-300',
   ]),
 };

@@ -45,14 +45,6 @@ module.exports = {
     'bg-vsph-x-bg',
     'text-vsph-x-fg',
   ]),
-  '.vsph-auth__separator': parseTwdApply([
-    'border-vsph-tint-200 dark:border-vsph-dark-800',
-  ]),
-  '.vsph-auth__separator-text': parseTwdApply([
-    'mx-5',
-    'uppercase',
-    'text-sm text-vsph-tint-400 dark:text-vsph-tint-300',
-  ]),
   '.vsph-auth__link': parseTwdApply([
     'cursor-pointer',
     'text-vsph-tint-500',
