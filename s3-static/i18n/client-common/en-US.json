@@ -341,6 +341,16 @@
           "description": "Are you sure you want to delete second email address? Once deleted, all emails (including marketing) will be placed at your primary email address.",
           "submitButton": "Delete"
         },
+        "deleteGuild": {
+          "header": "Deleting Sphere™",
+          "description": "Are you sure to delete Sphere™ {name}? All data and text messages will be ERASED IRRETRIEVABLY. This operation cannot be undone.",
+          "submitButton": "Delete Sphere™"
+        },
+        "deleteTextChannel": {
+          "header": "Deleting text channel",
+          "description": "Are you sure to delete text channel {name}? All data, text channels and messages will be ERASED IRRETRIEVABLY. This operation cannot be undone.",
+          "submitButton": "Delete text channel"
+        },
         "formFields": {
           "password": {
             "value": "Password",

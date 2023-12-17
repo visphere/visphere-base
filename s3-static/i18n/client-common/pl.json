@@ -340,6 +340,16 @@
           "description": "Czy na pewno chcesz usunąć dodatkowy adres email? Po usunięciu wszystkie wiadomości email (również wiadomości marketingowe) będą umieszczane na Twoim głównym adresie email.",
           "submitButton": "Usuń"
         },
+        "deleteGuild": {
+          "header": "Usuwanie Sfery™",
+          "description": "Czy na pewno chcesz usunąć Sferę™ {name}? Wszystkie dane, kanały tekstowe oraz wiadomości użytkowników zostaną BEZPOWROTNIE UTRACONE. Tej operacji nie można cofnąć.",
+          "submitButton": "Usuń Sferę™"
+        },
+        "deleteTextChannel": {
+          "header": "Usuwanie kanału tekstowego",
+          "description": "Czy na pewno chcesz usunąć kanał tekstowy {name}? Wszystkie dane oraz wiadomości użytkowników zostaną BEZPOWROTNIE UTRACONE. Tej operacji nie można cofnąć.",
+          "submitButton": "Usuń kanał tekstowy"
+        },
         "formFields": {
           "password": {
             "value": "Hasło",
