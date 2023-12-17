@@ -17,8 +17,14 @@
       "friendReuqests": "Zaproszenia do znajomych - ustawienia",
       "appearance": "Wygląd - ustawienia",
       "notifications": "Powiadomienia - ustawienia",
-      "language": "Język - ustawienia"
+      "language": "Język - ustawienia",
+      "overview": "Przegląd - ustawienia",
+      "joinLinks": "Zaproszenia - ustawienia"
     },
+    "clientSphereGuildPage": "Sfera™",
+    "clientSphereTextChannelPage": "Kanał tekstowy",
+    "guildSettingsEntryPointPage": "Ustawienia Sfery™",
+    "textChannelSettingsEntryPointPage": "Ustawienia kanału tekstowego",
     "notFoundPage": "404"
   },
   "vsph.webClient.registerPage": {

@@ -17,8 +17,14 @@
       "friendReuqests": "Friend requests - settings",
       "appearance": "Appearance - settings",
       "notifications": "Notifications - settings",
-      "language": "Language - settings"
+      "language": "Language - settings",
+      "overview": "Overview",
+      "joinLinks": "Join links"
     },
+    "clientSphereGuildPage": "Sphere™",
+    "clientSphereTextChannelPage": "Text channel",
+    "guildSettingsEntryPointPage": "Sphere™ settings",
+    "textChannelSettingsEntryPointPage": "Text channel settings",
     "notFoundPage": "404"
   },
   "vsph.webClient.registerPage": {
