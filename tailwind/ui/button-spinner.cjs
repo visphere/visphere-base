@@ -19,6 +19,9 @@ const components = {
     'w-[10px] h-[10px]',
     'text-vsph-tint-300 dark:text-vsph-tint-400',
   ]),
+  '.vsph-button-spinner__carousel--small': parseTwdApply([
+    'text-vsph-tint-300 dark:text-vsph-tint-400',
+  ]),
   '.vsph-button-spinner__carousel--modal': parseTwdApply([
     'text-vsph-tint-400 dark:text-vsph-tint-200',
   ]),

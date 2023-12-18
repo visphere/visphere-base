@@ -132,6 +132,10 @@ module.exports = {
     'focus:checked:bg-vsph-orange-100 checked:bg-vsph-orange-100 hover:checked:bg-vsph-orange-100',
     'checked:dark:bg-vsph-orange-100 checked:border-none',
   ]),
+  '.vsph-checkbox--danger--red': parseTwdApply([
+    'focus:checked:bg-vsph-red-200 checked:bg-vsph-red-200 hover:checked:bg-vsph-red-200',
+    'checked:dark:bg-vsph-red-200 checked:border-none',
+  ]),
   '.vsph-top-nav-button': parseTwdApply([
     'text-sm',
     'font-medium',
