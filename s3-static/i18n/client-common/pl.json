@@ -189,7 +189,7 @@
       "header": "Ustawienia",
       "title": "Ustawienia aplikacji Visphere",
       "paragraph1": "Na tej stronie możesz ustawić najważniejsze parametry Twojego konta, motywu aplikacji czy wyświetlanego języka. Więcej informacji o aplikacji możesz uzyskać klikając w poniższy przycisk.",
-      "aboutInfoButton": "O aplikacji Visphere i Sferach™",
+      "aboutInfoButton": "O aplikacji Visphere i Sferach",
       "paragraph2": "Potrzebujesz wersji na komputer lub telefon? Kliknij w przycisk poniżej aby przejść do pobierania.",
       "downloadButton": "Pobierz"
     },
@@ -341,9 +341,9 @@
           "submitButton": "Usuń"
         },
         "deleteGuild": {
-          "header": "Usuwanie Sfery™",
-          "description": "Czy na pewno chcesz usunąć Sferę™ {name}? Wszystkie dane, kanały tekstowe oraz wiadomości użytkowników zostaną BEZPOWROTNIE UTRACONE. Tej operacji nie można cofnąć.",
-          "submitButton": "Usuń Sferę™"
+          "header": "Usuwanie Sfery",
+          "description": "Czy na pewno chcesz usunąć Sferę {name}? Wszystkie dane, kanały tekstowe oraz wiadomości użytkowników zostaną BEZPOWROTNIE UTRACONE. Tej operacji nie można cofnąć.",
+          "submitButton": "Usuń Sferę"
         },
         "deleteTextChannel": {
           "header": "Usuwanie kanału tekstowego",

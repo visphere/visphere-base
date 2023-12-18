@@ -190,7 +190,7 @@
       "header": "Settings",
       "title": "Visphere application settings",
       "paragraph1": "On this page you can set the most important parameters of your account, application theme or displayed language. You can get more information about the application get by clicking on button below.",
-      "aboutInfoButton": "About Visphere and Spheres™",
+      "aboutInfoButton": "About Visphere and Spheres",
       "paragraph2": "Need a version for your computer or phone? Click on the button below to go to the download page.",
       "downloadButton": "Download"
     },
@@ -342,9 +342,9 @@
           "submitButton": "Delete"
         },
         "deleteGuild": {
-          "header": "Deleting Sphere™",
-          "description": "Are you sure to delete Sphere™ {name}? All data and text messages will be ERASED IRRETRIEVABLY. This operation cannot be undone.",
-          "submitButton": "Delete Sphere™"
+          "header": "Deleting Sphere",
+          "description": "Are you sure to delete Sphere {name}? All data and text messages will be ERASED IRRETRIEVABLY. This operation cannot be undone.",
+          "submitButton": "Delete Sphere"
         },
         "deleteTextChannel": {
           "header": "Deleting text channel",

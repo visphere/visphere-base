@@ -4,7 +4,7 @@
     "keywords": "chat, web client, send messages, online, visphere"
   },
   "vsph.webCommon.footer": {
-    "description": "Visphere is an instant messenger system allows you to chat, create rooms and stay connected with all who you know. Join and create your first Sphere™ now!",
+    "description": "Visphere is an instant messenger system allows you to chat, create rooms and stay connected with all who you know. Join and create your first Sphere now!",
     "downloadAppButton": "Download for free",
     "openAppButton": "Open in browser",
     "headers": {
