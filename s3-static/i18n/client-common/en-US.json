@@ -495,12 +495,183 @@
             }
           }
         }
+      },
+      "guildSettings": {
+        "name": "Sphere settings",
+        "deleteGuild": "Delete Sphere",
+        "subpage": {
+          "overview": {
+            "header": "Overview"
+          },
+          "appearance": {
+            "header": "Appearance"
+          },
+          "joinLinks": {
+            "header": "Join links"
+          }
+        }
+      },
+      "textChannelSettings": {
+        "name": "Text channel settings",
+        "deleteTextChannel": "Delete text channel",
+        "subpage": {
+          "overview": {
+            "header": "Overview",
+            "formFields": {
+              "name": {
+                "value": "Text channel name",
+                "placeholder": "updated-text-channel",
+                "info": "Text channel name must contains only small letter, digits and '-' characters.",
+                "errors": {
+                  "required": "Text channel name is required.",
+                  "pattern": "Text channel name contains illegal characters.",
+                  "minlength": "Text channel name must have at least 3 characters."
+                }
+              }
+            },
+            "textNameSubmitButton": "Update name",
+            "revertPrevious": "Revert previous"
+          }
+        }
       }
     },
     "editProfileButton": "Edit profile",
     "closeButton": "Close",
     "logoutButton": "Logout",
     "downloadButton": "Download"
+  },
+  "vsph.clientCommon.client": {
+    "leftNav": {
+      "startButton": "Visphere",
+      "addSphere": "Add Sphere",
+      "exploreSpheres": "Explore Spheres"
+    },
+    "userPopup": {
+      "createAccountDate": "Account created",
+      "guildJoinDate": "Join to Sphere",
+      "openSettings": "Settings",
+      "logout": "Logout",
+      "leaveGuild": "Leave Sphere",
+      "kickFromGuild": "Kick member",
+      "banFromGuild": "Ban member"
+    },
+    "welcomeBlock": {
+      "welcomeMessage": "Welcome in",
+      "navigationInfo": "To start using this application, go to one of your Spheres, create a new one or explore and join to some of the public Sphere.",
+      "createGuildButton": "Create new Sphere",
+      "exploreSpheres": "Explore public Spheres"
+    },
+    "modals": {
+      "create": {
+        "header": "Create Sphere",
+        "toJoinParagraph": "Are you join to existing Sphere?",
+        "formFields": {
+          "name": {
+            "value": "Sphere name",
+            "placeholder": "My new sphere",
+            "errors": {
+              "required": "Sphere name is required.",
+              "pattern": "Sphere name contains illegal characters.",
+              "minlength": "Sphere name must have at least 3 characters."
+            }
+          },
+          "isPrivate": {
+            "value": "Sphere is private",
+            "info": "When Sphere, only users with invitation link can join."
+          }
+        },
+        "category": {
+          "gaming": "Gaming",
+          "entertainment": "Entertainment",
+          "techAndScience": "Tech and science",
+          "music": "Music",
+          "sportsAndTravel": "Sports and Travel",
+          "other": "Other"
+        }
+      },
+      "join": {
+        "header": "Join Sphere",
+        "toCreateParagraph": "Are you create a new Sphere?",
+        "formFields": {
+          "code": {
+            "value": "Join code",
+            "info": "Invitation code is a 10-digit code received from the owner of the Sphere",
+            "errors": {
+              "required": "Join code is required.",
+              "pattern": "Join code contains illegal characters.",
+              "minlength": "Join code must have 10 characters."
+            }
+          }
+        }
+      },
+      "createTextChannel": {
+        "header": "New text channel",
+        "formFields": {
+          "name": {
+            "value": "Text channel name",
+            "placeholder": "my-new-text-channel",
+            "info": "Text channel name must contains only small letter, digits and '-' characters.",
+            "errors": {
+              "required": "Text channel name is required.",
+              "pattern": "Text channel name contains illegal characters.",
+              "minlength": "Text channel name must have at least 3 characters."
+            }
+          }
+        },
+        "submitButton": "Create text channel"
+      },
+      "leaveGuild": {
+        "header": "Leaving Sphere",
+        "description": "Are you sure you want to leave the Sphere {name}? You will be able to join again at any time with an invitation.",
+        "deleteAllMessages": "Delete all my messages",
+        "submitButton": "Leave Sphere"
+      },
+      "kickFromGuild": {
+        "header": "Kicking member",
+        "description": "Are you sure you want to kick out Sphere member {name}? In addition, you can delete all his messages on all text channels.",
+        "deleteAllMessages": "Delete all messages of a Sphere member",
+        "submitButton": "Kick member"
+      },
+      "banFromGuild": {
+        "header": "Banning member",
+        "description": "Are you sure you want to ban Sphere member {name}? Additionally, you can delete all his messages on all text channels.",
+        "deleteAllMessages": "Delete all messages of a Sphere member",
+        "submitButton": "Ban member"
+      },
+      "toJoinButton": "Join to Sphere",
+      "toCreateButton": "Create Sphere"
+    }
+  },
+  "vsph.clientCommon.guild": {
+    "leftSidebar": {
+      "textChannels": "Text channels",
+      "textChannelSettings": "Go to settings",
+      "createTextChannel": "Create text channel",
+      "settingsButton": "Sphere settings"
+    },
+    "rightSidebar": {
+      "header": "Participants",
+      "owner": "Owner",
+      "members": "Members"
+    },
+    "startScreen": {
+      "welcomeScreen": "Welcome screen",
+      "welcomeMessage": "Welcome to {visibility} Sphere",
+      "privateSphere": "private",
+      "publicSphere": "public",
+      "navigationInfo": "To start browsing this Sphere, go to one of the text channels on the left side.",
+      "createTextChannelButton": "Create text channel",
+      "settingsButton": "Manage Sphere settings"
+    },
+    "textChannel": {
+      "welcome": "Welcome to text channel",
+      "noMessagesYet": "There is no messages yet. Write first text message on this channel now."
+    },
+    "textArea": {
+      "appendFileInfo": "Append file/files",
+      "sendMessageInfo": "Send message",
+      "startTyping": "Start typing..."
+    }
   },
   "vsph.clientCommon.forAll": {
     "modals": {

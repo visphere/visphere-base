@@ -494,12 +494,183 @@
             }
           }
         }
+      },
+      "guildSettings": {
+        "name": "Ustawienia Sfery",
+        "deleteGuild": "Usuń Sferę",
+        "subpage": {
+          "overview": {
+            "header": "Przegląd"
+          },
+          "appearance": {
+            "header": "Wygląd"
+          },
+          "joinLinks": {
+            "header": "Zaproszenia"
+          }
+        }
+      },
+      "textChannelSettings": {
+        "name": "Ustawienia kanału tekstowego",
+        "deleteTextChannel": "Usuń kanał tekstowy",
+        "subpage": {
+          "overview": {
+            "header": "Przegląd",
+            "formFields": {
+              "name": {
+                "value": "Nazwa kanału tekstowego",
+                "placeholder": "zaktualizowany-kanał-tekstowy",
+                "info": "Nazwa kanału tekstowy może składać się jedynie z małych liter, cyfr oraz znaku '-'.",
+                "errors": {
+                  "required": "Nazwa kanału tekstowego jest wymagana.",
+                  "pattern": "Nazwa kanału tekstowego zawiera niedozwolone znaki.",
+                  "minlength": "Nazwa kanału tekstowego musi zawierać co najmniej 3 znaki."
+                }
+              }
+            },
+            "textNameSubmitButton": "Zmień nazwę",
+            "revertPrevious": "Przywróć poprzednią"
+          }
+        }
       }
     },
     "editProfileButton": "Edytuj profil",
     "closeButton": "Zamknij",
     "logoutButton": "Wyloguj",
     "downloadButton": "Pobierz"
+  },
+  "vsph.clientCommon.client": {
+    "leftNav": {
+      "startButton": "Visphere",
+      "addSphere": "Dodaj Sferę",
+      "exploreSpheres": "Odkrywaj Sfery"
+    },
+    "userPopup": {
+      "createAccountDate": "Konto utworzone",
+      "guildJoinDate": "Dołączono do Sfery",
+      "openSettings": "Ustawienia",
+      "logout": "Wyloguj",
+      "leaveGuild": "Opuść Sferę",
+      "kickFromGuild": "Wyrzuć",
+      "banFromGuild": "Zbanuj"
+    },
+    "welcomeBlock": {
+      "welcomeMessage": "Witaj w aplikacji",
+      "navigationInfo": "Aby rozpocząć korzystanie z aplikacji, przejdź do jednej z Twoich Sfer, stwórz nową Sferę lub odkrywaj i dołączaj do ogólnodostępnych publicznych Sfer.",
+      "createGuildButton": "Stwórz nową Sferę",
+      "exploreSpheres": "Odkrywaj publiczne Sfery"
+    },
+    "modals": {
+      "create": {
+        "header": "Stwórz Sferę",
+        "toJoinParagraph": "Czy chcesz dołączyć do istniejącej Sfery?",
+        "formFields": {
+          "name": {
+            "value": "Nazwa Sfery",
+            "placeholder": "Moja nowa sfera",
+            "errors": {
+              "required": "Nazwa Sfery jest wymagana.",
+              "pattern": "Nazwa Sfery zawiera niedozwolone znaki.",
+              "minlength": "Nazwa Sfery musi zawierać co najmniej 3 znaki."
+            }
+          },
+          "isPrivate": {
+            "value": "Sfera prywatna",
+            "info": "Kiedy Sfera jest prywatna, tylko użytkownicy posiadający link z zaproszeniem będą mogli dołączyć."
+          }
+        },
+        "category": {
+          "gaming": "Gry",
+          "entertainment": "Rozrywka",
+          "techAndScience": "Technologie i nauka",
+          "music": "Muzyka",
+          "sportsAndTravel": "Sport i podróże",
+          "other": "Inna"
+        }
+      },
+      "join": {
+        "header": "Dołącz do Sfery",
+        "toCreateParagraph": "Czy chcesz stworzyć nową Sferę?",
+        "formFields": {
+          "code": {
+            "value": "Kod zaproszenia",
+            "info": "Kod zaproszenia to 10 cyfrowy kod otrzymywany od właściciela Sfery",
+            "errors": {
+              "required": "Kod zaproszenia jest wymagany.",
+              "pattern": "Kod zaproszenia zawiera niedozwolone znaki.",
+              "minlength": "Kod zaproszenia musi zawierać 10 znaków."
+            }
+          }
+        }
+      },
+      "createTextChannel": {
+        "header": "Nowy kanał tekstowy",
+        "formFields": {
+          "name": {
+            "value": "Nazwa kanału tekstowego",
+            "placeholder": "mój-nowy-kanał-tekstowy",
+            "info": "Nazwa kanału tekstowy może składać się jedynie z małych liter, cyfr oraz znaku '-'.",
+            "errors": {
+              "required": "Nazwa kanału tekstowego jest wymagana.",
+              "pattern": "Nazwa kanału tekstowego zawiera niedozwolone znaki.",
+              "minlength": "Nazwa kanału tekstowego musi zawierać co najmniej 3 znaki."
+            }
+          }
+        },
+        "submitButton": "Stwórz kanał tekstowy"
+      },
+      "leaveGuild": {
+        "header": "Opuszczanie Sfery",
+        "description": "Czy na pewno chcesz opuścić Sferę {name}? W każdej chwili będziesz mógł dołączyć ponownie z użyciem zaproszenia.",
+        "deleteAllMessages": "Usuń wszystkie moje wiadomości",
+        "submitButton": "Opuść Sferę"
+      },
+      "kickFromGuild": {
+        "header": "Wyrzucanie członka",
+        "description": "Czy na pewno chcesz wyrzuć członka Sfery {name}? Dodatkowo możesz usunąć wszystkie jego wiadomości na wszystkich kanałach tekstowych.",
+        "deleteAllMessages": "Usuń wszystkie wiadomości członka Sfery",
+        "submitButton": "Wyrzuć członka"
+      },
+      "banFromGuild": {
+        "header": "Banowanie członka",
+        "description": "Czy na pewno chcesz zbanować członka Sfery {name}? Dodatkowo możesz usunąć wszystkie jego wiadomości na wszystkich kanałach tekstowych.",
+        "deleteAllMessages": "Usuń wszystkie wiadomości członka Sfery",
+        "submitButton": "Zbanuj członka"
+      },
+      "toJoinButton": "Dołącz do Sfery",
+      "toCreateButton": "Stwórz Sferę"
+    }
+  },
+  "vsph.clientCommon.guild": {
+    "leftSidebar": {
+      "textChannels": "Kanały tekstowe",
+      "textChannelSettings": "Przejdź do ustawień",
+      "createTextChannel": "Stwórz kanał tekstowy",
+      "settingsButton": "Ustawienia Sfery"
+    },
+    "rightSidebar": {
+      "header": "Członkowie",
+      "owner": "Właściciel",
+      "members": "Użytkownicy"
+    },
+    "startScreen": {
+      "welcomeScreen": "Ekran powitalny",
+      "welcomeMessage": "Witaj na {visibility} Sferze",
+      "privateSphere": "prywatnej",
+      "publicSphere": "publicznej",
+      "navigationInfo": "Aby rozpocząć korzystanie ze Sfery, przejdź do sekcji z kanałami tekstowymi po lewej stronie.",
+      "createTextChannelButton": "Stwórz kanał tekstowy",
+      "settingsButton": "Zarządzaj ustawieniami Sfery"
+    },
+    "textChannel": {
+      "welcome": "Witaj na kanale tekstowym",
+      "noMessagesYet": "Nie ma tutaj jeszcze żadnych wiadomości. Napisz pierwszą wiadomość tekstową na tym kanale."
+    },
+    "textArea": {
+      "appendFileInfo": "Dodaj plik/pliki",
+      "sendMessageInfo": "Wyślij wiadomość",
+      "startTyping": "Zacznij coś pisać..."
+    }
   },
   "vsph.clientCommon.forAll": {
     "modals": {
