@@ -188,4 +188,11 @@ module.exports = {
   '.vsph-settings__profile-color-element--loading': parseTwdApply([
     'opacity-50',
   ]),
+  '.vsph-settings__vis-profile-oauth2-wrapper': parseTwdApply([
+    'absolute',
+    '-bottom-[5px] -right-[5px]',
+    'rounded-full',
+    'w-[30px] h-[30px]',
+    'flex justify-center items-center',
+  ]),
 };
