@@ -18,6 +18,7 @@ const availableComponents = {
   modal: require('./ui/modal.cjs'),
   settings: require('./ui/settings.cjs'),
   myAccounts: require('./ui/my-accounts.cjs'),
+  client: require('./ui/client.cjs'),
   buttonSpinner: buttonSpinnerUi.components,
   tooltip: tooltipUi,
 };
