@@ -503,7 +503,17 @@
             "header": "Przegląd"
           },
           "appearance": {
-            "header": "Wygląd"
+            "header": "Wygląd",
+            "section": {
+              "color": {
+                "header": "Kolor Sfery"
+              },
+              "image": {
+                "header": "Zdjęcie profilowe Sfery",
+                "uploadImageButton": "Wgraj zdjęcie",
+                "deleteImage": "Usuń zdjęcie"
+              }
+            }
           },
           "joinLinks": {
             "header": "Zaproszenia"
@@ -687,6 +697,7 @@
     },
     "editButton": "Edytuj",
     "joinedDate": "Data dołączenia",
+    "createdDate": "Data utworzenia",
     "functionEnabledOnLocal": "Wybrana funkcja jest dostępną tylko dla kont lokalnych."
   }
 }

@@ -504,7 +504,17 @@
             "header": "Overview"
           },
           "appearance": {
-            "header": "Appearance"
+            "header": "Appearance",
+            "section": {
+              "color": {
+                "header": "Sphere color"
+              },
+              "image": {
+                "header": "Sphere image",
+                "uploadImageButton": "Upload image",
+                "deleteImage": "Delete image"
+              }
+            }
           },
           "joinLinks": {
             "header": "Join links"
@@ -688,6 +698,7 @@
     },
     "editButton": "Edit",
     "joinedDate": "Joined date",
+    "createdDate": "Created date",
     "functionEnabledOnLocal": "Selected options is currently supported only for local accounts."
   }
 }
