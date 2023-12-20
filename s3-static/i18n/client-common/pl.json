@@ -350,6 +350,12 @@
           "description": "Czy na pewno chcesz usunąć kanał tekstowy {name}? Wszystkie dane oraz wiadomości użytkowników zostaną BEZPOWROTNIE UTRACONE. Tej operacji nie można cofnąć.",
           "submitButton": "Usuń kanał tekstowy"
         },
+        "setSphereToPublic": {
+          "header": "Ustawianie Sfery jako publicznej",
+          "description": "Czy na pewno chcesz ustawić widoczność obecnej Sfery jako publiczna? Dostęp do niej wówczas będzie dla każdego i każdy będzie mógł do niej dołączyć.",
+          "deleteAllInviteLinks": "Usuń wszystkie poprzednie linki z zaproszeniami",
+          "submitButton": "Ustaw jako publiczna"
+        },
         "formFields": {
           "password": {
             "value": "Hasło",
@@ -500,7 +506,33 @@
         "deleteGuild": "Usuń Sferę",
         "subpage": {
           "overview": {
-            "header": "Przegląd"
+            "header": "Przegląd",
+            "section": {
+              "name": {
+                "formFields": {
+                  "name": {
+                    "value": "Nazwa Sfery",
+                    "errors": {
+                      "required": "Nazwa Sfery jest wymagana.",
+                      "minlength": "Nazwa Sfery musi zawierać co najmniej 3 znaki."
+                    }
+                  }
+                }
+              },
+              "category": {
+                "header": "Kategoria Sfery"
+              },
+              "visibility": {
+                "header": "Widoczność Sfery",
+                "publicSphereInfoBlock": "Sfera jest ustawiona jako publiczna. Każdy może ją odnaleźć i do niej dołączyć. Aby temu zapobiec, zmień widoczność Sfery na prywatną.",
+                "toggler": {
+                  "visibility": {
+                    "label": "Ustaw widoczność Sfery na prywatną/publiczną",
+                    "description": "Sfera ustawiona jako publiczna będzie widoczna dla wszystkich i każdy będzie mógł do niej dołączyć. Do Sfery prywatnej będą mogli dołączyć tylko osoby posiadające link z zaproszeniem."
+                  }
+                }
+              }
+            }
           },
           "appearance": {
             "header": "Wygląd",
@@ -529,7 +561,6 @@
             "formFields": {
               "name": {
                 "value": "Nazwa kanału tekstowego",
-                "placeholder": "zaktualizowany-kanał-tekstowy",
                 "info": "Nazwa kanału tekstowy może składać się jedynie z małych liter, cyfr oraz znaku '-'.",
                 "errors": {
                   "required": "Nazwa kanału tekstowego jest wymagana.",
@@ -537,9 +568,7 @@
                   "minlength": "Nazwa kanału tekstowego musi zawierać co najmniej 3 znaki."
                 }
               }
-            },
-            "textNameSubmitButton": "Zmień nazwę",
-            "revertPrevious": "Przywróć poprzednią"
+            }
           }
         }
       }
@@ -547,7 +576,9 @@
     "editProfileButton": "Edytuj profil",
     "closeButton": "Zamknij",
     "logoutButton": "Wyloguj",
-    "downloadButton": "Pobierz"
+    "downloadButton": "Pobierz",
+    "nameSubmitButton": "Zmień nazwę",
+    "revertPrevious": "Przywróć poprzednią"
   },
   "vsph.clientCommon.client": {
     "leftNav": {
@@ -588,14 +619,6 @@
             "value": "Sfera prywatna",
             "info": "Kiedy Sfera jest prywatna, tylko użytkownicy posiadający link z zaproszeniem będą mogli dołączyć."
           }
-        },
-        "category": {
-          "gaming": "Gry",
-          "entertainment": "Rozrywka",
-          "techAndScience": "Technologie i nauka",
-          "music": "Muzyka",
-          "sportsAndTravel": "Sport i podróże",
-          "other": "Inna"
         }
       },
       "join": {
@@ -694,6 +717,14 @@
         "paragraph": "Czy na pewno chcesz się wylogować z aplikacji?",
         "submitButton": "Wyloguj"
       }
+    },
+    "sphereCategory": {
+      "gaming": "Gry",
+      "entertainment": "Rozrywka",
+      "techAndScience": "Technologie i nauka",
+      "music": "Muzyka",
+      "sportsAndTravel": "Sport i podróże",
+      "other": "Inna"
     },
     "editButton": "Edytuj",
     "joinedDate": "Data dołączenia",

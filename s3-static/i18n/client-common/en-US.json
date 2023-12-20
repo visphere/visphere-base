@@ -351,6 +351,12 @@
           "description": "Are you sure to delete text channel {name}? All data, text channels and messages will be ERASED IRRETRIEVABLY. This operation cannot be undone.",
           "submitButton": "Delete text channel"
         },
+        "setSphereToPublic": {
+          "header": "Setting Sphere to public",
+          "description": "Are you sure you want to set the visibility of the current Sphere as public? Access to it will then be for everyone and everyone will be able to join it.",
+          "deleteAllInviteLinks": "Remove all previous invitation links",
+          "submitButton": "Set to public"
+        },
         "formFields": {
           "password": {
             "value": "Password",
@@ -501,7 +507,33 @@
         "deleteGuild": "Delete Sphere",
         "subpage": {
           "overview": {
-            "header": "Overview"
+            "header": "Overview",
+            "section": {
+              "name": {
+                "formFields": {
+                  "name": {
+                    "value": "Sphere name",
+                    "errors": {
+                      "required": "Sphere name is required.",
+                      "minlength": "Sphere name must have at least 3 characters."
+                    }
+                  }
+                }
+              },
+              "category": {
+                "header": "Sphere category"
+              },
+              "visibility": {
+                "header": "Sphere visibility",
+                "publicSphereInfoBlock": "Sphere is set as public. Anyone can find it and join it. To prevent this, change the visibility of this Sphere to private.",
+                "toggler": {
+                  "visibility": {
+                    "label": "Set Sphere visibility to public/private",
+                    "description": "When Sphere is set to public, it will be visible to everyone and anyone can join it. Only people with an invitation link will be able to join the private Sphere."
+                  }
+                }
+              }
+            }
           },
           "appearance": {
             "header": "Appearance",
@@ -530,7 +562,6 @@
             "formFields": {
               "name": {
                 "value": "Text channel name",
-                "placeholder": "updated-text-channel",
                 "info": "Text channel name must contains only small letter, digits and '-' characters.",
                 "errors": {
                   "required": "Text channel name is required.",
@@ -538,9 +569,7 @@
                   "minlength": "Text channel name must have at least 3 characters."
                 }
               }
-            },
-            "textNameSubmitButton": "Update name",
-            "revertPrevious": "Revert previous"
+            }
           }
         }
       }
@@ -548,7 +577,9 @@
     "editProfileButton": "Edit profile",
     "closeButton": "Close",
     "logoutButton": "Logout",
-    "downloadButton": "Download"
+    "downloadButton": "Download",
+    "textNameSubmitButton": "Update name",
+    "revertPrevious": "Revert previous"
   },
   "vsph.clientCommon.client": {
     "leftNav": {
@@ -589,14 +620,6 @@
             "value": "Sphere is private",
             "info": "When Sphere, only users with invitation link can join."
           }
-        },
-        "category": {
-          "gaming": "Gaming",
-          "entertainment": "Entertainment",
-          "techAndScience": "Tech and science",
-          "music": "Music",
-          "sportsAndTravel": "Sports and Travel",
-          "other": "Other"
         }
       },
       "join": {
@@ -695,6 +718,14 @@
         "paragraph": "Are you sure to logout from application?",
         "submitButton": "Logout"
       }
+    },
+    "sphereCategory": {
+      "gaming": "Gaming",
+      "entertainment": "Entertainment",
+      "techAndScience": "Tech and science",
+      "music": "Music",
+      "sportsAndTravel": "Sports and Travel",
+      "other": "Other"
     },
     "editButton": "Edit",
     "joinedDate": "Joined date",
