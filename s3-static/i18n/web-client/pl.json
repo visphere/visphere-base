@@ -19,7 +19,8 @@
       "notifications": "Powiadomienia - ustawienia",
       "language": "Język - ustawienia",
       "overview": "Przegląd - ustawienia",
-      "joinLinks": "Zaproszenia - ustawienia"
+      "joinLinks": "Zaproszenia - ustawienia",
+      "bans": "Bany - ustawienia"
     },
     "clientSphereGuildPage": "Sfera",
     "clientSphereTextChannelPage": "Kanał tekstowy",

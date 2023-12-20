@@ -356,6 +356,11 @@
           "deleteAllInviteLinks": "Usuń wszystkie poprzednie linki z zaproszeniami",
           "submitButton": "Ustaw jako publiczna"
         },
+        "unbanUser": {
+          "header": "Odbanowywanie użytkownika",
+          "description": "Czy na pewno chcesz odbanować użytkownika {name}? Od momentu odbanowania, użytkownik będzie mógł ponownie dołączyć do Sfery przy użyciu linku z zaproszeniem.",
+          "submitButton": "Odbanuj użytkownika"
+        },
         "formFields": {
           "password": {
             "value": "Hasło",
@@ -549,6 +554,11 @@
           },
           "joinLinks": {
             "header": "Zaproszenia"
+          },
+          "bans": {
+            "header": "Bany",
+            "bannedUsersCount": "Liczba zbanowanych użytkowników",
+            "unbanUserButton": "Odbanuj użytkownika"
           }
         }
       },

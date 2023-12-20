@@ -18,8 +18,9 @@
       "appearance": "Appearance - settings",
       "notifications": "Notifications - settings",
       "language": "Language - settings",
-      "overview": "Overview",
-      "joinLinks": "Join links"
+      "overview": "Overview - settings",
+      "joinLinks": "Join links - settings",
+      "bans": "Bans - settings"
     },
     "clientSphereGuildPage": "Sphere",
     "clientSphereTextChannelPage": "Text channel",

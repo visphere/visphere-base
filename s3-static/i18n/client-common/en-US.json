@@ -357,6 +357,11 @@
           "deleteAllInviteLinks": "Remove all previous invitation links",
           "submitButton": "Set to public"
         },
+        "unbanUser": {
+          "header": "Unbanning user",
+          "description": "Are you sure you want to unban user {name}? Since unbanning, the user will be able to join again to Sphere using the invitation link.",
+          "submitButton": "Unban user"
+        },
         "formFields": {
           "password": {
             "value": "Password",
@@ -550,6 +555,11 @@
           },
           "joinLinks": {
             "header": "Join links"
+          },
+          "bans": {
+            "header": "Bans",
+            "bannedUsersCount": "Banned users count",
+            "unbanUserButton": "Unban user"
           }
         }
       },
