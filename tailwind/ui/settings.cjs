@@ -195,4 +195,21 @@ module.exports = {
     'w-[30px] h-[30px]',
     'flex justify-center items-center',
   ]),
+  '.vsph-settings__banned-users-container': parseTwdApply([
+    'flex flex-col gap-y-2',
+  ]),
+  '.vsph-settings__banned-users-hoverable': parseTwdApply([
+    'rounded-lg hover:rounded-2xl',
+    'transition-[border-radius] duration-300',
+  ]),
+  '.vsph-settings__banned-user-container': parseTwdApply([
+    'flex justify-between items-center',
+    'px-4 py-2',
+    'bg-vsph-light-200 dark:bg-vsph-dark-800',
+  ]),
+  '.vsph-settings__banned-user-unban-button': parseTwdApply([
+    'flex justify-center items-center',
+    'w-[30px] h-[30px]',
+    'bg-vsph-orange-100',
+  ]),
 };
