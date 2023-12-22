@@ -192,4 +192,27 @@ module.exports = {
     'uppercase',
     'text-sm text-vsph-tint-400 dark:text-vsph-tint-300',
   ]),
+  '.vsph-single-select-spinner-list__container': parseTwdApply([
+    'absolute',
+    'left-0 bottom-full',
+    'w-full max-h-[200px]',
+    'mb-1 p-1.5',
+    'rounded-md',
+    'bg-vsph-light-100 dark:bg-vsph-dark-900',
+    'border dark:border-vsph-dark-700',
+    'overflow-y-auto',
+    'scrollbar-rounded scrollbar-thumb:bg-vsph-tint-400',
+  ]),
+  '.vsph-single-select-spinner-list__container--bottom': parseTwdApply([
+    'z-50',
+    'top-full bottom-auto',
+    'mt-1 mb-0',
+  ]),
+  '.vsph-single-select-spinner-list__element': parseTwdApply([
+    'rounded-md',
+    'px-2 py-1 pb-1.5',
+    'leading-5',
+    'w-full',
+    'text-start',
+  ]),
 };
