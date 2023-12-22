@@ -195,21 +195,27 @@ module.exports = {
     'w-[30px] h-[30px]',
     'flex justify-center items-center',
   ]),
-  '.vsph-settings__banned-users-container': parseTwdApply([
+  '.vsph-settings__list-elements-container': parseTwdApply([
     'flex flex-col gap-y-2',
   ]),
-  '.vsph-settings__banned-users-hoverable': parseTwdApply([
+  '.vsph-settings__list-hoverable': parseTwdApply([
     'rounded-lg hover:rounded-2xl',
     'transition-[border-radius] duration-300',
   ]),
-  '.vsph-settings__banned-user-container': parseTwdApply([
+  '.vsph-settings__list-element-container': parseTwdApply([
     'flex justify-between items-center',
     'px-4 py-2',
     'bg-vsph-light-200 dark:bg-vsph-dark-800',
   ]),
-  '.vsph-settings__banned-user-unban-button': parseTwdApply([
+  '.vsph-settings__list-element-container--inactive': parseTwdApply([
+    'opacity-40',
+  ]),
+  '.vsph-settings__list-element-button': parseTwdApply([
     'flex justify-center items-center',
     'w-[30px] h-[30px]',
-    'bg-vsph-orange-100',
+  ]),
+  '.vsph-settings__list-element-button--inverted': parseTwdApply([
+    'bg-vsph-dark-900 dark:bg-vsph-light-100',
+    'text-vsph-light-100 dark:text-vsph-dark-900',
   ]),
 };
