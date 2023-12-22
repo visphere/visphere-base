@@ -588,7 +588,7 @@
     "closeButton": "Close",
     "logoutButton": "Logout",
     "downloadButton": "Download",
-    "textNameSubmitButton": "Update name",
+    "nameSubmitButton": "Update name",
     "revertPrevious": "Revert previous"
   },
   "vsph.clientCommon.client": {
