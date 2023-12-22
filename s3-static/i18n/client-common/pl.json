@@ -553,7 +553,52 @@
             }
           },
           "joinLinks": {
-            "header": "Zaproszenia"
+            "header": "Zaproszenia",
+            "createJoinLinkModal": {
+              "header": "Tworzenie nowe zaproszenia",
+              "submitButton": "Stwórz nowe zaproszenie"
+            },
+            "updateJoinLinkModal": {
+              "header": "Edycja zaproszenia",
+              "submitButton": "Edytuj zaproszenie"
+            },
+            "deleteJoinLinkModal": {
+              "header": "Usuwanie zaproszenia",
+              "description": "Czy na pewno chcesz usunąć zaproszenie o nazwie {name}? Operacji nie można cofnąć.",
+              "submitButton": "Usuń zaproszenie"
+            },
+            "formFields": {
+              "name": {
+                "value": "Nazwa zaproszenia",
+                "errors": {
+                  "required": "Nazwa zaproszenia jest wymagana.",
+                  "minlength": "Nazwa zaproszenia musi zawierać co najmniej 3 znaki."
+                }
+              },
+              "expiredAfter": {
+                "value": "Czas wygaśnięcia zaproszenia",
+                "elements": {
+                  "min30": "30 minut",
+                  "h1": "1 godzina",
+                  "h6": "6 godzin",
+                  "h12": "12 godzin",
+                  "d1": "1 dzień",
+                  "d7": "7 dni",
+                  "never": "Nigdy"
+                }
+              }
+            },
+            "createJoinLinkButton": "Stwórz nowe zaproszenie",
+            "linkUsedCount": "użyty {count} raz(y)",
+            "copyLinkButton": "Kopiuj do schowka",
+            "linkExpired": "Wygasa",
+            "neverExpired": "nigdy",
+            "successfullyCopiedLink": "Link z zaproszeniem został skopiowany do schowka.",
+            "joinLinksCount": "Liczba zaproszeń",
+            "editLinkButton": "Edytuj zaproszenie",
+            "toggleLinkActivityButton": "Aktywuj/dezaktywuj zaproszenie",
+            "deleteLinkButton": "Usuń zaproszenie",
+            "nonExpirationWarningInfo": "Zaproszenia bez dany wygaśnięcia będą aktywne przez cały czas. Zalecane jest określenie daty wygaścięcia zaproszenia."
           },
           "bans": {
             "header": "Bany",

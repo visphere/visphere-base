@@ -554,7 +554,52 @@
             }
           },
           "joinLinks": {
-            "header": "Join links"
+            "header": "Join links",
+            "createJoinLinkModal": {
+              "header": "Creating join link",
+              "submitButton": "Create new join link"
+            },
+            "updateJoinLinkModal": {
+              "header": "Editing join link",
+              "submitButton": "Edit join link"
+            },
+            "deleteJoinLinkModal": {
+              "header": "Deleting join link",
+              "description": "Are you sure you want to delete the join link with name {name}? This operation cannot be undone.",
+              "submitButton": "Delete join link"
+            },
+            "formFields": {
+              "name": {
+                "value": "Join link name",
+                "errors": {
+                  "required": "Join link name is required.",
+                  "minlength": "Join link name must contains at least 3 characters."
+                }
+              },
+              "expiredAfter": {
+                "value": "Expiration time",
+                "elements": {
+                  "min30": "30 minutes",
+                  "h1": "1 hour",
+                  "h6": "6 hours",
+                  "h12": "12 hours",
+                  "d1": "1 day",
+                  "d7": "7 days",
+                  "never": "Never"
+                }
+              }
+            },
+            "createJoinLinkButton": "Create join link",
+            "linkUsedCount": "used {count} times",
+            "copyLinkButton": "Copy to clipboard",
+            "linkExpired": "Expires",
+            "neverExpired": "never",
+            "successfullyCopiedLink": "Join link was successfully copied to clipboard.",
+            "joinLinksCount": "Join links count",
+            "editLinkButton": "Edit join link",
+            "toggleLinkActivityButton": "Active/deactive join link",
+            "deleteLinkButton": "Delete join link",
+            "nonExpirationWarningInfo": "Join links without a given expiration will be active indefinitely. It is recommended to specify an expiration date."
           },
           "bans": {
             "header": "Bans",
