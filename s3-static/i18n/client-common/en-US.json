@@ -555,6 +555,7 @@
           },
           "joinLinks": {
             "header": "Join links",
+            "publicGuildInfoBlock": "Join links are only available for private Spheres. To manage join link, switch Sphere visibility to private.",
             "createJoinLinkModal": {
               "header": "Creating join link",
               "submitButton": "Create new join link"

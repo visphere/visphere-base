@@ -554,6 +554,7 @@
           },
           "joinLinks": {
             "header": "Zaproszenia",
+            "publicGuildInfoBlock": "Zaproszenia są dostępne tylko dla prywatnych Sfer. Aby zarządzać zaproszeniami, przełącz tryb widoczności Sfery na prywatny.",
             "createJoinLinkModal": {
               "header": "Tworzenie nowe zaproszenia",
               "submitButton": "Stwórz nowe zaproszenie"
