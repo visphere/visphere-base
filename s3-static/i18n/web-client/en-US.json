@@ -191,6 +191,7 @@
     "returnToSpheresButton": "Return to Spheres"
   },
   "vsph.webClient.snackbar": {
+    "declineCaptchaCreateAccount": "To create account, you need to fill in the Captcha field.",
     "declineCaptchaResetPassword": "To reset your password, you need to fill in the Captcha field."
   },
   "vsph.webClient.modal": {

@@ -190,6 +190,7 @@
     "returnToSpheresButton": "Powrót do Sfer"
   },
   "vsph.webClient.snackbar": {
+    "declineCaptchaCreateAccount": "Aby stworzyć konto, musisz wypełnić polę Captcha.",
     "declineCaptchaResetPassword": "Aby zresetować hasło, musisz wypełnić polę Captcha."
   },
   "vsph.webClient.modal": {
