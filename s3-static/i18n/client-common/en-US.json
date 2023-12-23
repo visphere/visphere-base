@@ -432,7 +432,13 @@
                 "header": "profile image",
                 "uploadImageButton": "Upload image",
                 "generateIdenticonButton": "Generate identicon",
-                "deleteImage": "Delete image"
+                "deleteImage": "Delete image",
+                "toggler": {
+                  "defaultImageSource": {
+                    "label": "Disable/Enable default profile image from authentication service delivery",
+                    "description": "If you check this option, your default profile photo will be the one from the authentication service provider (either Google or Facebook)."
+                  }
+                }
               }
             }
           }

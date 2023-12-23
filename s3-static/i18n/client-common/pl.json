@@ -431,7 +431,13 @@
                 "header": "zdjęcie profilowe",
                 "uploadImageButton": "Wgraj zdjęcie",
                 "generateIdenticonButton": "Wygeneruj identikon",
-                "deleteImage": "Usuń zdjęcie"
+                "deleteImage": "Usuń zdjęcie",
+                "toggler": {
+                  "defaultImageSource": {
+                    "label": "Wyłącz/włącz domyślny obraz profilowy od dostawy usługi uwierzytelniania",
+                    "description": "Jeśli zaznaczysz tę opcję, domyślnym Twoim zdjęciem profilowym będzie zdjęcie od dostawy usługi uwierzytelniania (Google albo Facebook)."
+                  }
+                }
               }
             }
           }
