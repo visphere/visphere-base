@@ -26,6 +26,7 @@
     "clientSphereTextChannelPage": "Text channel",
     "guildSettingsEntryPointPage": "Sphere settings",
     "textChannelSettingsEntryPointPage": "Text channel settings",
+    "clientJoinToGuildPage": "Joining to Sphere",
     "notFoundPage": "404"
   },
   "vsph.webClient.registerPage": {
@@ -177,6 +178,17 @@
     "activateAccountButton": "Activate accout",
     "successfullyActivatedMessage": "Your account was successfully activated. Now, you can log in your account using the button link below.",
     "moveToLoginPage": "Move to login"
+  },
+  "vsph.webClient.joinToSpherePage": {
+    "failedToLoad": "Failed to load Sphere details",
+    "errorMessage": "Error message",
+    "formHeader": "Joining to Sphere",
+    "sphereType": "Sphere type",
+    "sphereParticipants": "Participants count",
+    "privateSphere": "private",
+    "publicSphere": "public",
+    "joinToSphereButton": "Join to Sphere",
+    "returnToSpheresButton": "Return to Spheres"
   },
   "vsph.webClient.snackbar": {
     "declineCaptchaResetPassword": "To reset your password, you need to fill in the Captcha field."

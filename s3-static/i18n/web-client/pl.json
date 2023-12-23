@@ -26,6 +26,7 @@
     "clientSphereTextChannelPage": "Kanał tekstowy",
     "guildSettingsEntryPointPage": "Ustawienia Sfery",
     "textChannelSettingsEntryPointPage": "Ustawienia kanału tekstowego",
+    "clientJoinToGuildPage": "Dołączanie do Sfery",
     "notFoundPage": "404"
   },
   "vsph.webClient.registerPage": {
@@ -176,6 +177,17 @@
     "activateAccountButton": "Aktywuj konto",
     "successfullyActivatedMessage": "Twoje konto zostało pomyślnie aktywowane. Możesz się teraz na nie zalogować poprzez poniższy link.",
     "moveToLoginPage": "Przejdź do logowania"
+  },
+  "vsph.webClient.joinToSpherePage": {
+    "failedToLoad": "Nieudane pobranie danych Sfery",
+    "errorMessage": "Wiadomość błędu",
+    "formHeader": "Dołączanie do Sfery",
+    "sphereType": "Typ Sfery",
+    "sphereParticipants": "Liczba członków",
+    "privateSphere": "prywatna",
+    "publicSphere": "publiczna",
+    "joinToSphereButton": "Dołącz do Sfery",
+    "returnToSpheresButton": "Powrót do Sfer"
   },
   "vsph.webClient.snackbar": {
     "declineCaptchaResetPassword": "Aby zresetować hasło, musisz wypełnić polę Captcha."
