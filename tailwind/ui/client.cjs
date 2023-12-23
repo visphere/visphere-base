@@ -203,4 +203,17 @@ module.exports = {
     'mx-3',
     'bg-vsph-dark-900 dark:bg-vsph-light-100',
   ]),
+  '.vsph-join-sphere__header': parseTwdApply([
+    'mb-4',
+    'font-bold',
+    'text-center text-3xl',
+    'text-vsph-dark-900 dark:text-vsph-light-100',
+  ]),
+  '.vsph-join-sphere__paragraph-label': parseTwdApply([
+    'text-vsph-tint-400',
+    'text-sm',
+  ]),
+  '.vsph-join-sphere__paragraph-text': parseTwdApply([
+    'text-vsph-dark-900 dark:text-vsph-light-100',
+  ]),
 };

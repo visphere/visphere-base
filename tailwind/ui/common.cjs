@@ -215,4 +215,13 @@ module.exports = {
     'w-full',
     'text-start',
   ]),
+  '.vsph-content__container': parseTwdApply([
+    'w-full',
+    'sm:rounded-xl',
+    'sm:shadow-md',
+    'sm:mx-5',
+    'sm:border border-vsph-tint-200 dark:border-vsph-dark-800',
+    'bg-vsph-light-300 dark:bg-vsph-dark-900',
+    'text-vsph-dark-900 dark:text-vsph-light-100',
+  ]),
 };
