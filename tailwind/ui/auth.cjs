@@ -72,4 +72,11 @@ module.exports = {
     'text-sm leading-[17px]',
     'text-vsph-tint-400 dark:text-vsph-tint-300',
   ]),
+  '.vsph-auth__oauth2-fill-data-logo': parseTwdApply([
+    'absolute -bottom-[10px] -right-[10px]',
+    'w-[40px] h-[40px]',
+    'rounded-full',
+    'flex justify-center items-center',
+    'border-[7px] border-vsph-light-300 dark:border-vsph-dark-900',
+  ]),
 };

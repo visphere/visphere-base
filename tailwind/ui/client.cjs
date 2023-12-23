@@ -138,13 +138,12 @@ module.exports = {
     'w-full h-[60px]',
     'top-0 left-0',
   ]),
-  '.vsph-user-details-popover__profile-image-container': parseTwdApply([
+  '.vsph-user-details-popover__profile-image': parseTwdApply([
     'absolute',
     'top-[40px] left-4',
     'w-[75px] h-[75px]',
-    'flex justify-center items-center',
-    'rounded-2xl',
-    'bg-vsph-light-200 dark:bg-vsph-dark-900',
+    'rounded-3xl',
+    'border-8 border-vsph-light-200 dark:border-vsph-dark-900',
   ]),
   '.vsph-user-details-popover__data-block': parseTwdApply([
     'bg-vsph-light-100 dark:bg-vsph-dark-850',

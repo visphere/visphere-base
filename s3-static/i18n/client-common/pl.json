@@ -316,12 +316,12 @@
       },
       "devastate": {
         "disableAccount": {
-          "header": "Wyłączenie konta",
+          "header": "Wyłączanie konta",
           "description": "Czy jesteś pewien wyłączenia konta? Konto można włączyć ponownie przy próbie zalogowania się do aplikacji. Wszystkie twoje dane zostaną zachowane.",
           "submitButton": "Wyłącz konto"
         },
         "deleteAccount": {
-          "header": "Usunięcie konta",
+          "header": "Usuwanie konta",
           "description": "Czy na pewno chcesz usunąć swoje konto? Wszystkie dane i ustawienia zostaną bezpowrotnie usunięte. Jeśli chcesz tymczasowo wyłączyć swoje konto, użyj opcji 'Wyłącz konto'.",
           "submitButton": "Usuń konto"
         },

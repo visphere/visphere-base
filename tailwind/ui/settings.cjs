@@ -171,10 +171,12 @@ module.exports = {
   '.vsph-settings__vis-profile-image-container': parseTwdApply([
     'absolute',
     'top-[60px] left-7',
-    'w-[90px] h-[90px]',
-    'flex justify-center items-center',
-    'rounded-xl',
-    'bg-vsph-light-200 dark:bg-vsph-dark-850',
+    'w-[100px] h-[100px]',
+  ]),
+  '.vsph-settings__vis-profile-image': parseTwdApply([
+    'w-[100%] h-[100%]',
+    'rounded-3xl',
+    'border-[10px] border-vsph-light-200 dark:border-vsph-dark-850',
   ]),
   '.vsph-settings__vis-profile-banner-container': parseTwdApply([
     'absolute',
@@ -192,8 +194,9 @@ module.exports = {
     'absolute',
     '-bottom-[5px] -right-[5px]',
     'rounded-full',
-    'w-[30px] h-[30px]',
+    'w-[40px] h-[40px]',
     'flex justify-center items-center',
+    'border-8 border-vsph-light-200 dark:border-vsph-dark-850',
   ]),
   '.vsph-settings__list-elements-container': parseTwdApply([
     'flex flex-col gap-y-2',
