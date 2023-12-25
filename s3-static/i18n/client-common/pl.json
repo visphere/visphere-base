@@ -360,25 +360,7 @@
           "header": "Odbanowywanie użytkownika",
           "description": "Czy na pewno chcesz odbanować użytkownika {name}? Od momentu odbanowania, użytkownik będzie mógł ponownie dołączyć do Sfery przy użyciu linku z zaproszeniem.",
           "submitButton": "Odbanuj użytkownika"
-        },
-        "formFields": {
-          "password": {
-            "value": "Hasło",
-            "errors": {
-              "required": "Hasło jest wymagane."
-            }
-          },
-          "mfaCode": {
-            "value": "6-cio cyfrowy kod",
-            "errors": {
-              "required": "6-cio cyfrowy kod jest wymagany.",
-              "exactLength": "Kod musi posiadać dokładnie 6 cyfr.",
-              "pattern": "6-cio cyfrowy kod posiada niedozwolone znaki."
-            }
-          }
-        },
-        "confirmPassword": "W celu dodatkowgo potwierdzenia wprowadź hasło do Twojego konta w aplikacji Visphere.",
-        "nextInsertMfaCode": "W celu dokończenia weryfikacji, wprowadź 6-cio cyfrowy kod z aplikacji Google Authenticator lub Microsoft Authenticator."
+        }
       },
       "successfullSendEmailMessage": "Jeśli skrzynka pocztowa z podanym adresem email istnieje, wysłaliśmy wiadomość weryfikującą na tą skrzynkę pocztową.",
       "updateButton": "Aktualizuj",
@@ -787,6 +769,26 @@
       "music": "Muzyka",
       "sportsAndTravel": "Sport i podróże",
       "other": "Inna"
+    },
+    "passwordConfirmation": {
+      "confirmPassword": "W celu dodatkowgo potwierdzenia wprowadź hasło do Twojego konta w aplikacji Visphere.",
+      "nextInsertMfaCode": "W celu dokończenia weryfikacji, wprowadź 6-cio cyfrowy kod z aplikacji Google Authenticator lub Microsoft Authenticator.",
+      "formFields": {
+        "password": {
+          "value": "Hasło",
+          "errors": {
+            "required": "Hasło jest wymagane."
+          }
+        },
+        "mfaCode": {
+          "value": "6-cio cyfrowy kod",
+          "errors": {
+            "required": "6-cio cyfrowy kod jest wymagany.",
+            "exactLength": "Kod musi posiadać dokładnie 6 cyfr.",
+            "pattern": "6-cio cyfrowy kod posiada niedozwolone znaki."
+          }
+        }
+      }
     },
     "editButton": "Edytuj",
     "joinedDate": "Data dołączenia",

@@ -361,25 +361,7 @@
           "header": "Unbanning user",
           "description": "Are you sure you want to unban user {name}? Since unbanning, the user will be able to join again to Sphere using the invitation link.",
           "submitButton": "Unban user"
-        },
-        "formFields": {
-          "password": {
-            "value": "Password",
-            "errors": {
-              "required": "Password is required."
-            }
-          },
-          "mfaCode": {
-            "value": "6-digits code",
-            "errors": {
-              "required": "6-digits code is required.",
-              "exactLength": "Code must have exact 6 digits.",
-              "pattern": "6-digits code contains illegal characters."
-            }
-          }
-        },
-        "confirmPassword": "For additional confirmation, enter password of your account.",
-        "nextInsertMfaCode": "For finish verification, enter a 6-digit code from the Google Authenticator or Microsoft Authenticator app."
+        }
       },
       "successfullSendEmailMessage": "If mailbox with provided email address exist, we send verifiction email on this mailbox.",
       "updateButton": "Update",
@@ -788,6 +770,26 @@
       "music": "Music",
       "sportsAndTravel": "Sports and Travel",
       "other": "Other"
+    },
+    "passwordConfirmation": {
+      "confirmPassword": "For additional confirmation, enter password of your account.",
+      "nextInsertMfaCode": "For finish verification, enter a 6-digit code from the Google Authenticator or Microsoft Authenticator app.",
+      "formFields": {
+        "password": {
+          "value": "Password",
+          "errors": {
+            "required": "Password is required."
+          }
+        },
+        "mfaCode": {
+          "value": "6-digits code",
+          "errors": {
+            "required": "6-digits code is required.",
+            "exactLength": "Code must have exact 6 digits.",
+            "pattern": "6-digits code contains illegal characters."
+          }
+        }
+      }
     },
     "editButton": "Edit",
     "joinedDate": "Joined date",
