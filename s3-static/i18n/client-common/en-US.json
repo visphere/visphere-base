@@ -638,7 +638,8 @@
       "logout": "Logout",
       "leaveGuild": "Leave Sphere",
       "kickFromGuild": "Kick member",
-      "banFromGuild": "Ban member"
+      "banFromGuild": "Ban member",
+      "delegateGuild": "Delegate Sphere"
     },
     "welcomeBlock": {
       "welcomeMessage": "Welcome in",
@@ -714,6 +715,11 @@
         "description": "Are you sure you want to ban Sphere member {name}? Additionally, you can delete all his messages on all text channels.",
         "deleteAllMessages": "Delete all messages of a Sphere member",
         "submitButton": "Ban member"
+      },
+      "delegateGuild": {
+        "header": "Delegating Sphere",
+        "description": "Are you sure you want to give away this Sphere to {name}? From now on you will no longer be the owner of this Sphere.",
+        "submitButton": "Delegate Sphere"
       },
       "toJoinButton": "Join to Sphere",
       "toCreateButton": "Create Sphere"

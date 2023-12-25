@@ -637,7 +637,8 @@
       "logout": "Wyloguj",
       "leaveGuild": "Opuść Sferę",
       "kickFromGuild": "Wyrzuć",
-      "banFromGuild": "Zbanuj"
+      "banFromGuild": "Zbanuj",
+      "delegateGuild": "Oddeleguj Sferę"
     },
     "welcomeBlock": {
       "welcomeMessage": "Witaj w aplikacji",
@@ -713,6 +714,11 @@
         "description": "Czy na pewno chcesz zbanować członka Sfery {name}? Dodatkowo możesz usunąć wszystkie jego wiadomości na wszystkich kanałach tekstowych.",
         "deleteAllMessages": "Usuń wszystkie wiadomości członka Sfery",
         "submitButton": "Zbanuj członka"
+      },
+      "delegateGuild": {
+        "header": "Delegowanie Sfery",
+        "description": "Czy na pewno chcesz oddać tę Sferę użytkownikowi {name}? Od tej chwili nie będziesz już właścicielem tej Sfery.",
+        "submitButton": "Oddeleguj Sferę"
       },
       "toJoinButton": "Dołącz do Sfery",
       "toCreateButton": "Stwórz Sferę"
