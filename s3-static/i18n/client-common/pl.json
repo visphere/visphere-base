@@ -605,7 +605,7 @@
             "formFields": {
               "name": {
                 "value": "Nazwa kanału tekstowego",
-                "info": "Nazwa kanału tekstowy może składać się jedynie z małych liter, cyfr oraz znaku '-'.",
+                "info": "Nazwa kanału tekstowego może składać się jedynie z małych liter, cyfr oraz znaku '-'.",
                 "errors": {
                   "required": "Nazwa kanału tekstowego jest wymagana.",
                   "pattern": "Nazwa kanału tekstowego zawiera niedozwolone znaki.",
@@ -687,7 +687,7 @@
           "name": {
             "value": "Nazwa kanału tekstowego",
             "placeholder": "mój-nowy-kanał-tekstowy",
-            "info": "Nazwa kanału tekstowy może składać się jedynie z małych liter, cyfr oraz znaku '-'.",
+            "info": "Nazwa kanału tekstowego może składać się jedynie z małych liter, cyfr oraz znaku '-'.",
             "errors": {
               "required": "Nazwa kanału tekstowego jest wymagana.",
               "pattern": "Nazwa kanału tekstowego zawiera niedozwolone znaki.",
