@@ -216,4 +216,11 @@ module.exports = {
   '.vsph-join-sphere__paragraph-text': parseTwdApply([
     'text-vsph-dark-900 dark:text-vsph-light-100',
   ]),
+  '.vsph-message__container': parseTwdApply([
+    'flex gap-x-3',
+    'mb-1',
+    'rounded-lg',
+    'p-1 px-2 pt-2',
+    'hover:bg-vsph-light-200 dark:hover:bg-vsph-dark-800',
+  ]),
 };
