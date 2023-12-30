@@ -1,4 +1,4 @@
-All used 3rd party libraries count: **1596**<br>
+All used 3rd party libraries count: **1604**<br>
 | Library                                                                                                                        | License                               |
 | ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------- |
 | [@aashutoshrathi/word-wrap](https://github.com/aashutoshrathi/word-wrap)                                                       | MIT                                   |
@@ -193,6 +193,9 @@ All used 3rd party libraries count: **1596**<br>
 | [@eslint-community/regexpp](https://github.com/eslint-community/regexpp)                                                       | MIT                                   |
 | [@eslint/eslintrc](https://github.com/eslint/eslintrc)                                                                         | MIT                                   |
 | [@eslint/js](https://github.com/eslint/eslint)                                                                                 | MIT                                   |
+| [@floating-ui/core](https://github.com/floating-ui/floating-ui)                                                                | MIT                                   |
+| [@floating-ui/dom](https://github.com/floating-ui/floating-ui)                                                                 | MIT                                   |
+| [@floating-ui/utils](https://github.com/floating-ui/floating-ui)                                                               | MIT                                   |
 | [@hapi/hoek](https://github.com/hapijs/hoek)                                                                                   | BSD-3-Clause                          |
 | [@hapi/topo](https://github.com/hapijs/topo)                                                                                   | BSD-3-Clause                          |
 | [@hcaptcha/types](https://github.com)                                                                                          | MIT                                   |
@@ -254,6 +257,8 @@ All used 3rd party libraries count: **1596**<br>
 | [@sinclair/typebox](https://github.com/sinclairzx81/typebox)                                                                   | MIT                                   |
 | [@sindresorhus/is](https://github.com/sindresorhus/is)                                                                         | MIT                                   |
 | [@socket.io/component-emitter](https://github.com/socketio/emitter)                                                            | MIT                                   |
+| [@stomp/rx-stomp](https://github.com/stomp-js/rx-stomp)                                                                        | Apache-2.0                            |
+| [@stomp/stompjs](https://github.com/stomp-js/stompjs)                                                                          | Apache-2.0                            |
 | [@szmarczak/http-timer](https://github.com/szmarczak/http-timer)                                                               | MIT                                   |
 | [@tailwindcss/forms](https://github.com/tailwindlabs/tailwindcss-forms)                                                        | MIT                                   |
 | [@tootallnate/once](https://github.com/TooTallNate/once)                                                                       | MIT                                   |
@@ -549,6 +554,7 @@ All used 3rd party libraries count: **1596**<br>
 | [cookie-signature](https://github.com/visionmedia/node-cookie-signature)                                                       | MIT                                   |
 | [copy-anything](https://github.com/mesqueeb/copy-anything)                                                                     | MIT                                   |
 | [copy-concurrently](https://github.com/npm/copy-concurrently)                                                                  | ISC                                   |
+| [copy-to-clipboard](https://github.com/sudodoki/copy-to-clipboard)                                                             | MIT                                   |
 | [copy-webpack-plugin](https://github.com/webpack-contrib/copy-webpack-plugin)                                                  | MIT                                   |
 | [core-js-compat](https://github.com/zloirock/core-js)                                                                          | MIT                                   |
 | [core-util-is](https://github.com/isaacs/core-util-is)                                                                         | MIT                                   |
@@ -1082,6 +1088,7 @@ All used 3rd party libraries count: **1596**<br>
 | [needle](https://github.com/tomas/needle)                                                                                      | MIT                                   |
 | [negotiator](https://github.com/jshttp/negotiator)                                                                             | MIT                                   |
 | [neo-async](https://github.com/suguru03/neo-async)                                                                             | MIT                                   |
+| [ngx-float-ui](https://github.com/tonysamperi/ngx-float-ui)                                                                    | MIT                                   |
 | [ngx-image-cropper](https://github.com/Mawi137/ngx-image-cropper)                                                              | MIT                                   |
 | [ngx-rerender](https://github.com/ngehlert/ngx-rerender)                                                                       | MIT                                   |
 | [ngx-tippy-wrapper](https://github.com/farengeyt451/ngx-tippy-wrapper)                                                         | MIT                                   |
@@ -1463,6 +1470,7 @@ All used 3rd party libraries count: **1596**<br>
 | [tmp](https://github.com/raszi/node-tmp)                                                                                       | MIT                                   |
 | [to-fast-properties](https://github.com/sindresorhus/to-fast-properties)                                                       | MIT                                   |
 | [to-regex-range](https://github.com/micromatch/to-regex-range)                                                                 | MIT                                   |
+| [toggle-selection](https://github.com/sudodoki/toggle-selection)                                                               | MIT                                   |
 | [toidentifier](https://github.com/component/toidentifier)                                                                      | MIT                                   |
 | [touch](https://github.com/isaacs/node-touch)                                                                                  | ISC                                   |
 | [tr46](https://github.com/Sebmaster/tr46.js)                                                                                   | MIT                                   |

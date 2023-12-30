@@ -707,6 +707,18 @@
     "repoUrl": "https://github.com/eslint/eslintrc"
   },
   { "name": "@eslint/js", "repoUrl": "https://github.com/eslint/eslint" },
+  {
+    "name": "@floating-ui/core",
+    "repoUrl": "https://github.com/floating-ui/floating-ui"
+  },
+  {
+    "name": "@floating-ui/dom",
+    "repoUrl": "https://github.com/floating-ui/floating-ui"
+  },
+  {
+    "name": "@floating-ui/utils",
+    "repoUrl": "https://github.com/floating-ui/floating-ui"
+  },
   { "name": "@hapi/hoek", "repoUrl": "https://github.com/hapijs/hoek" },
   { "name": "@hapi/topo", "repoUrl": "https://github.com/hapijs/topo" },
   { "name": "@hcaptcha/types", "repoUrl": "https://github.com" },
@@ -893,6 +905,14 @@
   {
     "name": "@socket.io/component-emitter",
     "repoUrl": "https://github.com/socketio/emitter"
+  },
+  {
+    "name": "@stomp/rx-stomp",
+    "repoUrl": "https://github.com/stomp-js/rx-stomp"
+  },
+  {
+    "name": "@stomp/stompjs",
+    "repoUrl": "https://github.com/stomp-js/stompjs"
   },
   {
     "name": "@szmarczak/http-timer",
@@ -1866,6 +1886,10 @@
   {
     "name": "copy-concurrently",
     "repoUrl": "https://github.com/npm/copy-concurrently"
+  },
+  {
+    "name": "copy-to-clipboard",
+    "repoUrl": "https://github.com/sudodoki/copy-to-clipboard"
   },
   {
     "name": "copy-webpack-plugin",
@@ -3313,6 +3337,10 @@
   { "name": "negotiator", "repoUrl": "https://github.com/jshttp/negotiator" },
   { "name": "neo-async", "repoUrl": "https://github.com/suguru03/neo-async" },
   {
+    "name": "ngx-float-ui",
+    "repoUrl": "https://github.com/tonysamperi/ngx-float-ui"
+  },
+  {
     "name": "ngx-image-cropper",
     "repoUrl": "https://github.com/Mawi137/ngx-image-cropper"
   },
@@ -4424,6 +4452,10 @@
   {
     "name": "to-regex-range",
     "repoUrl": "https://github.com/micromatch/to-regex-range"
+  },
+  {
+    "name": "toggle-selection",
+    "repoUrl": "https://github.com/sudodoki/toggle-selection"
   },
   {
     "name": "toidentifier",
