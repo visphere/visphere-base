@@ -223,4 +223,12 @@ module.exports = {
     'p-1 px-2 pt-2',
     'hover:bg-vsph-light-200 dark:hover:bg-vsph-dark-800',
   ]),
+  '.vsph-message__profile-image': parseTwdApply([
+    'w-[40px] h-[40px]',
+    'rounded-lg',
+  ]),
+  'vsph-message__container--hoverable': parseTwdApply([
+    'hover:rounded-2xl',
+    'transition-[border-radius] duration-300',
+  ]),
 };
