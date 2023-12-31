@@ -1,4 +1,4 @@
-All used 3rd party libraries count: **1604**<br>
+All used 3rd party libraries count: **1605**<br>
 | Library                                                                                                                        | License                               |
 | ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------- |
 | [@aashutoshrathi/word-wrap](https://github.com/aashutoshrathi/word-wrap)                                                       | MIT                                   |
@@ -1090,6 +1090,7 @@ All used 3rd party libraries count: **1604**<br>
 | [neo-async](https://github.com/suguru03/neo-async)                                                                             | MIT                                   |
 | [ngx-float-ui](https://github.com/tonysamperi/ngx-float-ui)                                                                    | MIT                                   |
 | [ngx-image-cropper](https://github.com/Mawi137/ngx-image-cropper)                                                              | MIT                                   |
+| [ngx-infinite-scroll](https://github.com/orizens/ngx-infinite-scroll)                                                          | MIT                                   |
 | [ngx-rerender](https://github.com/ngehlert/ngx-rerender)                                                                       | MIT                                   |
 | [ngx-tippy-wrapper](https://github.com/farengeyt451/ngx-tippy-wrapper)                                                         | MIT                                   |
 | [ngx-translate-messageformat-compiler](https://github.com/lephyrus/ngx-translate-messageformat-compiler)                       | MIT                                   |

@@ -3345,6 +3345,10 @@
     "repoUrl": "https://github.com/Mawi137/ngx-image-cropper"
   },
   {
+    "name": "ngx-infinite-scroll",
+    "repoUrl": "https://github.com/orizens/ngx-infinite-scroll"
+  },
+  {
     "name": "ngx-rerender",
     "repoUrl": "https://github.com/ngehlert/ngx-rerender"
   },
