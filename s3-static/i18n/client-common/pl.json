@@ -589,7 +589,7 @@
             "editLinkButton": "Edytuj zaproszenie",
             "toggleLinkActivityButton": "Aktywuj/dezaktywuj zaproszenie",
             "deleteLinkButton": "Usuń zaproszenie",
-            "nonExpirationWarningInfo": "Zaproszenia bez dany wygaśnięcia będą aktywne przez cały czas. Zalecane jest określenie daty wygaścięcia zaproszenia."
+            "nonExpirationWarningInfo": "Zaproszenia bez daty wygaśnięcia będą aktywne przez cały czas. Zalecane jest określenie daty wygaścięcia zaproszenia."
           },
           "bans": {
             "header": "Bany",

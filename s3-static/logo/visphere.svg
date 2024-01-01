@@ -15,12 +15,12 @@
       }
     </style>
     <linearGradient id="linear-gradient" x1="190.187" y1="332.031" x2="190.187" y2="64.719" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#236953"/>
-      <stop offset="1" stop-color="#30564a"/>
+      <stop offset="0" stop-color="#000000"/>
+      <stop offset="1" stop-color="#405065"/>
     </linearGradient>
     <linearGradient id="linear-gradient-2" x1="8.955" y1="359.188" x2="378.139" y2="70.75" gradientUnits="userSpaceOnUse">
-      <stop offset="0.22" stop-color="#489d81"/>
-      <stop offset="0.78" stop-color="#8cc2b9"/>
+      <stop offset="0.22" stop-color="#93a9d6"/>
+      <stop offset="0.78" stop-color="#5f7695"/>
     </linearGradient>
   </defs>
   <path id="Color_Fill_1" data-name="Color Fill 1" class="cls-1" d="M240.435,323.711c49.669-15.983,85.595-54.9,106.407-96.043C360.18,201.3,382.011,143.8,359,97c-9.816-19.964-20.987-30.246-33-32-17.437-2.547-32.5,13.1-42.05,22.456C261,109.946,233.817,131.256,207,143a158.577,158.577,0,0,1-78.825,12.483A149.21,149.21,0,0,1,74.793,139.9C51.457,127.8,37.67,112.4,25.662,117.642c-5.693,2.488-10.9,11.712-13.182,29.285-3.61,27.733,1.779,50.517,8.238,67.779,11.166,29.84,26,50.9,41.332,66.008C101.524,319.619,170.122,346.337,240.435,323.711Z"/>
