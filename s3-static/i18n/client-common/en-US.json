@@ -361,7 +361,9 @@
           "header": "Unbanning user",
           "description": "Are you sure you want to unban user {name}? Since unbanning, the user will be able to join again to Sphere using the invitation link.",
           "submitButton": "Unban user"
-        }
+        },
+        "deleteAllMessages": "Delete all messages from all Spheres",
+        "deleteAllMessagesInfo": "If you select this option, all your messages from all Spheres will be deleted. If you leave the option unselected, messages will keep without your data."
       },
       "successfullSendEmailMessage": "If mailbox with provided email address exist, we send verifiction email on this mailbox.",
       "updateButton": "Update",

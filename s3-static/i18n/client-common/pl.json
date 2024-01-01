@@ -360,7 +360,9 @@
           "header": "Odbanowywanie użytkownika",
           "description": "Czy na pewno chcesz odbanować użytkownika {name}? Od momentu odbanowania, użytkownik będzie mógł ponownie dołączyć do Sfery przy użyciu linku z zaproszeniem.",
           "submitButton": "Odbanuj użytkownika"
-        }
+        },
+        "deleteAllMessages": "Usuń wszystkie wiadomości ze wszystkich Sfer",
+        "deleteAllMessagesInfo": "Jeśli zaznaczysz tą opcję, wszystkie Twoje wiadomości ze wszystkich Sfer zostaną bezpowrotnie usunięte. Jeśli pozostawisz opcję niezaznaczoną, wiadomości pozostaną bez Twoich danych."
       },
       "successfullSendEmailMessage": "Jeśli skrzynka pocztowa z podanym adresem email istnieje, wysłaliśmy wiadomość weryfikującą na tą skrzynkę pocztową.",
       "updateButton": "Aktualizuj",
