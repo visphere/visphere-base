@@ -218,13 +218,13 @@ module.exports = {
   '.vsph-message__container': parseTwdApply([
     'relative',
     'rounded-r-lg',
-    'ps-16 pe-2',
+    'ps-[70px] pe-2',
     'hover:bg-vsph-light-200 dark:hover:bg-vsph-dark-800',
   ]),
   '.vsph-message__container--first': parseTwdApply(['pt-1', 'mt-2']),
   '.vsph-message__profile-image-container': parseTwdApply([
     'absolute',
-    'top-2 left-3',
+    'top-2 left-[16px]',
     'w-[40px] h-[40px]',
     'rounded-lg',
   ]),
