@@ -218,7 +218,7 @@ module.exports = {
   '.vsph-message__container': parseTwdApply([
     'relative',
     'rounded-r-lg',
-    'ps-[70px] pe-2',
+    'ps-[70px] pe-2 me-2',
     'hover:bg-vsph-light-200 dark:hover:bg-vsph-dark-800',
   ]),
   '.vsph-message__container--first': parseTwdApply(['pt-1', 'mt-2']),
