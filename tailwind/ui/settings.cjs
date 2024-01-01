@@ -21,7 +21,7 @@ module.exports = {
   '.vsph-settings__content-container': parseTwdApply([
     'flex-shrink basis-[720px]',
     'scrollbar-thumb:bg-vsph-tint-300 dark:scrollbar-thumb:bg-vsph-tint-100',
-    'bg-vsph-light-200 dark:bg-vsph-dark-850',
+    'bg-vsph-light-300 dark:bg-vsph-dark-850',
   ]),
   '.vsph-settings__content-wrapper': parseTwdApply([
     'w-[720px] h-fit',
@@ -41,7 +41,7 @@ module.exports = {
     'mb-1',
     'rounded-lg',
     'text-left max-w-[220px] leading-[18px]',
-    'hover:bg-vsph-light-200 hover:dark:bg-vsph-dark-800',
+    'hover:bg-vsph-light-300 hover:dark:bg-vsph-dark-800',
   ]),
   '.vsph-settings__nav-button--logout': parseTwdApply([
     'text-vsph-red-200 dark:text-vsph-red-100',
@@ -70,7 +70,7 @@ module.exports = {
     'px-4 py-2',
     'rounded-lg',
     'w-full',
-    'bg-vsph-light-200 dark:bg-vsph-dark-850',
+    'bg-vsph-light-300 dark:bg-vsph-dark-850',
     'disabled:opacity-80',
   ]),
   '.vsph-settings__radio-button--active': parseTwdApply([
@@ -101,7 +101,7 @@ module.exports = {
     'w-[43px] h-[24px]',
     'rounded-full',
     'ms-10',
-    'bg-vsph-light-200 dark:bg-vsph-dark-850',
+    'bg-vsph-light-300 dark:bg-vsph-dark-850',
     'disabled:opacity-80',
   ]),
   '.vsph-settings__toggler-container--active': parseTwdApply([
@@ -159,8 +159,8 @@ module.exports = {
     'overflow-hidden',
     'rounded-lg',
     'p-4 pt-[100px]',
-    'bg-vsph-light-200 dark:bg-vsph-dark-850',
-    'border border-vsph-light-200 dark:border-vsph-dark-850',
+    'bg-vsph-light-300 dark:bg-vsph-dark-850',
+    'border border-vsph-light-300 dark:border-vsph-dark-850',
   ]),
   '.vsph-settings__vis-wrapper': parseTwdApply([
     'flex flex-col gap-y-3',
@@ -176,7 +176,7 @@ module.exports = {
   '.vsph-settings__vis-profile-image': parseTwdApply([
     'w-[100%] h-[100%]',
     'rounded-3xl',
-    'border-[10px] border-vsph-light-200 dark:border-vsph-dark-850',
+    'border-[10px] border-vsph-light-300 dark:border-vsph-dark-850',
   ]),
   '.vsph-settings__vis-profile-banner-container': parseTwdApply([
     'absolute',
@@ -196,7 +196,7 @@ module.exports = {
     'rounded-full',
     'w-[40px] h-[40px]',
     'flex justify-center items-center',
-    'border-8 border-vsph-light-200 dark:border-vsph-dark-850',
+    'border-8 border-vsph-light-300 dark:border-vsph-dark-850',
   ]),
   '.vsph-settings__list-elements-container': parseTwdApply([
     'flex flex-col gap-y-2',
@@ -208,7 +208,7 @@ module.exports = {
   '.vsph-settings__list-element-container': parseTwdApply([
     'flex justify-between items-center',
     'px-4 py-2',
-    'bg-vsph-light-200 dark:bg-vsph-dark-800',
+    'bg-vsph-light-300 dark:bg-vsph-dark-800',
   ]),
   '.vsph-settings__list-element-container--inactive': parseTwdApply([
     'opacity-40',

@@ -12,7 +12,7 @@ module.exports = {
     'md:shadow-md',
     'md:mx-5',
     'md:border border-vsph-tint-200 dark:border-vsph-dark-800',
-    'bg-vsph-light-300 dark:bg-vsph-dark-900',
+    'bg-vsph-light-200 dark:bg-vsph-dark-900',
     'text-vsph-dark-900 dark:text-vsph-light-100',
   ]),
   '.vsph-auth__header': parseTwdApply([
@@ -77,6 +77,6 @@ module.exports = {
     'w-[40px] h-[40px]',
     'rounded-full',
     'flex justify-center items-center',
-    'border-[7px] border-vsph-light-300 dark:border-vsph-dark-900',
+    'border-[7px] border-vsph-light-200 dark:border-vsph-dark-900',
   ]),
 };

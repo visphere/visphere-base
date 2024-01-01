@@ -16,7 +16,7 @@ module.exports = {
     'overflow-hidden',
   ]),
   '.vsph-snackbar__list-element': parseTwdApply([
-    'bg-vsph-light-300 dark:bg-vsph-dark-900',
+    'bg-vsph-light-200 dark:bg-vsph-dark-900',
     'border border-vsph-tint-200 dark:border-vsph-dark-700',
     'text-vsph-tint-400 dark:text-vsph-tint-200',
     'relative',

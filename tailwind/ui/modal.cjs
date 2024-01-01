@@ -13,6 +13,7 @@ module.exports = {
     'overflow-y-auto',
     'bg-vsph-modal-background',
     'z-50',
+    'scrollbar-rounded scrollbar-thumb:bg-vsph-tint-400',
   ]),
   '.vsph-modal__window-container': parseTwdApply([
     'flex justify-center',
@@ -25,7 +26,7 @@ module.exports = {
     'rounded-xl',
     'pt-8 pb-6 px-6 sm:px-8',
     'border border-vsph-tint-500 dark:border-vsph-dark-800',
-    'bg-vsph-light-300 dark:bg-vsph-dark-900',
+    'bg-vsph-light-200 dark:bg-vsph-dark-900',
     'text-vsph-dark-900 dark:text-vsph-light-100',
   ]),
   '.vsph-modal__window-wrapper--devastate': parseTwdApply([

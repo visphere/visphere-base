@@ -113,7 +113,7 @@ module.exports = {
     'bg-vsph-tint-100 dark:bg-vsph-dark-800',
   ]),
   '.vsph-password-strenght-meter__bg': parseTwdApply([
-    'bg-vsph-light-300 dark:bg-vsph-dark-900',
+    'bg-vsph-light-200 dark:bg-vsph-dark-900',
   ]),
   '.vsph-checkbox': parseTwdApply([
     'form-checkbox',
@@ -221,7 +221,7 @@ module.exports = {
     'sm:shadow-md',
     'sm:mx-5',
     'sm:border border-vsph-tint-200 dark:border-vsph-dark-800',
-    'bg-vsph-light-300 dark:bg-vsph-dark-900',
+    'bg-vsph-light-200 dark:bg-vsph-dark-900',
     'text-vsph-dark-900 dark:text-vsph-light-100',
   ]),
 };

@@ -17,7 +17,7 @@ module.exports = {
     'px-3 py-2',
     'flex justify-start items-center',
     'border border-vsph-tint-300 dark:border-vsph-tint-400',
-    'bg-vsph-light-200 dark:bg-vsph-dark-850',
+    'bg-vsph-light-300 dark:bg-vsph-dark-850',
     'rounded-lg hover:rounded-2xl',
     'transition-[border-radius] duration-300',
   ]),
@@ -40,7 +40,7 @@ module.exports = {
   ]),
   '.vsph-side-content__header': parseTwdApply([
     'flex items-center gap-x-3',
-    'bg-vsph-light-300 dark:bg-vsph-dark-850',
+    'bg-vsph-light-200 dark:bg-vsph-dark-850',
     'border-b border-vsph-tint-100 dark:border-vsph-dark-750',
     'p-4',
     'rounded-tl-xl',
@@ -66,7 +66,7 @@ module.exports = {
     'flex items-center gap-x-3',
     'p-4',
     'border-b border-vsph-tint-100 dark:border-vsph-dark-750',
-    'bg-vsph-light-200 dark:bg-vsph-dark-800',
+    'bg-vsph-light-300 dark:bg-vsph-dark-800',
   ]),
   '.vsph-center-content__body': parseTwdApply([
     'flex flex-col-reverse',
@@ -124,7 +124,7 @@ module.exports = {
     'pb-4 px-4',
     'mx-4 mb-4',
     'shadow-md',
-    'bg-vsph-light-200 dark:bg-vsph-dark-900',
+    'bg-vsph-light-300 dark:bg-vsph-dark-900',
     'border border-vsph-tint-100 dark:border-vsph-dark-850',
   ]),
   '.vsph-user-details-popover__container--loader': parseTwdApply([
@@ -142,7 +142,7 @@ module.exports = {
     'top-[40px] left-4',
     'w-[75px] h-[75px]',
     'rounded-3xl',
-    'border-8 border-vsph-light-200 dark:border-vsph-dark-900',
+    'border-8 border-vsph-light-300 dark:border-vsph-dark-900',
   ]),
   '.vsph-user-details-popover__data-block': parseTwdApply([
     'bg-vsph-light-100 dark:bg-vsph-dark-850',
@@ -153,7 +153,7 @@ module.exports = {
   '.vsph-left-navigation-bar__container': parseTwdApply([
     'flex flex-col justify-between',
     'h-screen',
-    'bg-vsph-light-200 dark:bg-vsph-dark-900',
+    'bg-vsph-light-300 dark:bg-vsph-dark-900',
   ]),
   '.vsph-left-navigation-bar__wrapper': parseTwdApply([
     'flex flex-col gap-y-3',
@@ -219,7 +219,7 @@ module.exports = {
     'relative',
     'rounded-r-lg',
     'ps-[70px] pe-2 me-2',
-    'hover:bg-vsph-light-200 dark:hover:bg-vsph-dark-800',
+    'hover:bg-vsph-light-300 dark:hover:bg-vsph-dark-800',
   ]),
   '.vsph-message__container--first': parseTwdApply(['pt-1', 'mt-2']),
   '.vsph-message__profile-image-container': parseTwdApply([

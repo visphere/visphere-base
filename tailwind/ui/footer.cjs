@@ -9,7 +9,7 @@ module.exports = {
   '.vsph-footer__container': parseTwdApply([
     'px-5 md:px-5 lg:px-10 pt-5 md:pt-20 pb-10',
     'md:border-t border-t-vsph-tint-200 dark:border-t-vsph-dark-800',
-    'bg-vsph-light-300 dark:bg-vsph-dark-900',
+    'bg-vsph-light-200 dark:bg-vsph-dark-900',
     'text-vsph-dark-900 dark:text-vsph-light-100',
   ]),
   '.vsph-footer__wrapper': parseTwdApply([
