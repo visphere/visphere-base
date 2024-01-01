@@ -72,7 +72,6 @@ module.exports = {
     'flex flex-col-reverse',
     'flex-grow',
     'overflow-y-auto',
-    'px-6',
     'shadow-inner',
     'scrollbar-rounded scrollbar-thumb:bg-vsph-tint-200 dark:scrollbar-thumb:bg-vsph-dark-750',
   ]),
@@ -217,18 +216,25 @@ module.exports = {
     'text-vsph-dark-900 dark:text-vsph-light-100',
   ]),
   '.vsph-message__container': parseTwdApply([
-    'flex gap-x-3',
-    'mb-1',
-    'rounded-lg',
-    'p-1 px-2 pt-2',
+    'relative',
+    'rounded-r-lg',
+    'ps-16 pe-2',
     'hover:bg-vsph-light-200 dark:hover:bg-vsph-dark-800',
   ]),
-  '.vsph-message__profile-image': parseTwdApply([
+  '.vsph-message__container--first': parseTwdApply(['pt-1', 'mt-2']),
+  '.vsph-message__profile-image-container': parseTwdApply([
+    'absolute',
+    'top-2 left-3',
     'w-[40px] h-[40px]',
     'rounded-lg',
   ]),
-  'vsph-message__container--hoverable': parseTwdApply([
+  '.vsph-message__profile-image': parseTwdApply([
+    'w-[100%] h-[100%]',
+    'rounded-lg',
+  ]),
+  '.vsph-message__container--hoverable': parseTwdApply([
     'hover:rounded-2xl',
     'transition-[border-radius] duration-300',
+    'cursor-pointer',
   ]),
 };
