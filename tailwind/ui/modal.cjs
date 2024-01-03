@@ -7,13 +7,13 @@ const { parseTwdApply } = require('../utils.cjs');
 
 module.exports = {
   '.vsph-modal__container': parseTwdApply([
-    'absolute',
+    'fixed',
     'top-0 left-0',
     'w-full h-screen',
     'overflow-y-auto',
     'bg-vsph-modal-background',
     'z-50',
-    'scrollbar-rounded scrollbar-thumb:bg-vsph-tint-400',
+    'scrollbar-rounded scrollbar-thumb:bg-vsph-dark-900 dark:scrollbar-thumb:bg-vsph-tint-400',
   ]),
   '.vsph-modal__window-container': parseTwdApply([
     'flex justify-center',
