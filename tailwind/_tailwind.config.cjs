@@ -25,7 +25,7 @@ const availableComponents = {
 
 const appColors = {
   'vsph-black': 'hsl(0, 0%, 0%)',
-  'vsph-modal-background': 'hsla(0, 0%, 0%, 0.5)',
+  'vsph-modal-background': 'hsla(0, 0%, 0%, 0.8)',
   'vsph-transparent': 'hsla(0, 0%, 0%, 0)',
   'vsph-gray': {
     950: 'hsl(229, 84%, 5%)',
