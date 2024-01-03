@@ -45,6 +45,8 @@ module.exports = {
     'min-h-[40px]',
     'bg-vsph-dark-800 dark:bg-vsph-light-300',
     'text-vsph-light-100 dark:text-vsph-dark-900',
+    'disabled:opacity-100',
+    'disabled:bg-vsph-dark-500',
   ]),
   '.vsph-button--danger': parseTwdApply([
     'w-full',
@@ -89,7 +91,7 @@ module.exports = {
     'text-vsph-dark-800 dark:text-vsph-tint-300',
     'bg-vsph-light-100 dark:bg-vsph-dark-800',
     'focus:outline-none focus:ring-1 focus:ring-vsph-dark-900 dark:focus:ring-vsph-light-100',
-    'placeholder:text-vsph-tint-300 dark:placeholder:text-vsph-tint-400',
+    'placeholder:text-vsph-tint-300 dark:placeholder:text-vsph-dark-500',
     'disabled:cursor-not-allowed',
   ]),
   '.vsph-input--invalid': parseTwdApply([
