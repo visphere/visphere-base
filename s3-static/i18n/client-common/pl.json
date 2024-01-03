@@ -753,7 +753,7 @@
     },
     "textArea": {
       "appendFileInfo": "Dodaj plik/pliki",
-      "sendMessageInfo": "Wyślij wiadomość (Spacja + Enter)",
+      "sendMessageInfo": "Wyślij wiadomość (Enter)",
       "startTyping": "Zacznij coś pisać..."
     }
   },

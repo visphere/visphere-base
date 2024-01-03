@@ -23,7 +23,7 @@
     "error": {
       "noFileChoose": "Nie wybranu pliku.",
       "notSupportedExt": "Nieobsługiwane rozszerzenie. Prawidłowe rozszerzenia: {extensions}.",
-      "tooLargeFileSize": "Zbyt duży rozmiar pliku. Maksymalny rozmiar: {size}.",
+      "tooLargeFileSize": "Zbyt duży rozmiar pliku. Maksymalny rozmiar: {size}MB.",
       "failedToLoadFile": "Nieudane załadowanie pliku."
     }
   }

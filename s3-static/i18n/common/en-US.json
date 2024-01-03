@@ -23,7 +23,7 @@
     "error": {
       "noFileChoose": "No file selected.",
       "notSupportedExt": "Unsupported extension. Valid extensions: {extensions}.",
-      "tooLargeFileSize": "File size too large. Maximum size: {size}.",
+      "tooLargeFileSize": "File size too large. Maximum size: {size}MB.",
       "failedToLoadFile": "Failed to load file."
     }
   }

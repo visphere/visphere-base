@@ -754,7 +754,7 @@
     },
     "textArea": {
       "appendFileInfo": "Append file/files",
-      "sendMessageInfo": "Send message (Space + Enter)",
+      "sendMessageInfo": "Send message (Enter)",
       "startTyping": "Start typing..."
     }
   },
