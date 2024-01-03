@@ -724,7 +724,8 @@
       },
       "toJoinButton": "Dołącz do Sfery",
       "toCreateButton": "Stwórz Sferę"
-    }
+    },
+    "openInNewTab": "Otwórz w nowej karcie"
   },
   "vsph.clientCommon.guild": {
     "leftSidebar": {
@@ -753,6 +754,7 @@
     },
     "textArea": {
       "appendFileInfo": "Dodaj plik/pliki",
+      "exceedSize": "Wiadomość posiada maksymalną ilość plików",
       "sendMessageInfo": "Wyślij wiadomość (Enter)",
       "startTyping": "Zacznij coś pisać..."
     }

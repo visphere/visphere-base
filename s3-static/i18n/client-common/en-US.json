@@ -725,7 +725,8 @@
       },
       "toJoinButton": "Join to Sphere",
       "toCreateButton": "Create Sphere"
-    }
+    },
+    "openInNewTab": "Open in new tab"
   },
   "vsph.clientCommon.guild": {
     "leftSidebar": {
@@ -754,6 +755,7 @@
     },
     "textArea": {
       "appendFileInfo": "Append file/files",
+      "exceedSize": "Message has maximum number of files",
       "sendMessageInfo": "Send message (Enter)",
       "startTyping": "Start typing..."
     }
