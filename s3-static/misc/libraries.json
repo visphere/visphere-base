@@ -719,6 +719,22 @@
     "name": "@floating-ui/utils",
     "repoUrl": "https://github.com/floating-ui/floating-ui"
   },
+  {
+    "name": "@fortawesome/angular-fontawesome",
+    "repoUrl": "https://github.com/FortAwesome/angular-fontawesome"
+  },
+  {
+    "name": "@fortawesome/fontawesome-common-types",
+    "repoUrl": "https://github.com/FortAwesome/Font-Awesome"
+  },
+  {
+    "name": "@fortawesome/fontawesome-svg-core",
+    "repoUrl": "https://github.com/FortAwesome/Font-Awesome"
+  },
+  {
+    "name": "@fortawesome/free-solid-svg-icons",
+    "repoUrl": "https://github.com/FortAwesome/Font-Awesome"
+  },
   { "name": "@hapi/hoek", "repoUrl": "https://github.com/hapijs/hoek" },
   { "name": "@hapi/topo", "repoUrl": "https://github.com/hapijs/topo" },
   { "name": "@hcaptcha/types", "repoUrl": "https://github.com" },

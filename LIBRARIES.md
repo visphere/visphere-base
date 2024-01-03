@@ -1,4 +1,4 @@
-All used 3rd party libraries count: **1605**<br>
+All used 3rd party libraries count: **1609**<br>
 | Library                                                                                                                        | License                               |
 | ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------- |
 | [@aashutoshrathi/word-wrap](https://github.com/aashutoshrathi/word-wrap)                                                       | MIT                                   |
@@ -196,6 +196,10 @@ All used 3rd party libraries count: **1605**<br>
 | [@floating-ui/core](https://github.com/floating-ui/floating-ui)                                                                | MIT                                   |
 | [@floating-ui/dom](https://github.com/floating-ui/floating-ui)                                                                 | MIT                                   |
 | [@floating-ui/utils](https://github.com/floating-ui/floating-ui)                                                               | MIT                                   |
+| [@fortawesome/angular-fontawesome](https://github.com/FortAwesome/angular-fontawesome)                                         | MIT                                   |
+| [@fortawesome/fontawesome-common-types](https://github.com/FortAwesome/Font-Awesome)                                           | MIT                                   |
+| [@fortawesome/fontawesome-svg-core](https://github.com/FortAwesome/Font-Awesome)                                               | MIT                                   |
+| [@fortawesome/free-solid-svg-icons](https://github.com/FortAwesome/Font-Awesome)                                               | (CC-BY-4.0 AND MIT)                   |
 | [@hapi/hoek](https://github.com/hapijs/hoek)                                                                                   | BSD-3-Clause                          |
 | [@hapi/topo](https://github.com/hapijs/topo)                                                                                   | BSD-3-Clause                          |
 | [@hcaptcha/types](https://github.com)                                                                                          | MIT                                   |
