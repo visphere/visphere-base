@@ -261,7 +261,7 @@ module.exports = {
     'w-[180px] h-full',
     'bg-vsph-light-400 dark:bg-vsph-dark-875',
   ]),
-  '.vsph-message__file-action-button': parseTwdApply([
+  '.vsph-message__action-button': parseTwdApply([
     'absolute top-2 -right-[10px]',
     'flex items-center justify-center',
     'w-[30px] h-[30px]',
@@ -269,11 +269,11 @@ module.exports = {
     'rounded-lg hover:rounded-2xl',
     'transition-[border-radius] duration-300',
   ]),
-  '.vsph-message__file-action-button--remove': parseTwdApply([
+  '.vsph-message__action-button--delete': parseTwdApply([
     'text-vsph-light-100',
     'bg-vsph-red-200',
   ]),
-  '.vsph-message__file-action-button--download': parseTwdApply([
+  '.vsph-message__action-button--file-download': parseTwdApply([
     'text-vsph-light-100 dark:text-vsph-dark-900',
     'bg-vsph-dark-900 dark:bg-vsph-light-100',
   ]),
