@@ -295,4 +295,26 @@ module.exports = {
     'text-3xl',
     'text-vsph-dark-900 dark:text-vsph-light-100',
   ]),
+  '.vsph-message__modify-actions-container': parseTwdApply([
+    'absolute',
+    '-top-3 right-4',
+    'flex gap-x-2',
+  ]),
+  '.vsph-message__delete-message-button': parseTwdApply([
+    'flex items-center justify-center',
+    'w-[30px] h-[30px]',
+    'p-1',
+    'rounded-lg hover:rounded-2xl',
+    'transition-[border-radius] duration-300',
+    'bg-vsph-red-200',
+    'text-vsph-light-100',
+  ]),
+  '.vsph-message__delete-message-modal-wrapper': parseTwdApply([
+    'relative',
+    'w-[calc(100%_-_20px)]',
+    'ms-[20px]',
+    'p-3 ps-8',
+    'rounded-lg',
+    'bg-vsph-tint-100 dark:bg-vsph-dark-750',
+  ]),
 };
