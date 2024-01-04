@@ -723,10 +723,16 @@
         "description": "Are you sure you want to give away this Sphere to {name}? From now on you will no longer be the owner of this Sphere.",
         "submitButton": "Delegate Sphere"
       },
+      "deleteMessage": {
+        "header": "Deleting message",
+        "description": "Are you sure you want to delete selected message? This operation cannot be undone.",
+        "submitButton": "Delete message"
+      },
       "toJoinButton": "Join to Sphere",
       "toCreateButton": "Create Sphere"
     },
-    "openInNewTab": "Open in new tab"
+    "openInNewTab": "Open in new tab",
+    "deleteMessage": "Delete message"
   },
   "vsph.clientCommon.guild": {
     "leftSidebar": {

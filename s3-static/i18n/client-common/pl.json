@@ -722,10 +722,16 @@
         "description": "Czy na pewno chcesz oddać tę Sferę użytkownikowi {name}? Od tej chwili nie będziesz już właścicielem tej Sfery.",
         "submitButton": "Oddeleguj Sferę"
       },
+      "deleteMessage": {
+        "header": "Usuwanie wiadomości",
+        "description": "Czy na pewno chce usunąć wybraną wiadomość? Wybrana operacja jest nieodwracalna.",
+        "submitButton": "Usuń wiadomość"
+      },
       "toJoinButton": "Dołącz do Sfery",
       "toCreateButton": "Stwórz Sferę"
     },
-    "openInNewTab": "Otwórz w nowej karcie"
+    "openInNewTab": "Otwórz w nowej karcie",
+    "deleteMessage": "Usuń wiadomość"
   },
   "vsph.clientCommon.guild": {
     "leftSidebar": {
