@@ -7,7 +7,7 @@ const plugin = require('tailwindcss/plugin');
 const fontsDeclarations = require('./font-declarations.cjs');
 const buttonSpinnerUi = require('./ui/button-spinner.cjs');
 const tooltipUi = require('./ui/tooltip.cjs');
-const { rgbaFromRgb } = require('./utils.cjs');
+const { hslaFromHsl } = require('./utils.cjs');
 
 const availableComponents = {
   auth: require('./ui/auth.cjs'),
@@ -113,15 +113,15 @@ module.exports = ({ cdnBaseUrl, loadableModules }) => ({
     plugin(function ({ addBase, addComponents }) {
       addBase({
         ':root': {
-          '--cropper-overlay-color': appColors['vsph-light']['100'],
-          '--cropper-outline-color': rgbaFromRgb(
-            appColors['vsph-light']['100'],
+          '--cropper-overlay-color': appColors['vsph-light']['200'],
+          '--cropper-outline-color': hslaFromHsl(
+            appColors['vsph-light']['200'],
             0.8
           ),
         },
         ':root.dark': {
           '--cropper-overlay-color': appColors['vsph-dark']['900'],
-          '--cropper-outline-color': rgbaFromRgb(
+          '--cropper-outline-color': hslaFromHsl(
             appColors['vsph-dark']['900'],
             0.8
           ),
