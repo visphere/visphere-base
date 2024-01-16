@@ -5,6 +5,7 @@
     "titleBar.inactiveBackground": "#483049"
   },
   "prettier.configPath": "./.prettierrc.js",
+  "editor.rulers": [120],
   "editor.detectIndentation": false,
   "editor.mouseWheelZoom": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
